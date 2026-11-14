@@ -1,0 +1,521 @@
+U:nav_login§Área de cliente
+U:reg_portal§O portal (portal.belinus.com) é comum a todas as empresas do grupo Belinus.
+U:done_portal§A sua conta no portal de serviço Belinus está pronta. Use a ligação no e-mail para definir a palavra-passe e acompanhe aí a sua encomenda. A encomenda e a fatura aparecem como documentos EVChargeking.
+U:menu§Menu
+U:region_h§Idioma
+U:theme_light§Tema claro
+U:theme_dark§Tema escuro
+U:th_dark§Escuro
+U:th_light§Claro
+U:from§desde
+U:sort§Ordenar
+U:sort_feat§Em destaque
+U:sort_lo§Preço, do mais baixo ao mais alto
+U:sort_hi§Preço, do mais alto ao mais baixo
+U:sort_az§Nome A–Z
+U:n_products§{n} produtos
+U:loc_h§Está correto para si?
+U:loc_country§País de entrega
+U:loc_lang§Idioma
+U:loc_prices§Preços
+U:loc_yes§Sim, continuar
+U:loc_change§Alterar
+U:ck_h§A sua privacidade
+U:ck_p§Usamos os cookies necessários para a loja funcionar: o carrinho, o idioma e o país. Com a sua autorização usamos também cookies para guardar preferências, medir as visitas e mostrar anúncios relevantes. Nada opcional é ativado antes da sua escolha.
+U:ck_accept§Aceitar todos
+U:ck_reject§Recusar todos
+U:ck_custom§Escolher por categoria
+U:ck_save§Guardar a minha escolha
+U:ck_settings§Definições de cookies
+U:ck_always§sempre ativos
+U:ck_nec§Necessários
+U:ck_nec_d§Carrinho, pagamento, idioma, país e esta escolha.
+U:ck_pref§Preferências
+U:ck_pref_d§Guarda os produtos vistos recentemente e o seu tema.
+U:ck_stat§Estatísticas
+U:ck_stat_d§Medição anónima das visitas (Google Analytics) para melhorar a loja.
+U:ck_mkt§Marketing
+U:ck_mkt_d§Etiquetas do Google Ads, Meta e LinkedIn para medir campanhas.
+U:ck_more§Ler a política de privacidade
+U:group§Uma empresa do grupo <b>Belinus</b>
+U:nav_home§Início
+U:nav_shop§Loja
+U:nav_finder§Localizador de cabos
+U:nav_etap§ETAPpro
+U:nav_support§Apoio ao cliente
+U:nav_about§Sobre nós
+U:cart§Carrinho
+U:private§Particular
+U:business§Empresa
+U:top_free§Envio gratuito em {list} a partir de {amt}
+U:top_vat§Preços: {v}
+U:incl§IVA de {r} % incl.
+U:excl§sem IVA
+U:export§sem IVA da UE · exportação
+U:g_tesla§Tesla
+U:g_tesla_d§Cabos, pigtails e kits de conector com o botão Tesla
+U:g_type2§Tipo 2
+U:g_type2_d§Cabos de carregamento e pigtails
+U:g_type13§Tipo 1 e Tipo 3
+U:g_type13_d§Cabos para carros Tipo 1 e postos de carregamento Tipo 3
+U:g_etap§ETAPpro
+U:g_etap_d§Carregadores, adaptadores e montagem
+U:g_mobile§Carregadores portáteis
+U:g_mobile_d§Carregue a partir de uma tomada doméstica ou CEE
+U:g_parts§Peças e acessórios
+U:g_parts_d§Conectores, tomadas, suportes e bolsas
+U:g_all§Todos os produtos
+U:r_best§Mais vendido
+U:r_award§Premiado
+U:r_promo§Promoção
+U:co_wait§Um momento, estamos a preparar o seu pagamento…
+U:co_err_missing§Preencha, por favor: {f}.
+U:co_err_email§Verifique o seu endereço de e-mail.
+U:co_err_vat§Este número de IVA não é válido segundo o registo europeu VIES.
+U:co_err_vies§Não conseguimos verificar o seu número de IVA neste momento. Tente de novo dentro de um minuto ou encomende como particular.
+U:co_err§Algo correu mal e nenhum pagamento foi iniciado. Tente de novo.
+U:vat_checking§A verificar no registo europeu VIES…
+U:vat_vies_ok§Confirmado no VIES. Fatura com autoliquidação, sem IVA.
+U:vat_vies_bad§Não consta no VIES. Sem um número válido faturamos com IVA.
+U:vat_vies_na§O VIES não responde de momento. Voltamos a verificar quando fizer a encomenda.
+U:f_first§nome próprio
+U:f_last§apelido
+U:f_email§e-mail
+U:f_street§rua e número
+U:f_zip§código postal
+U:f_city§localidade
+U:f_company§nome da empresa
+U:st_checking§A verificar o seu pagamento…
+U:st_paid_t§A encomenda {n} está paga.
+U:st_open_t§Encomenda {n}: a aguardar o seu pagamento.
+U:st_open_p§O seu pagamento ainda não está confirmado. Esta página atualiza-se sozinha.
+U:st_failed_t§O pagamento da encomenda {n} não foi concluído.
+U:st_failed_p§Nada foi cobrado. O seu carrinho continua lá, pode tentar de novo.
+U:st_again§Voltar ao pagamento
+U:st_none§Não encontrámos esta encomenda.
+U:st_total§Total pago
+U:st_sent§Encomenda feita com
+U:tp_eb§Pagamento de teste
+U:tp_h§Escolha como termina este pagamento de teste
+U:tp_p§Ainda não existe chave Mollie, por isso a loja usa o seu próprio simulador de pagamentos. Não é movimentado dinheiro real.
+U:tp_paid§Pago
+U:tp_failed§Falhado
+U:tp_canceled§Cancelado pelo cliente
+U:tp_expired§Expirado
+U:tp_order§Encomenda
+U:tp_amount§Montante
+U:calc_btn§Calcule a sua poupança
+U:sup_o1_h§Através do portal de serviço Belinus
+U:sup_o1_p§Registe-se ou inicie sessão no portal e envie a partir daí um pedido de apoio. No mesmo local acompanha o pedido, as suas encomendas e as suas faturas.
+U:sup_o1_b§Abrir o portal de serviço
+U:sup_o2_h§Por e-mail
+U:sup_o2_p§Prefere o e-mail? Escreva-nos e responderemos o mais depressa possível.
+U:sup_note§A EVChargeking é uma empresa do grupo Belinus. O portal de serviço é comum a todas as empresas Belinus; as suas encomendas e faturas EVChargeking continuam a ser documentos EVChargeking.
+U:full_desc§Descrição completa
+U:more_info§Mais informações
+U:et_h§Carregador fixo em casa, carregador portátil em viagem
+U:et_p§O ETAPpro encaixa no suporte de parede e retira-se com um só gesto. No suporte é o seu posto de carregamento doméstico; com um cabo adaptador carrega em qualquer tomada adequada.
+U:et_s1§3 × 16 A, também monofásico
+U:et_s2§conector
+U:et_s3§grau de proteção
+U:et_s4§concebido e fabricado
+U:et_f1§Carrega com a sua energia solar
+U:et_f1d§Acompanha a produção solar e o consumo da casa.
+U:et_f2§Não faz disparar os fusíveis
+U:et_f2d§Comunica com o contador digital e respeita a tarifa de capacidade.
+U:et_f3§Uma só aplicação
+U:et_f3d§Definições, acompanhamento e relatório de cada sessão de carregamento, em Android e iOS.
+U:et_f4§Sem cabo de rede
+U:et_f4d§Liga-se por Wi-Fi ou Powerline, através da instalação elétrica.
+U:et_h2§O carregador acompanha o carro, não a casa
+U:et_p2§Como é o próprio utilizador que o retira do suporte, o ETAPpro muda-se consigo: para uma segunda habitação, uma nova morada ou o próximo carro de empresa.
+U:et_a1§ETAPpro no suporte de parede junto a um carro a carregar
+U:et_a2§ETAPpro na parede de uma garagem a carregar um carro elétrico
+U:rev_h§O que os nossos clientes dizem no Google
+U:rev_on§{n} avaliações no Google
+U:rev_asof§Classificação no Google em {d}.
+U:rev_read§Ler as avaliações
+U:rev_write§Escrever uma avaliação
+U:follow§Siga a EVChargeking
+U:share§Partilhar
+U:share_copy§Copiar ligação
+U:copied§Ligação copiada
+U:like§Guardar
+U:liked§Guardado
+U:favs§Favoritos
+U:promo_eb§Promoção de fim de ano
+U:promo_h§{pct} % de desconto no ETAPpro 11
+U:promo_terms§Até {date}. Apenas para encomendas online. O desconto já está incluído no preço.
+U:promo_short§Promoção de fim de ano · apenas online
+U:promo_top§Promoção de fim de ano: {pct} % de desconto no ETAPpro 11, apenas online
+U:promo_btn§Encomendar online
+U:cta_finder§Encontre o seu cabo
+U:cta_shop§Ver a loja
+U:bench_t§Encontre o seu cabo
+U:add§Adicionar ao carrinho
+U:view§Ver
+U:open_finder§Todas as opções
+U:details§Detalhes do produto
+U:cats_eb§Comprar por categoria
+U:cats_h§Tudo para carregar em casa, no trabalho e em viagem
+U:best_eb§Os mais encomendados
+U:best_h§Os favoritos dos nossos clientes
+U:see_all§Ver todos os produtos
+U:discover§Descobrir
+U:c_tesla_d§com botão de abertura da porta de carregamento
+U:c_type2§Tipo 2
+U:c_type2_d§a maioria dos elétricos europeus
+U:c_type1§Tipo 1
+U:c_type3§Tipo 3
+U:c_type3_d§postos de carregamento Tipo 3C
+U:p74_d§monofásico · 32 A
+U:p22_d§trifásico · 32 A
+U:k_cable§Cabo de carregamento
+U:k_cable_d§conector em ambas as pontas
+U:k_pig§Pigtail
+U:k_pig_d§ponta aberta, para um posto de carregamento
+U:f_eb§Localizador de cabos
+U:f_h§Encontre o cabo de carregamento certo
+U:s1§Produto
+U:s2§Conector do lado do carro
+U:s3§Potência
+U:s4§Comprimento
+U:s5§Cor do conector
+U:s6§Frequentemente encomendado em conjunto
+U:sum_t§A sua seleção
+U:sum_len§Comprimento
+U:sum_col§Cor do conector
+U:unit§Preço
+U:total§Total
+U:vat_line§IVA {r} %
+U:len_note§Medido incluindo os dois conectores. Mais vale 1 metro a mais do que 10 cm a menos.
+U:other_len§Precisa de outro comprimento? Escreva-nos e enviamos um orçamento.
+U:shop_h§Loja
+U:crumb_shop§Loja
+U:qty§Quantidade
+U:in_stock§Em stock
+U:made§Fabricado por encomenda na Bélgica
+U:weight§Peso
+U:no_desc§Este produto ainda não tem uma descrição completa.
+U:no_photo§Fotografia em breve
+U:also§Frequentemente encomendado em conjunto
+U:d_title§O seu carrinho
+U:d_empty§O seu carrinho está vazio.
+U:d_cont§Continuar a comprar
+U:d_free_left§Adicione {amt} para envio gratuito
+U:d_free_ok§Envio gratuito
+U:d_up§Frequentemente adicionado
+U:remove§Remover
+U:sub§Produtos
+U:ship§Envio
+U:ship_from§Envio desde
+U:checkout§Finalizar compra
+U:added§Adicionado ao carrinho
+U:co_t§Finalizar compra
+U:co1§Os seus dados
+U:reg_note§Ao encomendar criamos automaticamente a sua conta no portal de serviço Belinus com este endereço de e-mail. Receberá um e-mail para definir a palavra-passe e poderá acompanhar aí a sua encomenda.
+U:acc_type§Compro como
+U:have_acc§Já é cliente? Inicie sessão
+U:co_priv§Particular
+U:co_comp§Empresa
+U:email§E-mail
+U:phone§Telefone
+U:fname§Nome próprio
+U:lname§Apelido
+U:company§Empresa
+U:vat§Número de IVA
+U:vat_ok§Formato válido. Verificado no VIES no pagamento; fatura com autoliquidação, sem IVA.
+U:vat_ok_be§Formato válido. As empresas belgas são faturadas com 21 % de IVA.
+U:vat_bad§Não parece um número de IVA de {c}, por exemplo {ex}. Sem ele faturamos como a um particular, com IVA.
+U:co2§Morada de entrega
+U:street§Rua e número
+U:zip§Código postal
+U:city§Localidade
+U:country§País
+U:co3§Envio
+U:home§{c} entrega ao domicílio
+U:pickup§{c} ponto de recolha
+U:pickup_d§escolha o ponto depois de pagar
+U:free§Grátis
+U:co4§Pagamento
+U:pay_note§Os pagamentos são processados pela Mollie. Confirma na aplicação do seu banco ou da sua carteira digital.
+U:terms_ok§Aceito as condições gerais e li a política de privacidade.
+U:place§Fazer a encomenda
+U:demo§Loja de teste: os pagamentos são pagamentos de teste. Não é movimentado dinheiro real e nada é enviado.
+U:sum_order§Resumo da encomenda
+U:rc§Autoliquidação, 0 %
+U:done_t§Encomenda {n} recebida.
+U:done_p§Obrigado. Esta é uma encomenda de teste: nada é enviado.
+U:back§Voltar à loja
+U:sup_h§Apoio ao cliente
+U:sup_p§Duas formas de nos contactar.
+U:about_h§Sobre a EVChargeking
+U:about_group§A EVChargeking é uma empresa do grupo Belinus. A Belinus constrói baterias domésticas concebidas e montadas na Europa; a EVChargeking acrescenta os cabos de carregamento e o carregador ETAPpro, fabricado na Bélgica.
+U:contact§Contacto
+U:foot_shop§Loja
+U:foot_help§Ajuda
+U:foot_co§Empresa
+U:terms_l§Condições gerais
+U:privacy§Privacidade
+U:legal_nl§Este texto está, por agora, disponível apenas em neerlandês.
+U:etap_more§Mais em etap.pro
+U:etap_range§Carregadores ETAPpro e acessórios
+C:eyebrow§Exemplo de cálculo · Bélgica
+C:h§Quanto poupa com
+C:em§um carregador em casa.
+C:car§Carro
+C:company§Carro de empresa
+C:private§Carro particular
+C:region§Região
+C:vl§Flandres
+C:br§Bruxelas
+C:wa§Valónia
+C:km§Quilómetros por ano
+C:smart§Carregamento inteligente com Themis e contrato dinâmico
+C:solar§Parte carregada com os seus próprios painéis solares
+C:perYear§por ano
+C:kwh§kWh por ano
+C:privH§Poupança face ao carregamento público
+C:home§Carregar em casa
+C:pub§Carregar num posto público
+C:er§Poupança para a entidade patronal
+C:erB§Carregamento em casa reembolsado à tarifa CREG em vez de carregamento público com cartão de carregamento.
+C:ee§Poupança para o trabalhador
+C:eeB§Diferença entre o reembolso CREG e o que realmente lhe custa carregar em casa.
+C:eeZero§Com um contrato normal o reembolso cobre aproximadamente o seu custo. O carregamento inteligente e os painéis solares fazem a diferença.
+C:note§Estimativa da Belinus. Consumo de 18 kWh por 100 km, perdas de carregamento incluídas. Carregamento público a 0,50 €/kWh (tarifa média em CA na Bélgica em 2026: 0,40–0,55 €). Preço em casa e reembolso à tarifa CREG do quarto trimestre de 2026 por região (Flandres 32,25, Bruxelas 36,88, Valónia 37,79 c€/kWh, IVA incl.). Carregamento inteligente: cerca de 4 c€/kWh mais barato. Energia solar valorizada pela compensação de injeção não recebida (4 c€/kWh). O custo do carregador e da instalação não está incluído.
+C:src§Fonte tarifa CREG
+Y:transfer§Transferência bancária
+Y:invoice§Fatura, 30 dias
+N:199§Cabo de carregamento Tesla à medida
+N:60§Cabo de carregamento Tesla, trifásico 32A - 22kW
+N:96§Cabo de carregamento Tesla, monofásico 32A - 7,4kW
+N:115§Pigtail Tesla, trifásico 32A - 22kW
+N:116§Pigtail Tesla, monofásico 32A - 7,4kW
+N:126§Kit de conector Tesla
+N:67§Kit de conector Tesla mini
+N:122§Kit de conversão Tesla
+N:98§Cabo de carregamento Tipo 2, trifásico 32A - 22kW
+N:99§Cabo de carregamento Tipo 2, monofásico 32A - 7,4kW
+N:118§Pigtail, trifásico 32A - 22kW
+N:119§Pigtail, monofásico 32A - 7,4kW
+N:103§Cabo de carregamento Tipo 1 32A
+N:105§Cabo de carregamento Tipo 3, monofásico 32A - 7,4kW
+N:134§Cabo de carregamento Tipo 3 - Tipo 1 32A - 7,4kW
+N:130§Kit de suporte de parede ETAPpro
+N:35§Dongle MTAP P1
+N:30§Cabo adaptador ETAPpro 16A monofásico
+N:29§Cabo adaptador ETAPpro 16A trifásico
+N:174§Cabo adaptador ETAPpro 32A trifásico
+N:182§Cabo adaptador ETAPpro 32A monofásico
+N:38§Cabo adaptador Schuko
+N:73§Tomada PLC
+N:47§Poste de montagem Ohmy, simples, alumínio
+N:43§Pedestal metálico Ohmy
+N:44§Placa adaptadora Ohmy
+N:160§Base de betão para poste de carregamento Ohmy
+N:83§Carregador portátil Tipo 2 - 10A
+N:85§Carregador portátil Tipo 1 - 10A
+N:87§Carregador portátil e-TAP 7,4 kW
+N:101§Bolsa de transporte
+N:110§Suporte cego Tipo 2
+N:111§Suporte cego Tipo 1
+N:46§Adaptador de 32A para 16A
+N:69§Conector fêmea Tipo 2, kit de montagem
+N:71§Conector macho Tipo 2, kit de montagem
+N:102§Conector Tipo 1 32A
+N:100§Conector macho Tipo 3
+N:156§Conjunto de pinos para conector fêmea Tipo 2
+N:58§Cabo elétrico 7,4 kW
+N:79§Tomada CEE 16A, azul
+N:80§Tomada CEE 32A, azul
+N:81§Tomada CEE 3x16A, vermelha
+N:82§Tomada CEE 3x32A, vermelha
+S:1§Envio: 1-2 dias úteis
+A:0§Comprimento
+A:1§Cor do conector
+A:2§Preto
+A:3§Azul
+A:4§Corrente
+A:5§Cor
+A:6§Bateria estanque de 3,3V
+A:7§Sem bateria
+A:8§Com bateria
+A:9§Botão de pressão
+A:10§Sem botão de pressão
+A:11§Com botão de pressão
+A:12§Comprimento do cabo
+D:0§## Cabo de carregamento Tesla único
+D:1§Este cabo de carregamento Tesla único é adequado para todos os modelos Tesla europeus.
+D:2§Este cabo de carregamento usa a tecnologia Tesla Chargeport da EVChargeking: um botão integrado no conector do lado do veículo com o qual abre a porta de carregamento e desbloqueia o cabo, sem ter de destrancar primeiro a porta a partir do carro nem usar a chave ou o telemóvel. É uma função que só os cabos de carregamento EVChargeking oferecem.
+D:3§Naturalmente, a função só atua se a chave do carro (ou o telemóvel no Model 3/Y) estiver por perto. Sem a chave nas proximidades o cabo não pode ser desbloqueado (tal como nos Superchargers).
+D:4§O nosso cabo de carregamento Tesla é adequado para todos os modelos Tesla europeus, incluindo o S e o X, bem como o Model 3 e o Model Y de todos os anos.
+D:5§A solução tudo-em-um: este cabo de carregamento Tesla serve em qualquer circunstância, em monofásico, em trifásico e para todas as potências até 22 kW.
+D:6§É também o cabo mais leve e prático do mercado para Tesla: o cabo de 7 metros pesa apenas 3,15 kg.
+D:7§7 metros é o comprimento que mais vendemos. Lembre-se: mais vale 1 metro a mais do que 10 cm a menos.
+D:8§Se quiser deixar o cabo permanentemente no exterior, recomendamos vivamente a instalação de um suporte para conector Tipo 2, disponível ao finalizar a compra. Pode também encomendar uma prática bolsa de transporte a bom preço.
+D:9§Especificações:
+D:10§Conectores | Tipo 2 em ambos os lados, botão Tesla integrado no lado do veículo. |
+D:11§Cabo | Trifásico, 5 x 4mm² + 0,50mm² com corrente máxima de 3 x 32A (22 kW de potência de carregamento) |
+D:12§Cor | Preto |
+D:13§Peso | 3,15kg |
+D:14§A solução tudo-em-um: este cabo de carregamento Tesla serve em qualquer circunstância, em monofásico, em trifásico e para todas as potências até 22 kW. É também o cabo mais leve e prático do mercado para Tesla; o cabo de 7 metros pesa apenas 3,15 kg.
+D:15§7 metros é o nosso comprimento mais procurado. Lembre-se: mais vale 1 metro a mais do que 10 cm a menos.
+D:16§Se quiser deixar o cabo permanentemente no exterior, recomendamos vivamente a instalação de um suporte para conector Tipo 2, disponível ao finalizar a compra. Pode também encomendar uma prática bolsa de transporte por um pequeno acréscimo.
+D:17§Peso | 3,15 kg |
+D:18§Este cabo de carregamento é compatível com todos os modelos Tesla.
+D:19§Este cabo de carregamento dispõe da função Tesla Chargeport: um botão estanque integrado no conector Tipo 2 do lado do veículo com o qual abre a porta de carregamento, inicia e interrompe o carregamento do seu Tesla ou desbloqueia o cabo, sem ter de entrar primeiro no carro nem usar a chave ou o telemóvel.
+D:20§É uma função que só os cabos de carregamento Tesla da EVChargeking oferecem. O desbloqueio do cabo só atua, naturalmente, quando a chave do carro (ou o telemóvel no Model 3/Y) está por perto. O cabo não é desbloqueado se a chave não estiver nas proximidades (tal como nos Superchargers).
+D:21§O cabo de carregamento tem condutores de 5 x 6mm², que suportam uma corrente de 3 x 32A, o que equivale a uma potência de carregamento de 22 kW.
+D:22§Naturalmente, com este cabo pode carregar perfeitamente a 16A ou 32A, em monofásico ou trifásico.
+D:23§Pode encomendar o cabo no comprimento pretendido escolhendo o valor correspondente na lista pendente. Certifique-se de que encomenda o comprimento certo: mais vale 1 metro a mais do que 10 cm a menos. Para comprimentos que não constem da lista, envie-nos uma mensagem e fazemos um orçamento.
+D:24§Não se esqueça de escolher o comprimento correto ao encomendar. Mais vale 1 metro a mais do que 10 cm a menos. O comprimento do cabo é medido incluindo os conectores (macho/fêmea) das duas pontas.
+D:25§Atenção: um cabo de carregamento NÃO é uma extensão. Os cabos de carregamento não podem ser usados como extensões; servem apenas para ligar o veículo elétrico diretamente a um posto de carregamento. Ligar 2 cabos um ao outro NÃO funciona.
+D:26§Conectores | Tipo 2 em ambos os lados, botão Tesla integrado no lado do veículo |
+D:27§Cabo | Trifásico, 5 x 6mm² + 0,75mm², potência máx.: 3 x 32A (22 kW de potência de carregamento) |
+D:28§Este cabo de carregamento tem conectores Tipo 2 nas duas pontas (1 fêmea, 1 macho). O cabo serve para todos os modelos Tesla.
+D:29§Este cabo de carregamento dispõe da função Tesla Chargeport: um botão estanque integrado no conector Tipo 2 do lado do veículo com o qual abre a porta de carregamento, inicia e interrompe o carregamento do seu Tesla ou desbloqueia o cabo, sem ter de entrar primeiro no carro nem usar a chave ou o telemóvel. É uma função que só os cabos de carregamento Tesla da EVChargeking oferecem.
+D:30§O desbloqueio do cabo só atua, naturalmente, quando a chave do carro (ou o telemóvel no Model 3/Y) está por perto. O cabo não é desbloqueado se a chave não estiver nas proximidades (tal como nos Superchargers).
+D:31§O cabo tem condutores de 3 x 6mm², que suportam uma corrente de 32A, o que equivale a uma potência de carregamento de 7,4 kW. A diferença de preço para um cabo de 16A é tão pequena que acreditamos que este modelo superior lhe convém mais. Se mudar para um carro elétrico maior ou instalar uma infraestrutura de carregamento mais potente, não terá de trocar de cabo.
+D:32§Naturalmente, com este cabo pode carregar perfeitamente a 16A.
+D:33§O comprimento padrão do cabo é de 2 metros, mas pode encomendar o comprimento pretendido escolhendo o valor correspondente na lista pendente. Para comprimentos que não constem da lista, envie-nos uma mensagem e fazemos um orçamento.
+D:34§Contacte-nos
+D:35§Não se esqueça de escolher o comprimento correto ao encomendar. Mais vale 1 metro a mais do que 10 cm a menos. O comprimento do cabo é medido incluindo os conectores (macho/fêmea) das duas pontas.
+D:36§Conectores | Tipo 2 em ambos os lados, botão Tesla integrado no conector do lado do veículo. |
+D:37§Cabo | Monofásico, 3 x 6mm² + 0,75mm², potência máx.: 1 x 32A (7,4 kW de potência de carregamento) |
+D:38§Este cabo de carregamento tem um conector fêmea Tipo 2 com botão Tesla numa ponta e uma ponta aberta na outra. Pode ser usado em postos de carregamento com cabo fixo.
+D:39§## Atenção: não pode ligar a este pigtail uma ficha CEE azul ou vermelha e carregar a partir de uma tomada CEE. Só pode ser usado em conjunto com um posto de carregamento. Este pigtail também não é uma peça de substituição padrão do cabo dos Tesla Wall Connector; pode ser usado para isso, mas exige alguns passos adicionais, veja esta publicação do fórum: Change Charging Cable of Tesla Wall Connector. Não é compatível com o Wall Connector da Tesla Gen3 ou posterior.
+D:40§Este pigtail dispõe da função Tesla Chargeport: um botão estanque integrado no conector Tipo 2 do lado do veículo com o qual abre a porta de carregamento, inicia e interrompe o carregamento do seu Tesla ou desbloqueia o cabo, sem ter de entrar primeiro no carro nem procurar a chave. É uma função que só os cabos EVChargeking oferecem.
+D:41§O desbloqueio do cabo só atua, naturalmente, quando a chave do carro está por perto. O cabo não é desbloqueado se a chave não estiver nas proximidades (tal como nos Superchargers).
+D:42§O cabo tem condutores de 5 x 6mm², que suportam uma corrente de 3 x 32A, o que equivale a uma potência de carregamento de 22 kW.
+D:43§O comprimento padrão do cabo é de 2 metros, mas pode encomendar o comprimento pretendido escolhendo o valor correspondente na lista pendente. Para comprimentos que não constem da lista, envie-nos uma mensagem e fazemos um orçamento.
+D:44§Conectores | Tipo 2 fêmea com botão Tesla no lado do veículo, ponta aberta no outro lado. |
+D:45§Cabo | Trifásico, 5 x 6mm² + 0,5mm², potência máx.: 3 x 32A (22 kW de potência de carregamento) |
+D:46§Cor | Preto / Azul |
+D:47§Este cabo de carregamento tem um conector fêmea Tipo 2 com botão Tesla na ponta do veículo e uma ponta aberta na outra. É adequado para ligação a um posto de carregamento com cabo fixo.
+D:48§## Tenha em atenção: não pode montar uma ficha CEE azul ou vermelha nestes cabos para carregar o veículo. Use-o apenas em conjunto com um posto de carregamento. Este pigtail não é um substituto direto do cabo original do Wall Connector da Tesla; pode ser usado com ele, mas exige pequenos ajustes. Veja esta publicação do fórum: Change Charging Cable of Tesla Wall Connector. Não é compatível com o Wall Connector da Tesla Gen3 ou posterior.
+D:49§Este cabo usa a tecnologia Tesla Chargeport da EVChargeking: um botão integrado no conector Tipo 2 do lado do veículo com o qual abre a porta de carregamento e desbloqueia o cabo, sem ter de abrir primeiro a tampa a partir do interior do carro nem procurar a chave. É uma função que só os cabos EVChargeking oferecem.
+D:50§Naturalmente, a função só atua se a chave do carro estiver por perto. Sem a chave nas proximidades o cabo não pode ser desbloqueado (tal como nos Superchargers).
+D:51§A capacidade de carregamento deste cabo é de 1 x 32A. Pode carregar com uma potência até 7,4 kW.
+D:52§O comprimento padrão é de 2 metros, mas o cabo pode ser encomendado no comprimento pretendido, escolhendo-o na lista pendente. Se a tomada estiver do outro lado do carro, precisa de pelo menos 4 metros. Se quiser um comprimento que não consta da lista, contacte-nos e fazemos um orçamento.
+D:53§Conectores | Tipo 2 com botão Tesla no lado do veículo e ponta aberta no outro lado. |
+D:54§Cabo | Monofásico, 3 x 6 mm² + 0,75 mm² com corrente máxima de 32 A (7,4 kW de potência de carregamento a 240 V) |
+D:55§## Este kit permite integrar um botão Tesla num conector fêmea Tipo 2 existente. Verifique se consegue abrir o conector e se há espaço suficiente no interior para a placa eletrónica e, se necessário, a bateria. Precisa de uma alimentação de 3V ou de uma bateria de 3V. A eletrónica para uso com bateria é diferente.
+D:56§Todos os componentes são estanques. O kit funciona com uma fonte de 3,3V, que tem de chegar do posto de carregamento através do cabo, ou com a bateria opcional de 3V. O botão de pressão opcional incluído no kit exige um furo de 16 mm de diâmetro.
+D:57§Estas são as ligações a fazer ao instalar o kit:
+D:58§- fio vermelho a +3,3V (ou ao fio vermelho da bateria, se existir)
+D:59§- fio verde ao pino PE do conector (e ao fio cinzento da bateria, se existir)
+D:60§- fio roxo ao pino PP do conector
+D:61§- fios cinzentos ao botão de pressão
+D:62§Para ligar os fios verde e roxo, olhe para o interior do conector: verá um fio que vai do pino PP ao pino PE (terra). Nesse fio há uma resistência (220 ohm num conector de 32A, 680 ohm na versão de 16A). Corte as duas pontas da resistência para a retirar. A placa eletrónica fornece a resistência correta.
+D:63§Ligue o fio roxo ao lado PP e o fio verde ao lado PE do fio que acabou de cortar.
+D:64§Certifique-se de que encomenda a versão correta para o seu cabo. Instalar uma versão de 32A num cabo de 16A pode fazer com que o cabo se incendeie; instalar uma versão de 16A num cabo de 32A reduz a sua potência de carregamento.
+D:65§O kit de conversão não pode ser devolvido nem reembolsado depois de uma tentativa de instalação.
+D:66§Este cabo de carregamento tem um conector Tipo 2 nas duas pontas (1 macho e 1 fêmea). É adequado para veículos com conector Tipo 2 (hoje a maioria dos modelos europeus) e postos de carregamento Tipo 2, comuns no carregamento público na Europa.
+D:67§Não usamos o cabo padrão fabricado na China, mas um produto europeu de alta qualidade, 20 % mais leve e fino, e mais durável. Os conectores têm contactos totalmente inoxidáveis.
+D:68§Este cabo tem uma capacidade de carregamento de 3 x 32A (5 x 6mm²), suficiente para qualquer infraestrutura de carregamento e qualquer veículo. Pode carregar com uma potência até 22 kW. Naturalmente, também serve para carregar a 16A ou 32A, em monofásico ou trifásico, estando assim preparado para potências superiores se for preciso.
+D:69§O cabo pode ser encomendado no comprimento pretendido, escolhendo-o na lista pendente. Se quiser um comprimento que não consta da lista, contacte-nos e fazemos um orçamento. Se a tomada estiver do outro lado do carro, precisa de pelo menos 4 metros.
+D:70§Tenha em atenção: um cabo de carregamento NÃO é uma extensão:
+D:71§Um cabo de carregamento para veículos elétricos só pode ser usado para ligar o veículo a um posto de carregamento. Usá-lo como extensão NÃO funciona.
+D:72§Se quiser deixar o cabo pendurado permanentemente no exterior, recomendamos vivamente a instalação de um suporte para conector Tipo 2, disponível ao finalizar a compra. Pode também encomendar uma prática bolsa de transporte a bom preço.
+D:73§Conectores | Tipo 2 em ambos os lados |
+D:74§Cabo | Trifásico, 5 x 6 mm² com corrente máxima de 32 A (22 kW de potência de carregamento a 240 V) |
+D:75§Este cabo de carregamento tem um conector Tipo 3C do lado da infraestrutura e um conector Tipo 2 do lado do veículo. Serve para todos os carros com conector Tipo 2 que precisam de um conector Tipo 3C no posto de carregamento, como acontece sobretudo em França. Para o resto da Europa precisa de um cabo Tipo 2 - Tipo 2, que também encontra na loja.
+D:76§Pode encomendar o comprimento de que precisa escolhendo o valor correspondente na lista pendente. Para comprimentos que não constem da lista, envie-nos uma mensagem e fazemos um orçamento.
+D:77§Atenção: um cabo de carregamento NÃO é uma extensão:
+D:78§Os cabos de carregamento não podem ser usados como extensões; servem apenas para ligar o veículo elétrico diretamente a um posto de carregamento. Ligar 2 cabos um ao outro NÃO funciona.
+D:79§Conectores | Tipo 3C do lado da infraestrutura, Tipo 2 do lado do veículo |
+D:80§Cabo | Monofásico, 3 x 6mm² + 0,5mm², potência máx.: 1 x 32A (7,4 kW de potência de carregamento a 230V) |
+D:81§Cor | Azul / Preto / Branco |
+D:82§## Um carregador visionário que junta o melhor de dois mundos.
+D:83§O ETAPpro junta o melhor de dois mundos: encaixado no suporte de parede é um posto de carregamento clássico com o qual carrega o carro a alta potência (11 kW). Retirado do suporte e ligado a um cabo adaptador, torna-se um carregador portátil que pode levar para qualquer lado e usar em qualquer tomada compatível.
+D:84§O ETAPpro 11 é um equipamento trifásico com potência máxima de 11 kW (3 x 16A), mas pode ser ligado e usado sem problemas em monofásico.
+D:85§É também muito compacto e, ainda assim, equipado com a tecnologia mais recente. Pode, por exemplo, comunicar com o seu contador digital ou, em contadores analógicos antigos, com um pequeno dispositivo que mede o consumo no quadro elétrico. Assim pode ter em conta a tarifa de capacidade, a sua energia solar, o consumo doméstico e outros postos ETAPpro, mantendo sempre o controlo, sem disparar os fusíveis nem pagar faturas de eletricidade desnecessariamente altas.
+D:86§O ETAPpro é fácil de usar e, ao mesmo tempo, muito completo. A configuração e o acompanhamento fazem-se com uma aplicação própria para Android ou iOS, e a comunicação com a plataforma na nuvem onde os dados são guardados pode ser feita por Wi-Fi ou até por Powerline (pela cablagem elétrica existente), pelo que não precisa de passar cabos de rede adicionais.
+D:87§Num portal de utilizador pode gerar facilmente relatórios das sessões de carregamento anteriores, com o local, os kWh, a hora, etc.
+D:88§O ETAPpro está também preparado para o futuro: todas as atualizações de software são feitas de forma automática e segura à distância, pelo que o equipamento poderá adaptar-se às alterações legais e técnicas do setor dos veículos elétricos.
+D:89§## Fixo ou portátil
+D:90§Se quiser usar o ETAPpro num local fixo, pode instalar um suporte de parede. Ao deslizar o ETAPpro para o suporte, este torna-se um posto de carregamento fixo. O suporte alimenta o carregador e é fácil de ligar. Tem ainda fechadura com chaves para prender o ETAPpro, para que outro admirador do produto não o leve.
+D:91§Se isso acontecer, o módulo GPS integrado permite-lhe ver a qualquer momento onde o equipamento está a ser usado, e pode bloquear o carregador à distância.
+D:92§Se quiser levar o seu posto de carregamento em viagem ou de férias, deslize o ETAPpro para fora do suporte e ligue-o com os adaptadores a diferentes tipos de tomada. Atualmente há adaptadores para tomadas domésticas (incluído no pacote padrão), para fichas azuis de campismo de 16A e para tomadas industriais trifásicas vermelhas de 16A (opcionais).
+D:93§O ETAPpro reconhece ainda automaticamente o adaptador que está a usar e ajusta a corrente máxima de carregamento para evitar situações perigosas. Os adaptadores têm também sensores de temperatura para proteger as suas tomadas, tanto no próprio equipamento como no conector para o carro. Se a temperatura subir demasiado, a corrente é reduzida ou o carregamento é totalmente interrompido. A segurança está em primeiro lugar.
+D:94§## Carregador inteligente
+D:95§Para usar as funções inteligentes do ETAPpro é necessária a comunicação com o contador digital ou com um dispositivo que leia o consumo de eletricidade. Foi para isso que o MTAP e o CTAP foram concebidos. Com o MTAP lê-se o contador digital pela porta P1; com o CTAP colocam-se as pinças de medição nos cabos de entrada da instalação.
+D:96§Se (ainda) não tiver contador digital, funções como a tarifa de capacidade não se aplicam, e os preços dinâmicos, que variam de hora a hora, também exigem contador digital. Já o equilíbrio de carga, em que o carregador tem em conta o consumo doméstico, e a partilha de carga, em que a potência disponível é distribuída por vários carregadores, estão disponíveis mesmo sem contador digital.
+D:97§A utilização da eletricidade produzida pelos seus painéis solares também vem de série, evitando injetar gratuitamente na rede a energia produzida.
+D:98§Além disso, organizámos um excelente serviço de assistência: se, contra todas as expectativas, houver um problema com o posto de carregamento, recebe uma unidade de substituição configurada exatamente da mesma forma para continuar a carregar de imediato, enquanto analisamos e resolvemos a fundo o problema da sua.
+D:99§O ETAPpro junta o melhor de dois mundos: encaixado no suporte de parede é um posto de carregamento clássico com o qual carrega o carro a alta potência (11 kW). Retirado do suporte e ligado a um cabo adaptador, torna-se um carregador portátil que pode levar para qualquer lado e usar em qualquer tomada compatível.
+D:100§O ETAPpro 7 é um equipamento monofásico com potência máxima de 7,4 kW (1 x 32 A)
+D:101§É também muito compacto e, ainda assim, equipado com a tecnologia mais recente. Pode, por exemplo, comunicar com o seu contador digital ou, em contadores analógicos antigos, com um pequeno dispositivo que mede o consumo no quadro elétrico. Assim pode ter em conta a tarifa de capacidade, a sua energia solar, o consumo doméstico e outros postos ETAPpro, mantendo sempre o controlo, sem disparar os fusíveis nem pagar faturas de eletricidade desnecessariamente altas.
+D:102§O ETAPpro é fácil de usar e, ao mesmo tempo, muito completo. A configuração e o acompanhamento fazem-se com uma aplicação própria para Android ou iOS, e a comunicação com a plataforma na nuvem onde os dados são guardados pode ser feita por Wi-Fi ou até por Powerline (pela cablagem elétrica existente), pelo que não precisa de passar cabos de rede adicionais.
+D:103§Num portal de utilizador pode gerar facilmente relatórios das sessões de carregamento anteriores, com o local, os kWh, a hora, etc.
+D:104§Se quiser usar o ETAPpro num local fixo, pode instalar um suporte de parede. Ao deslizar o ETAPpro para o suporte, o conjunto torna-se um posto de carregamento fixo. O suporte alimenta o carregador e é fácil de ligar. Tem ainda fechadura com chaves para prender o ETAPpro, para que outro admirador do produto não o leve.
+D:105§Se isso acontecer, o módulo GPS integrado permite-lhe ver a qualquer momento onde o equipamento está a ser usado, e pode bloquear o carregador à distância.
+D:106§Se quiser levar o seu posto de carregamento em viagem ou de férias, deslize o ETAPpro para fora do suporte e ligue-o com os adaptadores a diferentes tipos de tomada. Atualmente há adaptadores para tomadas domésticas (incluído no pacote padrão), para fichas azuis de campismo de 16A–32A e para tomadas industriais trifásicas vermelhas de 16A–32A (opcionais).
+D:107§## Carregador inteligente
+D:108§Para usar as funções inteligentes do ETAPpro é necessária a comunicação com o contador digital ou com um dispositivo que leia o consumo de eletricidade. Foi para isso que o MTAP e o CTAP foram concebidos. Com o MTAP lê-se o contador digital pela porta P1; com o CTAP colocam-se as pinças de medição nos cabos de entrada da instalação elétrica.
+D:109§Se (ainda) não tiver contador digital, funções como a tarifa de capacidade não se aplicam, e os preços dinâmicos, que variam de hora a hora, também exigem contador digital. Já o equilíbrio de carga, em que o carregador tem em conta o consumo doméstico, e a partilha de carga, em que a potência disponível é distribuída por vários carregadores, estão disponíveis mesmo sem contador digital.
+D:110§A utilização da eletricidade produzida pelos seus painéis solares também vem de série, evitando injetar gratuitamente na rede a energia produzida.
+D:111§Além disso, organizámos um excelente serviço de assistência: se, contra todas as expectativas, houver um problema com o seu posto de carregamento, recebe uma unidade de substituição configurada exatamente da mesma forma para continuar a carregar de imediato, enquanto analisamos e resolvemos a fundo o problema da sua.
+D:113§Com o suporte de parede transforma rapidamente o ETAPpro portátil num posto de carregamento fixo. A ligação elétrica e a montagem são rápidas e simples. O suporte é compatível com todos os modelos ETAPpro atuais e futuros.
+D:114§Ao inserir o ETAPpro no suporte de parede, a ligação elétrica faz-se automaticamente: basta deslizá-lo e começar a carregar.
+D:115§O suporte de parede inclui ainda uma fechadura com as respetivas chaves para proteger o ETAPpro contra roubo. Foi concebido para enrolar o cabo de carregamento de forma arrumada à volta do equipamento. Inclui também um suporte para o conector, para que este fique bem preso e não no chão.
+D:116§Para ativar certas funções inteligentes do ETAPpro é necessária a comunicação com o seu contador digital, e é para isso que serve o MTAP. Liga-se facilmente à porta P1 do contador digital com o cabo fornecido e, depois de ativado, deteta automaticamente os equipamentos ETAPpro na rede.
+D:117§A partir desse momento, o posto de carregamento pode ter em conta o consumo doméstico, a tarifa de capacidade, a energia solar produzida, etc. O MTAP transmite os dados necessários por Wi-Fi ou por Ethernet/PLC ao posto ou postos de carregamento. O sinal P1 é ainda retransmitido de forma ativa (não é um simples divisor), pelo que os equipamentos existentes continuam a funcionar. Há até uma porta USB-C para fornecer alimentação adicional, se necessário.
+D:118§O MTAP é atualmente compatível com os contadores digitais oficiais da Bélgica, dos Países Baixos e do Luxemburgo.
+D:119§Com este cabo adaptador CEE monofásico de 16A pode ligar o seu ETAPpro a uma tomada CEE azul monofásica de 16A (ficha de campismo) para carregar o carro. O ETAPpro reconhece o cabo adaptador e limita automaticamente o carregamento a 16A (3700W) para evitar o sobreaquecimento da tomada.
+D:120§O cabo adaptador tem ainda um sensor de temperatura para vigiar a tomada de parede. Se o ETAPpro detetar uma temperatura anormalmente alta na tomada, limita o carregamento ou, se necessário, interrompe-o.
+D:121§Com este cabo adaptador Schuko (Tipo E/F) pode ligar o seu ETAPpro a uma tomada doméstica normal para carregar o carro. O ETAPpro reconhece o cabo adaptador e limita automaticamente o carregamento a 10A (2300W) para evitar o sobreaquecimento da tomada.
+D:122§Tenha em atenção: este adaptador Schuko já vem incluído quando encomenda um ETAPpro.
+D:123§Evite passar cabos Ethernet até ao seu posto ETAPpro usando Power Line Communication (PLC). Ligue o adaptador Powerline a uma tomada do mesmo circuito elétrico do ETAPpro e ligue-o ao router com o cabo Ethernet curto fornecido: o seu ETAPpro fica ligado à internet.
+D:124§Ideal quando o ETAPpro não tem cobertura Wi-Fi (em caves ou demasiado longe do ponto de acesso).
+D:125§Este carregador portátil de 7,5 metros serve para carregar o seu veículo elétrico com conector Tipo 2 a partir de uma tomada doméstica. Está limitado a 10A, um valor seguro, porque as tomadas domésticas não foram feitas para cargas elevadas durante muito tempo. O seu veículo elétrico carregará a 2,3 kW
+D:126§Carregue sempre a partir de uma tomada doméstica corretamente instalada, capaz de fornecer 10A e protegida por interruptor diferencial e disjuntor.
+D:127§O carregador inclui:
+D:128§- Proteção contra fugas à terra
+D:129§- Proteção contra sobrecorrente
+D:130§- Proteção contra sobretensão
+D:131§- Proteção contra subtensão
+D:132§- Proteção contra curto-circuito
+D:133§- Proteção contra sobreaquecimento
+D:134§Este carregador portátil funciona também se o neutro e a fase estiverem trocados ou se não houver neutro (rede de 3 x 230V), desde que o seu carro suporte o carregamento sem neutro.
+D:135§O nosso carregador portátil e-TAP de 7,4 kW e 7 metros serve para carregar o seu veículo elétrico a partir de uma tomada CEE azul monofásica de 32A. A potência é ajustável para 6A, 10A, 13A, 16A, 20A, 25A ou 32A. O seu veículo elétrico carregará a um máximo de 7,4 kW.
+D:136§O carregador tem várias funções de segurança, incluindo a monitorização da temperatura da ficha CEE, a deteção de fugas de corrente alternada e contínua e a proteção contra sobreaquecimento.
+D:137§Carregue sempre a partir de uma tomada CEE azul de 32A corretamente instalada, dimensionada para 32A e com cabos de pelo menos 6mm². Pode encomendar com o carregador uma tomada de parede de alta qualidade com proteção IP 67 para interior ou exterior.
+D:138§- Proteção contra fugas à terra (CA e CC)
+D:139§- Deteção de falhas internas de comutação
+D:140§- Proteção contra sobreaquecimento da ficha de parede
+D:141§- Corrente de carregamento ajustável (6A,10A,13A,16A,20A,25A,32A)
+D:142§## Proteja o seu conector
+D:143§Suporte cego para conectores Tipo 2, para pendurar o conector de forma arrumada depois de carregar. Assim o conector não fica no chão e fica protegido da água e da oxidação causada pela chuva.
+H:0:h§Carregamento inteligente, potente e flexível com a EVChargeking
+H:0:p0§Bem-vindo à EVChargeking, especialistas em soluções de carregamento de alta qualidade para veículos elétricos, com particular experiência em Tesla.
+H:0:p1§Desenvolvemos e fabricamos cabos de carregamento premium que se distinguem pela qualidade, durabilidade e facilidade de utilização. Os nossos cabos são fabricados na Bélgica com condutores elétricos de alta qualidade e materiais inovadores, o que os torna:
+H:0:p2§Quer carregue em casa, no escritório ou em viagem, com a EVChargeking escolhe segurança, fiabilidade e máxima eficiência.
+H:0:l0§Leves e flexíveis
+H:0:l1§De utilização universal
+H:0:l2§Adequados ao uso diário e ao uso profissional intensivo
+H:0:l3§Fiáveis em qualquer situação
+H:1:h§O futuro do carregamento portátil: ETAPpro
+H:1:p0§A EVChargeking concebe e fabrica o ETAPpro, uma avançada solução de carregamento portátil que muda de raiz a forma de carregar veículos elétricos.
+H:2:h§Cabo de carregamento Tesla único
+H:2:p0§O cabo de carregamento Tesla da EVChargeking junta facilidade de utilização e máxima flexibilidade. Graças ao cabo leve e flexível é fácil de manusear e de levar para qualquer lado, e a construção robusta torna-o adequado a qualquer clima. O botão Tesla integrado permite ainda abrir a porta de carregamento e desbloquear o conector, tornando o carregamento ainda mais rápido e cómodo.
+B:0§A EVChargeking é uma empresa belga que oferece acessórios de carregamento a proprietários de veículos elétricos, com especial atenção aos modelos Tesla.
+B:1§Para os modelos Tesla desenvolvemos um cabo de carregamento leve que permite abrir a porta de carregamento, e também parar a sessão de carregamento e desbloquear o conector, com um simples toque num botão.
+B:2§A solução de carregamento portátil ETAPpro é igualmente um desenvolvimento próprio da EVChargeking.
+E:0§## O futuro do carregamento portátil: ETAPpro
+E:1§A EVChargeking concebe e fabrica o ETAPpro, uma avançada solução de carregamento portátil que muda de raiz a forma de carregar veículos elétricos.
+E:2§O ETAPpro junta:
+E:3§- Mobilidade e disponibilidade fixa num só sistema
+E:4§- Alta potência numa solução compacta e portátil
+E:5§- Tecnologia profissional com utilização simples
+E:6§- Máxima flexibilidade para particulares e empresas
+E:7§Onde as soluções de carregamento tradicionais ficam presas a um local, o ETAPpro oferece liberdade. Carregue onde e quando precisar.
+E:8§## Uma nova solução de carregamento visionária
+E:9§O novo ETAPpro reúne o melhor da tecnologia e da portabilidade num só equipamento. Pode ser usado como posto de carregamento fixo, mas também levado em viagem para carregar em qualquer lugar com um cabo adaptador compatível. Gere e controla o ETAPpro a partir de uma aplicação no telemóvel, a qualquer momento e em qualquer lugar.
+E:10§Além da flexibilidade, o ETAPpro oferece uma vasta gama de funções que continuará a crescer com o tempo. Garantimos que inclui todo o hardware necessário para disponibilizar novas funções no futuro através de atualizações de software automáticas e seguras.
+E:11§O ETAPpro adapta-se automaticamente ao consumo doméstico ou à produção dos seus painéis solares, oferece funções de programação alargadas, permite evitar picos de consumo, pode seguir os preços dinâmicos da eletricidade para decidir quando carregar e envia todos os seus dados para o nosso armazenamento na nuvem, onde ficam disponíveis para relatórios detalhados, faturação separada e muito mais.
+E:12§A instalação é simples; a colocação em serviço faz-se com a aplicação ETAP para Android ou iPhone, e a comunicação entre vários carregadores ETAPpro e o contador digital ou o medidor de potência passa pela cablagem elétrica, pelo que não é necessário Wi-Fi nem cablagem adicional. O carregador inclui de série Bluetooth, Wi-Fi, RFID, GPS, 4G e PLC, sem necessidade de extras dispendiosos.
+E:13§Como o ETAPpro é tão inteligente, pode poupar todos os anos um valor apreciável na fatura de eletricidade.
+E:14§Naturalmente, o ETAPpro é compatível com todas as plataformas CPO (OCPP 1.6) e suporta ainda chamadas API e comunicação Modbus, permitindo a integração com qualquer sistema de gestão de energia.
+E:15§Para mais informações, visite o nosso sítio web ETAP.pro

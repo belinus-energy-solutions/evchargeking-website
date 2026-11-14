@@ -19,7 +19,7 @@ SITE = "https://evchargeking.com" if LIVE else "https://evchargeking-website.b-c
 GTM_ID = "GTM-5G8H3GLB"
 # Google Search Console: paste the "HTML tag" verification code here before go-live (optional if verified through DNS).
 GSC_TOKEN = ""
-LOCALE = {"nl": "nl_BE", "fr": "fr_BE", "en": "en_GB"}
+LOCALE = {"nl": "nl_BE", "fr": "fr_BE", "en": "en_GB", "de": "de_DE", "es": "es_ES", "it": "it_IT", "pt": "pt_PT"}
 ORG = {"@type": "OnlineStore", "@id": "https://evchargeking.com/#org", "name": "EVChargeking", "legalName": "Some BV", "url": "https://evchargeking.com",
        "logo": "https://evchargeking.com/share/logo.png", "email": "service@evchargeking.com", "telephone": "+32475443669", "vatID": "BE0829249337",
        "address": {"@type": "PostalAddress", "streetAddress": "Probastraat 21", "postalCode": "2235", "addressLocality": "Westmeerbeek", "addressCountry": "BE"},
@@ -27,7 +27,9 @@ ORG = {"@type": "OnlineStore", "@id": "https://evchargeking.com/#org", "name": "
        "parentOrganization": {"@type": "Organization", "name": "Belinus", "url": "https://belinus.com"}}
 SRC = Path(__file__).resolve().parent
 ROOT = SRC.parent.parent
-LANGS = ["nl", "fr", "en"]
+import importlib.util as _iu
+_sp = _iu.spec_from_file_location("i18n", Path(__file__).resolve().parent / "i18n.py"); _i18n = _iu.module_from_spec(_sp); _sp.loader.exec_module(_i18n)
+LANGS = ["nl", "fr", "en"]   # extended below with the translated languages
 CHROME = os.environ.get("CHROME", "/usr/bin/google-chrome")
 
 def write(path, text):
@@ -35,7 +37,8 @@ def write(path, text):
 
 # 1. assets
 (ROOT / "assets").mkdir(exist_ok=True)
-ver = hashlib.sha1(b"".join((SRC / f).read_bytes() for f in ("app.js", "app.css", "data.js"))).hexdigest()[:10]
+LANGS += [l for l in _i18n.build(ROOT) if l not in LANGS]
+ver = hashlib.sha1(b"".join((SRC / f).read_bytes() for f in ("app.js", "app.css", "data.js")) + (ROOT / "assets" / "i18n.js").read_bytes()).hexdigest()[:10]
 for f in ("app.js", "app.css", "data.js"): shutil.copy(SRC / f, ROOT / "assets" / f)
 shell = (SRC / "shell.html").read_text(encoding="utf-8").replace("__V__", ver)
 

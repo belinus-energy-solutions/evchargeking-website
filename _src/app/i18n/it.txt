@@ -1,0 +1,521 @@
+U:nav_login§Accesso clienti
+U:reg_portal§Il portale (portal.belinus.com) è comune a tutte le aziende del gruppo Belinus.
+U:done_portal§Il suo account nel portale di assistenza Belinus è pronto. Usi il link nell'e-mail per impostare la password e segua lì il suo ordine. Ordine e fattura compaiono come documenti EVChargeking.
+U:menu§Menu
+U:region_h§Lingua
+U:theme_light§Tema chiaro
+U:theme_dark§Tema scuro
+U:th_dark§Scuro
+U:th_light§Chiaro
+U:from§da
+U:sort§Ordina
+U:sort_feat§In evidenza
+U:sort_lo§Prezzo crescente
+U:sort_hi§Prezzo decrescente
+U:sort_az§Nome A–Z
+U:n_products§{n} prodotti
+U:loc_h§È corretto per lei?
+U:loc_country§Paese di consegna
+U:loc_lang§Lingua
+U:loc_prices§Prezzi
+U:loc_yes§Sì, continua
+U:loc_change§Modifica
+U:ck_h§La sua privacy
+U:ck_p§Usiamo i cookie necessari per far funzionare il negozio: il carrello, la lingua e il paese. Con il suo consenso usiamo anche cookie per ricordare le preferenze, misurare le visite e mostrare annunci pertinenti. Nulla di facoltativo si attiva prima della sua scelta.
+U:ck_accept§Accetta tutti
+U:ck_reject§Rifiuta tutti
+U:ck_custom§Scegli per categoria
+U:ck_save§Salva la mia scelta
+U:ck_settings§Impostazioni dei cookie
+U:ck_always§sempre attivi
+U:ck_nec§Necessari
+U:ck_nec_d§Carrello, pagamento, lingua, paese e questa scelta.
+U:ck_pref§Preferenze
+U:ck_pref_d§Ricorda i prodotti visti di recente e il tema scelto.
+U:ck_stat§Statistiche
+U:ck_stat_d§Misurazione anonima delle visite (Google Analytics) per migliorare il negozio.
+U:ck_mkt§Marketing
+U:ck_mkt_d§Tag di Google Ads, Meta e LinkedIn per misurare le campagne.
+U:ck_more§Leggi l'informativa sulla privacy
+U:group§Un'azienda del gruppo <b>Belinus</b>
+U:nav_home§Home
+U:nav_shop§Negozio
+U:nav_finder§Trova cavo
+U:nav_etap§ETAPpro
+U:nav_support§Assistenza clienti
+U:nav_about§Chi siamo
+U:cart§Carrello
+U:private§Privato
+U:business§Azienda
+U:top_free§Spedizione gratuita in {list} a partire da {amt}
+U:top_vat§Prezzi: {v}
+U:incl§IVA {r} % incl.
+U:excl§IVA escl.
+U:export§senza IVA UE · esportazione
+U:g_tesla§Tesla
+U:g_tesla_d§Cavi, pigtail e kit connettore con il pulsante Tesla
+U:g_type2§Tipo 2
+U:g_type2_d§Cavi di ricarica e pigtail
+U:g_type13§Tipo 1 e Tipo 3
+U:g_type13_d§Cavi per auto Tipo 1 e colonnine Tipo 3
+U:g_etap§ETAPpro
+U:g_etap_d§Caricatori, adattatori e montaggio
+U:g_mobile§Caricatori portatili
+U:g_mobile_d§Ricarica da una presa domestica o CEE
+U:g_parts§Ricambi e accessori
+U:g_parts_d§Connettori, prese, supporti e borse
+U:g_all§Tutti i prodotti
+U:r_best§Il più venduto
+U:r_award§Premiato
+U:r_promo§Offerta
+U:co_wait§Un momento, stiamo preparando il pagamento…
+U:co_err_missing§Compili per favore: {f}.
+U:co_err_email§Controlli il suo indirizzo e-mail.
+U:co_err_vat§Questa partita IVA non risulta valida nel registro europeo VIES.
+U:co_err_vies§Al momento non riusciamo a verificare la sua partita IVA. Riprovi tra un minuto oppure ordini come privato.
+U:co_err§Qualcosa non ha funzionato e non è stato avviato alcun pagamento. Riprovi.
+U:vat_checking§Verifica nel registro europeo VIES…
+U:vat_vies_ok§Confermata nel VIES. Fattura in inversione contabile, senza IVA.
+U:vat_vies_bad§Non presente nel VIES. Senza un numero valido fatturiamo con IVA.
+U:vat_vies_na§Il VIES non risponde in questo momento. Verificheremo di nuovo al momento dell'ordine.
+U:f_first§nome
+U:f_last§cognome
+U:f_email§e-mail
+U:f_street§via e numero civico
+U:f_zip§CAP
+U:f_city§località
+U:f_company§ragione sociale
+U:st_checking§Verifica del pagamento…
+U:st_paid_t§L'ordine {n} è stato pagato.
+U:st_open_t§Ordine {n}: in attesa del pagamento.
+U:st_open_p§Il pagamento non è ancora confermato. Questa pagina si aggiorna da sola.
+U:st_failed_t§Il pagamento dell'ordine {n} non è andato a buon fine.
+U:st_failed_p§Non è stato addebitato nulla. Il carrello è ancora lì, può riprovare.
+U:st_again§Torna al pagamento
+U:st_none§Non abbiamo trovato questo ordine.
+U:st_total§Totale pagato
+U:st_sent§Ordine effettuato con
+U:tp_eb§Pagamento di prova
+U:tp_h§Scelga come si conclude questo pagamento di prova
+U:tp_p§Non c'è ancora una chiave Mollie, quindi il negozio usa il proprio simulatore di pagamento. Non viene mosso denaro reale.
+U:tp_paid§Pagato
+U:tp_failed§Non riuscito
+U:tp_canceled§Annullato dal cliente
+U:tp_expired§Scaduto
+U:tp_order§Ordine
+U:tp_amount§Importo
+U:calc_btn§Calcoli il suo risparmio
+U:sup_o1_h§Tramite il portale di assistenza Belinus
+U:sup_o1_p§Si registri o acceda al portale e invii da lì una richiesta di assistenza. Nello stesso posto segue la richiesta, i suoi ordini e le sue fatture.
+U:sup_o1_b§Apri il portale di assistenza
+U:sup_o2_h§Via e-mail
+U:sup_o2_p§Preferisce l'e-mail? Ci scriva e le risponderemo il prima possibile.
+U:sup_note§EVChargeking è un'azienda del gruppo Belinus. Il portale di assistenza è comune a tutte le aziende Belinus; ordini e fatture EVChargeking restano documenti EVChargeking.
+U:full_desc§Descrizione completa
+U:more_info§Maggiori informazioni
+U:et_h§Caricatore fisso a casa, caricatore portatile in viaggio
+U:et_p§L'ETAPpro si aggancia al supporto a parete e si sgancia con un solo gesto. Nel supporto è la sua stazione di ricarica domestica; con un cavo adattatore ricarica da qualsiasi presa adatta.
+U:et_s1§3 × 16 A, anche monofase
+U:et_s2§connettore
+U:et_s3§grado di protezione
+U:et_s4§progettato e costruito
+U:et_f1§Ricarica con la sua energia solare
+U:et_f1d§Segue la produzione fotovoltaica e i consumi di casa.
+U:et_f2§Non fa scattare i fusibili
+U:et_f2d§Comunica con il contatore digitale e rispetta la tariffa di capacità.
+U:et_f3§Una sola app
+U:et_f3d§Impostazioni, monitoraggio e rapporto di ogni sessione di ricarica, su Android e iOS.
+U:et_f4§Nessun cavo di rete
+U:et_f4d§Si collega via Wi-Fi o Powerline, attraverso l'impianto elettrico.
+U:et_h2§Il caricatore segue l'auto, non la casa
+U:et_p2§Poiché lo sgancia da solo dal supporto, l'ETAPpro trasloca con lei: in una seconda casa, a un nuovo indirizzo o con la prossima auto aziendale.
+U:et_a1§ETAPpro nel supporto a parete accanto a un'auto in ricarica
+U:et_a2§ETAPpro sulla parete di un garage mentre ricarica un'auto elettrica
+U:rev_h§Cosa dicono i nostri clienti su Google
+U:rev_on§{n} recensioni su Google
+U:rev_asof§Valutazione su Google al {d}.
+U:rev_read§Leggi le recensioni
+U:rev_write§Scrivi una recensione
+U:follow§Segua EVChargeking
+U:share§Condividi
+U:share_copy§Copia link
+U:copied§Link copiato
+U:like§Salva
+U:liked§Salvato
+U:favs§Preferiti
+U:promo_eb§Offerta di fine anno
+U:promo_h§{pct} % di sconto sull'ETAPpro 11
+U:promo_terms§Fino al {date}. Solo per ordini online. Lo sconto è già incluso nel prezzo.
+U:promo_short§Offerta di fine anno · solo online
+U:promo_top§Offerta di fine anno: {pct} % di sconto sull'ETAPpro 11, solo online
+U:promo_btn§Ordina online
+U:cta_finder§Trovi il suo cavo
+U:cta_shop§Vai al negozio
+U:bench_t§Trovi il suo cavo
+U:add§Aggiungi al carrello
+U:view§Vedi
+U:open_finder§Tutte le opzioni
+U:details§Dettagli del prodotto
+U:cats_eb§Acquista per categoria
+U:cats_h§Tutto per ricaricare a casa, al lavoro e in viaggio
+U:best_eb§I più ordinati
+U:best_h§I preferiti dei nostri clienti
+U:see_all§Vedi tutti i prodotti
+U:discover§Scopri
+U:c_tesla_d§con pulsante per lo sportello di ricarica
+U:c_type2§Tipo 2
+U:c_type2_d§la maggior parte delle elettriche europee
+U:c_type1§Tipo 1
+U:c_type3§Tipo 3
+U:c_type3_d§colonnine Tipo 3C
+U:p74_d§monofase · 32 A
+U:p22_d§trifase · 32 A
+U:k_cable§Cavo di ricarica
+U:k_cable_d§connettore su entrambi i lati
+U:k_pig§Pigtail
+U:k_pig_d§estremità libera, per una stazione di ricarica
+U:f_eb§Trova cavo
+U:f_h§Trovi il cavo di ricarica giusto
+U:s1§Prodotto
+U:s2§Connettore lato auto
+U:s3§Potenza
+U:s4§Lunghezza
+U:s5§Colore del connettore
+U:s6§Spesso ordinato insieme
+U:sum_t§La sua selezione
+U:sum_len§Lunghezza
+U:sum_col§Colore del connettore
+U:unit§Prezzo
+U:total§Totale
+U:vat_line§IVA {r} %
+U:len_note§Misurata compresi entrambi i connettori. Meglio 1 metro in più che 10 cm in meno.
+U:other_len§Le serve un'altra lunghezza? Ci scriva e le invieremo un preventivo.
+U:shop_h§Negozio
+U:crumb_shop§Negozio
+U:qty§Quantità
+U:in_stock§Disponibile
+U:made§Prodotto su ordinazione in Belgio
+U:weight§Peso
+U:no_desc§Questo prodotto non ha ancora una descrizione completa.
+U:no_photo§Foto in arrivo
+U:also§Spesso ordinato insieme
+U:d_title§Il suo carrello
+U:d_empty§Il carrello è vuoto.
+U:d_cont§Continua gli acquisti
+U:d_free_left§Aggiunga {amt} per la spedizione gratuita
+U:d_free_ok§Spedizione gratuita
+U:d_up§Spesso aggiunto
+U:remove§Rimuovi
+U:sub§Prodotti
+U:ship§Spedizione
+U:ship_from§Spedizione da
+U:checkout§Vai alla cassa
+U:added§Aggiunto al carrello
+U:co_t§Cassa
+U:co1§I suoi dati
+U:reg_note§Con l'ordine creiamo automaticamente il suo account nel portale di assistenza Belinus con questo indirizzo e-mail. Riceverà un'e-mail per impostare la password e potrà seguire lì il suo ordine.
+U:acc_type§Acquisto come
+U:have_acc§È già cliente? Acceda
+U:co_priv§Privato
+U:co_comp§Azienda
+U:email§E-mail
+U:phone§Telefono
+U:fname§Nome
+U:lname§Cognome
+U:company§Azienda
+U:vat§Partita IVA
+U:vat_ok§Formato valido. Verificata nel VIES al pagamento; fattura in inversione contabile, senza IVA.
+U:vat_ok_be§Formato valido. Alle aziende belghe fatturiamo con IVA al 21 %.
+U:vat_bad§Non sembra una partita IVA di {c}, ad esempio {ex}. Senza di essa fatturiamo come a un privato, con IVA.
+U:co2§Indirizzo di consegna
+U:street§Via e numero civico
+U:zip§CAP
+U:city§Località
+U:country§Paese
+U:co3§Spedizione
+U:home§{c} consegna a domicilio
+U:pickup§{c} punto di ritiro
+U:pickup_d§scelga il punto dopo il pagamento
+U:free§Gratis
+U:co4§Pagamento
+U:pay_note§I pagamenti avvengono tramite Mollie. Lei conferma nell'app della sua banca o del suo wallet.
+U:terms_ok§Accetto le condizioni generali e ho letto l'informativa sulla privacy.
+U:place§Invia l'ordine
+U:demo§Negozio di prova: i pagamenti sono pagamenti di prova. Non viene mosso denaro reale e non viene spedito nulla.
+U:sum_order§Riepilogo dell'ordine
+U:rc§Inversione contabile, 0 %
+U:done_t§Ordine {n} ricevuto.
+U:done_p§Grazie. Questo è un ordine di prova: non viene spedito nulla.
+U:back§Torna al negozio
+U:sup_h§Assistenza clienti
+U:sup_p§Due modi per contattarci.
+U:about_h§Chi è EVChargeking
+U:about_group§EVChargeking è un'azienda del gruppo Belinus. Belinus costruisce batterie domestiche progettate e assemblate in Europa; EVChargeking aggiunge i cavi di ricarica e il caricatore ETAPpro, prodotto in Belgio.
+U:contact§Contatti
+U:foot_shop§Negozio
+U:foot_help§Aiuto
+U:foot_co§Azienda
+U:terms_l§Condizioni generali
+U:privacy§Privacy
+U:legal_nl§Questo testo è per ora disponibile solo in neerlandese.
+U:etap_more§Di più su etap.pro
+U:etap_range§Caricatori ETAPpro e accessori
+C:eyebrow§Esempio di calcolo · Belgio
+C:h§Quanto risparmia con
+C:em§un caricatore a casa.
+C:car§Auto
+C:company§Auto aziendale
+C:private§Auto privata
+C:region§Regione
+C:vl§Fiandre
+C:br§Bruxelles
+C:wa§Vallonia
+C:km§Chilometri all'anno
+C:smart§Ricarica intelligente con Themis e contratto dinamico
+C:solar§Quota ricaricata con i propri pannelli solari
+C:perYear§all'anno
+C:kwh§kWh all'anno
+C:privH§Risparmio rispetto alla ricarica pubblica
+C:home§Ricarica a casa
+C:pub§Ricarica a una colonnina pubblica
+C:er§Risparmio per il datore di lavoro
+C:erB§Ricarica a casa rimborsata alla tariffa CREG invece della ricarica pubblica con tessera.
+C:ee§Risparmio per il dipendente
+C:eeB§Differenza tra il rimborso CREG e quanto le costa davvero ricaricare a casa.
+C:eeZero§Con un contratto standard il rimborso copre all'incirca il suo costo. La ricarica intelligente e i pannelli solari fanno la differenza.
+C:note§Stima di Belinus. Consumo di 18 kWh per 100 km, perdite di ricarica incluse. Ricarica pubblica a 0,50 €/kWh (tariffa media AC in Belgio nel 2026: 0,40–0,55 €). Prezzo a casa e rimborso alla tariffa CREG del quarto trimestre 2026 per regione (Fiandre 32,25, Bruxelles 36,88, Vallonia 37,79 c€/kWh, IVA incl.). Ricarica intelligente: circa 4 c€/kWh in meno. Energia solare valutata al compenso di immissione non percepito (4 c€/kWh). Il costo del caricatore e dell'installazione non è incluso.
+C:src§Fonte tariffa CREG
+Y:transfer§Bonifico bancario
+Y:invoice§Fattura, 30 giorni
+N:199§Cavo di ricarica Tesla su misura
+N:60§Cavo di ricarica Tesla, trifase 32A - 22kW
+N:96§Cavo di ricarica Tesla, monofase 32A - 7,4kW
+N:115§Pigtail Tesla, trifase 32A - 22kW
+N:116§Pigtail Tesla, monofase 32A - 7,4kW
+N:126§Kit connettore Tesla
+N:67§Kit connettore Tesla mini
+N:122§Kit di conversione Tesla
+N:98§Cavo di ricarica Tipo 2, trifase 32A - 22kW
+N:99§Cavo di ricarica Tipo 2, monofase 32A - 7,4kW
+N:118§Pigtail, trifase 32A - 22kW
+N:119§Pigtail, monofase 32A - 7,4kW
+N:103§Cavo di ricarica Tipo 1 32A
+N:105§Cavo di ricarica Tipo 3, monofase 32A - 7,4kW
+N:134§Cavo di ricarica Tipo 3 - Tipo 1 32A - 7,4kW
+N:130§Kit supporto a parete ETAPpro
+N:35§Dongle MTAP P1
+N:30§Cavo adattatore ETAPpro 16A monofase
+N:29§Cavo adattatore ETAPpro 16A trifase
+N:174§Cavo adattatore ETAPpro 32A trifase
+N:182§Cavo adattatore ETAPpro 32A monofase
+N:38§Cavo adattatore Schuko
+N:73§Presa PLC
+N:47§Palo di montaggio Ohmy, singolo, alluminio
+N:43§Piedistallo metallico Ohmy
+N:44§Piastra adattatrice Ohmy
+N:160§Basamento in calcestruzzo per colonnina Ohmy
+N:83§Caricatore portatile Tipo 2 - 10A
+N:85§Caricatore portatile Tipo 1 - 10A
+N:87§Caricatore portatile e-TAP 7,4 kW
+N:101§Borsa per il trasporto
+N:110§Supporto cieco Tipo 2
+N:111§Supporto cieco Tipo 1
+N:46§Adattatore da 32A a 16A
+N:69§Connettore femmina Tipo 2, kit di montaggio
+N:71§Connettore maschio Tipo 2, kit di montaggio
+N:102§Connettore Tipo 1 32A
+N:100§Connettore maschio Tipo 3
+N:156§Set di pin per connettore femmina Tipo 2
+N:58§Cavo elettrico 7,4 kW
+N:79§Presa CEE 16A, blu
+N:80§Presa CEE 32A, blu
+N:81§Presa CEE 3x16A, rossa
+N:82§Presa CEE 3x32A, rossa
+S:1§Spedizione: 1-2 giorni lavorativi
+A:0§Lunghezza
+A:1§Colore del connettore
+A:2§Nero
+A:3§Blu
+A:4§Corrente
+A:5§Colore
+A:6§Batteria stagna da 3,3V
+A:7§Senza batteria
+A:8§Con batteria
+A:9§Pulsante
+A:10§Senza pulsante
+A:11§Con pulsante
+A:12§Lunghezza del cavo
+D:0§## Cavo di ricarica Tesla unico
+D:1§Questo cavo di ricarica Tesla unico è adatto a tutti i modelli Tesla europei.
+D:2§Questo cavo di ricarica usa la tecnologia Tesla Chargeport di EVChargeking: un pulsante integrato nel connettore lato veicolo con cui apre lo sportello di ricarica e sblocca il cavo, senza dover prima sbloccare lo sportello dall'auto o usare la chiave o il telefono. È una funzione che solo i cavi di ricarica EVChargeking offrono.
+D:3§Naturalmente la funzione è attiva solo se la chiave dell'auto (o il telefono per Model 3/Y) è nelle vicinanze. Senza la chiave vicina il cavo non si sblocca (come ai Supercharger).
+D:4§Il nostro cavo di ricarica Tesla è adatto a tutti i modelli Tesla europei, compresi S e X, oltre a Model 3 e Model Y di ogni anno.
+D:5§La soluzione tutto in uno: questo cavo di ricarica Tesla si usa in ogni circostanza, in monofase, in trifase e per tutte le potenze fino a 22 kW.
+D:6§È inoltre il cavo più leggero e pratico sul mercato per Tesla: il cavo da 7 metri pesa solo 3,15 kg.
+D:7§7 metri è la lunghezza che vendiamo di più. Ricordi: meglio 1 metro in più che 10 cm in meno.
+D:8§Se vuole lasciare il cavo sempre all'esterno, le consigliamo vivamente di installare un supporto per connettore Tipo 2, disponibile alla cassa. Può anche ordinare una pratica borsa per il trasporto a un prezzo conveniente.
+D:9§Specifiche:
+D:10§Connettori | Tipo 2 su entrambi i lati, pulsante Tesla integrato sul lato veicolo. |
+D:11§Cavo | Trifase, 5 x 4mm² + 0,50mm² con corrente massima di 3 x 32A (22 kW di potenza di ricarica) |
+D:12§Colore | Nero |
+D:13§Peso | 3,15kg |
+D:14§La soluzione tutto in uno: questo cavo di ricarica Tesla si usa in ogni circostanza, in monofase, in trifase e per tutte le potenze fino a 22 kW. È inoltre il cavo più leggero e pratico sul mercato per Tesla; il cavo da 7 metri pesa solo 3,15 kg.
+D:15§7 metri è la nostra lunghezza più richiesta. Ricordi: meglio 1 metro in più che 10 cm in meno.
+D:16§Se vuole lasciare il cavo sempre all'esterno, le consigliamo vivamente di installare un supporto per connettore Tipo 2, disponibile alla cassa. Può anche ordinare una pratica borsa per il trasporto con un piccolo sovrapprezzo.
+D:17§Peso | 3,15 kg |
+D:18§Questo cavo di ricarica è compatibile con tutti i modelli Tesla.
+D:19§Questo cavo di ricarica dispone della funzione Tesla Chargeport: un pulsante stagno integrato nel connettore Tipo 2 lato veicolo con cui apre lo sportello di ricarica, avvia e interrompe la ricarica della sua Tesla o sblocca il cavo, senza dover prima salire in auto o usare la chiave o il telefono.
+D:20§È una funzione che solo i cavi di ricarica Tesla di EVChargeking offrono. Lo sblocco del cavo funziona naturalmente solo quando la chiave dell'auto (o il telefono per Model 3/Y) è nelle vicinanze. Il cavo non si sblocca se la chiave non è vicina (come ai Supercharger).
+D:21§Il cavo di ricarica ha conduttori da 5 x 6mm², che reggono una corrente di 3 x 32A, pari a una potenza di ricarica di 22 kW.
+D:22§Naturalmente con questo cavo può ricaricare senza problemi a 16A o 32A, in monofase o trifase.
+D:23§Può ordinare il cavo nella lunghezza desiderata scegliendo il valore corrispondente nell'elenco a discesa. Si assicuri di ordinare la lunghezza giusta: meglio 1 metro in più che 10 cm in meno. Per lunghezze non presenti in elenco ci scriva e le invieremo un preventivo.
+D:24§Non dimentichi di scegliere la lunghezza corretta al momento dell'ordine. Meglio 1 metro in più che 10 cm in meno. La lunghezza del cavo è misurata compresi i connettori (maschio/femmina) alle due estremità.
+D:25§Attenzione: un cavo di ricarica NON è una prolunga. I cavi di ricarica non possono essere usati come prolunghe; servono solo a collegare il veicolo elettrico direttamente a una stazione di ricarica. Collegare 2 cavi tra loro NON funziona.
+D:26§Connettori | Tipo 2 su entrambi i lati, pulsante Tesla integrato sul lato veicolo |
+D:27§Cavo | Trifase, 5 x 6mm² + 0,75mm², potenza max: 3 x 32A (22 kW di potenza di ricarica) |
+D:28§Questo cavo di ricarica ha connettori Tipo 2 alle due estremità (1 femmina, 1 maschio). Il cavo si usa con tutti i modelli Tesla.
+D:29§Questo cavo di ricarica dispone della funzione Tesla Chargeport: un pulsante stagno integrato nel connettore Tipo 2 lato veicolo con cui apre lo sportello di ricarica, avvia e interrompe la ricarica della sua Tesla o sblocca il cavo, senza dover prima salire in auto o usare la chiave o il telefono. È una funzione che solo i cavi di ricarica Tesla di EVChargeking offrono.
+D:30§Lo sblocco del cavo funziona naturalmente solo quando la chiave dell'auto (o il telefono per Model 3/Y) è nelle vicinanze. Il cavo non si sblocca se la chiave non è vicina (come ai Supercharger).
+D:31§Il cavo ha conduttori da 3 x 6mm², che reggono una corrente di 32A, pari a una potenza di ricarica di 7,4 kW. La differenza di prezzo rispetto a un cavo da 16A è così piccola che riteniamo le convenga questo modello superiore. Se passa a un'auto elettrica più grande o installa un'infrastruttura di ricarica più potente, non dovrà cambiare cavo.
+D:32§Naturalmente con questo cavo può ricaricare senza problemi a 16A.
+D:33§La lunghezza standard del cavo è di 2 metri, ma può ordinare la lunghezza desiderata scegliendo il valore corrispondente nell'elenco a discesa. Per lunghezze non presenti in elenco ci scriva e le invieremo un preventivo.
+D:34§Ci contatti
+D:35§Non dimentichi di scegliere la lunghezza corretta al momento dell'ordine. Meglio 1 metro in più che 10 cm in meno. La lunghezza del cavo è misurata compresi i connettori (maschio/femmina) alle due estremità.
+D:36§Connettori | Tipo 2 su entrambi i lati, pulsante Tesla integrato nel connettore lato veicolo. |
+D:37§Cavo | Monofase, 3 x 6mm² + 0,75mm², potenza max: 1 x 32A (7,4 kW di potenza di ricarica) |
+D:38§Questo cavo di ricarica ha un connettore femmina Tipo 2 con pulsante Tesla a un'estremità e un'estremità libera all'altra. Si usa su stazioni di ricarica con cavo fisso.
+D:39§## Attenzione: a questo pigtail non può collegare una spina CEE blu o rossa per ricaricare da una presa CEE. Si usa solo insieme a una stazione di ricarica. Questo pigtail non è nemmeno un ricambio standard per il cavo dei Tesla Wall Connector; può essere usato a questo scopo, ma servono alcuni passaggi in più, si veda questo post del forum: Change Charging Cable of Tesla Wall Connector. Non è compatibile con il Wall Connector Tesla Gen3 o successivo.
+D:40§Questo pigtail dispone della funzione Tesla Chargeport: un pulsante stagno integrato nel connettore Tipo 2 lato veicolo con cui apre lo sportello di ricarica, avvia e interrompe la ricarica della sua Tesla o sblocca il cavo, senza dover prima salire in auto o cercare la chiave. È una funzione che solo i cavi EVChargeking offrono.
+D:41§Lo sblocco del cavo funziona naturalmente solo quando la chiave dell'auto è nelle vicinanze. Il cavo non si sblocca se la chiave non è vicina (come ai Supercharger).
+D:42§Il cavo ha conduttori da 5 x 6mm², che reggono una corrente di 3 x 32A, pari a una potenza di ricarica di 22 kW.
+D:43§La lunghezza standard del cavo è di 2 metri, ma può ordinare la lunghezza desiderata scegliendo il valore corrispondente nell'elenco a discesa. Per lunghezze non presenti in elenco ci scriva e le invieremo un preventivo.
+D:44§Connettori | Tipo 2 femmina con pulsante Tesla sul lato veicolo, estremità libera sull'altro lato. |
+D:45§Cavo | Trifase, 5 x 6mm² + 0,5mm², potenza max: 3 x 32A (22 kW di potenza di ricarica) |
+D:46§Colore | Nero / Blu |
+D:47§Questo cavo di ricarica ha un connettore femmina Tipo 2 con pulsante Tesla sul lato veicolo e un'estremità libera sull'altro. È adatto al collegamento a una stazione di ricarica con cavo fisso.
+D:48§## Nota bene: non può montare una spina CEE blu o rossa su questi cavi per ricaricare il veicolo. Lo usi solo insieme a una stazione di ricarica. Questo pigtail non è un ricambio diretto del cavo originale del Tesla Wall Connector; può essere usato con esso, ma servono piccoli adattamenti. Si veda questo post del forum: Change Charging Cable of Tesla Wall Connector. Non è compatibile con il Wall Connector Tesla Gen3 o successivo.
+D:49§Questo cavo usa la tecnologia Tesla Chargeport di EVChargeking: un pulsante integrato nel connettore Tipo 2 lato veicolo con cui apre lo sportello di ricarica e sblocca il cavo, senza dover prima aprire lo sportello dall'interno dell'auto o cercare la chiave. È una funzione che solo i cavi EVChargeking offrono.
+D:50§Naturalmente la funzione è attiva solo se la chiave dell'auto è nelle vicinanze. Senza la chiave vicina il cavo non si sblocca (come ai Supercharger).
+D:51§La capacità di ricarica di questo cavo è di 1 x 32A. Può ricaricare con una potenza fino a 7,4 kW.
+D:52§La lunghezza standard è di 2 metri, ma il cavo può essere ordinato nella lunghezza desiderata scegliendola nell'elenco a discesa. Se la presa è sull'altro lato dell'auto servono almeno 4 metri. Se desidera una lunghezza non presente in elenco, ci contatti e le invieremo un preventivo.
+D:53§Connettori | Tipo 2 con pulsante Tesla sul lato veicolo ed estremità libera sull'altro lato. |
+D:54§Cavo | Monofase, 3 x 6 mm² + 0,75 mm² con corrente massima di 32 A (7,4 kW di potenza di ricarica a 240 V) |
+D:55§## Questo kit permette di integrare un pulsante Tesla in un connettore femmina Tipo 2 esistente. Verifichi di poter aprire il connettore e che all'interno ci sia spazio sufficiente per la scheda elettronica e, se necessario, per la batteria. Serve un'alimentazione a 3V oppure una batteria da 3V. L'elettronica per l'uso con batteria è diversa.
+D:56§Tutti i componenti sono stagni. Il kit funziona con una sorgente a 3,3V, che deve arrivare dalla stazione di ricarica attraverso il cavo, oppure con la batteria opzionale da 3V. Il pulsante opzionale incluso nel kit richiede un foro di 16 mm di diametro.
+D:57§Questi sono i collegamenti da eseguire durante l'installazione del kit:
+D:58§- filo rosso a +3,3V (oppure al filo rosso della batteria, se presente)
+D:59§- filo verde al pin PE del connettore (e al filo grigio della batteria, se presente)
+D:60§- filo viola al pin PP del connettore
+D:61§- fili grigi al pulsante
+D:62§Per collegare i fili verde e viola guardi all'interno del connettore: vedrà un filo che va dal pin PP al pin PE (terra). Su questo filo c'è una resistenza (220 ohm in un connettore da 32A, 680 ohm nella versione da 16A). Tagli entrambi i capi della resistenza per rimuoverla. La scheda elettronica fornisce la resistenza corretta.
+D:63§Colleghi il filo viola al lato PP e il filo verde al lato PE del filo che ha appena tagliato.
+D:64§Si assicuri di ordinare la versione corretta per il suo cavo. Installare una versione da 32A su un cavo da 16A può far prendere fuoco al cavo; installare una versione da 16A su un cavo da 32A ne riduce la potenza di ricarica.
+D:65§Il kit di conversione non può essere reso né rimborsato dopo un tentativo di installazione.
+D:66§Questo cavo di ricarica ha un connettore Tipo 2 alle due estremità (1 maschio e 1 femmina). È adatto ai veicoli con connettore Tipo 2 (oggi la maggior parte dei modelli europei) e alle stazioni di ricarica Tipo 2, comuni nella ricarica pubblica in Europa.
+D:67§Non usiamo il cavo standard prodotto in Cina, ma un prodotto europeo di alta qualità, più leggero e sottile del 20 % e più durevole. I connettori hanno contatti completamente inossidabili.
+D:68§Questo cavo ha una capacità di ricarica di 3 x 32A (5 x 6mm²), sufficiente per ogni infrastruttura di ricarica e ogni veicolo. Può ricaricare con una potenza fino a 22 kW. Naturalmente si usa anche a 16A o 32A, in monofase o trifase, ed è quindi pronto per potenze superiori se servono.
+D:69§Il cavo può essere ordinato nella lunghezza desiderata scegliendola nell'elenco a discesa. Se desidera una lunghezza non presente in elenco, ci contatti e le invieremo un preventivo. Se la presa è sull'altro lato dell'auto servono almeno 4 metri.
+D:70§Nota bene: un cavo di ricarica NON è una prolunga:
+D:71§Un cavo di ricarica per veicoli elettrici può essere usato solo per collegare il veicolo a una stazione di ricarica. Usarlo come prolunga NON funziona.
+D:72§Se vuole lasciare il cavo appeso sempre all'esterno, le consigliamo vivamente di installare un supporto per connettore Tipo 2, disponibile alla cassa. Può anche ordinare una pratica borsa per il trasporto a un prezzo conveniente.
+D:73§Connettori | Tipo 2 su entrambi i lati |
+D:74§Cavo | Trifase, 5 x 6 mm² con corrente massima di 32 A (22 kW di potenza di ricarica a 240 V) |
+D:75§Questo cavo di ricarica ha un connettore Tipo 3C sul lato infrastruttura e un connettore Tipo 2 sul lato veicolo. È adatto a tutte le auto con connettore Tipo 2 che richiedono un connettore Tipo 3C alla stazione di ricarica, come avviene soprattutto in Francia. Per il resto d'Europa serve un cavo Tipo 2 - Tipo 2, che trova anch'esso nel negozio.
+D:76§Può ordinare la lunghezza che le serve scegliendo il valore corrispondente nell'elenco a discesa. Per lunghezze non presenti in elenco ci scriva e le invieremo un preventivo.
+D:77§Attenzione: un cavo di ricarica NON è una prolunga:
+D:78§I cavi di ricarica non possono essere usati come prolunghe; servono solo a collegare il veicolo elettrico direttamente a una stazione di ricarica. Collegare 2 cavi tra loro NON funziona.
+D:79§Connettori | Tipo 3C sul lato infrastruttura, Tipo 2 sul lato veicolo |
+D:80§Cavo | Monofase, 3 x 6mm² + 0,5mm², potenza max: 1 x 32A (7,4 kW di potenza di ricarica a 230V) |
+D:81§Colore | Blu / Nero / Bianco |
+D:82§## Un caricatore visionario che unisce il meglio di due mondi.
+D:83§L'ETAPpro unisce il meglio di due mondi: agganciato al supporto a parete è una classica stazione di ricarica con cui ricarica l'auto ad alta potenza (11 kW). Sganciato dal supporto e collegato a un cavo adattatore diventa un caricatore portatile da portare ovunque e usare su qualsiasi presa compatibile.
+D:84§L'ETAPpro 11 è un apparecchio trifase con potenza massima di 11 kW (3 x 16A), ma può essere collegato e usato senza problemi in monofase.
+D:85§È inoltre molto compatto e ciononostante dotato della tecnologia più recente. Può ad esempio comunicare con il contatore digitale oppure, con i vecchi contatori analogici, con un piccolo dispositivo che misura i consumi nel quadro elettrico. Così può tenere conto della tariffa di capacità, della sua energia solare, dei consumi di casa e di altre stazioni ETAPpro: lei mantiene sempre il controllo, senza far scattare i fusibili e senza bollette inutilmente alte.
+D:86§L'ETAPpro è semplice da usare e allo stesso tempo molto completo. Configurazione e monitoraggio avvengono con un'app dedicata per Android o iOS, e la comunicazione con la piattaforma cloud in cui sono conservati i dati può passare dal Wi-Fi o persino dal Powerline (attraverso i cavi elettrici esistenti), quindi non servono cavi di rete aggiuntivi.
+D:87§In un portale utente può generare facilmente rapporti sulle sessioni di ricarica passate, con luogo, kWh, orario, ecc.
+D:88§L'ETAPpro è anche pronto per il futuro: tutti gli aggiornamenti software avvengono in modo automatico e sicuro da remoto, così l'apparecchio potrà adattarsi ai cambiamenti normativi e tecnici del settore dei veicoli elettrici.
+D:89§## Fisso o portatile
+D:90§Se vuole usare l'ETAPpro in un punto fisso può installare un supporto a parete. Facendo scorrere l'ETAPpro nel supporto, diventa una stazione di ricarica fissa. Il supporto alimenta il caricatore ed è facile da collegare. Ha inoltre una serratura con chiavi per fissare l'ETAPpro, così nessun altro appassionato del prodotto se lo porta via.
+D:91§Se dovesse succedere, il modulo GPS integrato le consente di vedere in ogni momento dove viene usato l'apparecchio, e può bloccare il caricatore a distanza.
+D:92§Se vuole portare la sua stazione di ricarica in viaggio o in vacanza, sfili l'ETAPpro dal supporto e lo colleghi con gli adattatori a diversi tipi di presa. Attualmente ci sono adattatori per prese domestiche (incluso nella confezione standard), per spine blu da campeggio da 16A e per prese industriali trifase rosse da 16A (opzionali).
+D:93§L'ETAPpro riconosce inoltre automaticamente l'adattatore in uso e regola la corrente massima di ricarica per evitare situazioni pericolose. Gli adattatori hanno anche sensori di temperatura per proteggere le prese, sia sull'apparecchio sia sul connettore verso l'auto. Se la temperatura sale troppo, la corrente viene ridotta o la ricarica si interrompe del tutto. La sicurezza prima di tutto.
+D:94§## Caricatore intelligente
+D:95§Per usare le funzioni intelligenti dell'ETAPpro serve la comunicazione con il contatore digitale o con un dispositivo che legge i consumi elettrici. Per questo sono stati progettati MTAP e CTAP. Con l'MTAP si legge il contatore digitale tramite la porta P1; con il CTAP si applicano le pinze di misura sui cavi in ingresso dell'impianto.
+D:96§Se non ha (ancora) un contatore digitale, funzioni come la tariffa di capacità non si applicano, e anche i prezzi dinamici, che cambiano ogni ora, richiedono un contatore digitale. Il bilanciamento del carico, in cui il caricatore tiene conto dei consumi di casa, e la ripartizione del carico, in cui la potenza disponibile viene divisa tra più caricatori, sono invece disponibili anche senza contatore digitale.
+D:97§Anche l'uso dell'elettricità prodotta dai suoi pannelli solari è di serie, ed evita di immettere gratis in rete l'energia prodotta.
+D:98§Abbiamo inoltre organizzato un ottimo servizio di assistenza: se, contro ogni previsione, dovesse esserci un problema con la stazione di ricarica, riceverà un'unità sostitutiva configurata esattamente allo stesso modo per continuare subito a ricaricare mentre esaminiamo e risolviamo a fondo il guasto della sua.
+D:99§L'ETAPpro unisce il meglio di due mondi: agganciato al supporto a parete è una classica stazione di ricarica con cui ricarica l'auto ad alta potenza (11 kW). Sganciato dal supporto e collegato a un cavo adattatore diventa un caricatore portatile da portare ovunque e usare su qualsiasi presa compatibile.
+D:100§L'ETAPpro 7 è un apparecchio monofase con potenza massima di 7,4 kW (1 x 32 A)
+D:101§È inoltre molto compatto e ciononostante dotato della tecnologia più recente. Può ad esempio comunicare con il contatore digitale oppure, con i vecchi contatori analogici, con un piccolo dispositivo che misura i consumi nel quadro elettrico. Così può tenere conto della tariffa di capacità, della sua energia solare, dei consumi di casa e di altre stazioni ETAPpro: lei mantiene sempre il controllo, senza far scattare i fusibili e senza bollette inutilmente alte.
+D:102§L'ETAPpro è semplice da usare e allo stesso tempo molto completo. Configurazione e monitoraggio avvengono con un'app dedicata per Android o iOS, e la comunicazione con la piattaforma cloud in cui sono conservati i dati può passare dal Wi-Fi o persino dal Powerline (attraverso i cavi elettrici esistenti), quindi non servono cavi di rete aggiuntivi.
+D:103§In un portale utente può generare facilmente rapporti sulle sessioni di ricarica passate, con luogo, kWh, orario, ecc.
+D:104§Se vuole usare l'ETAPpro in un punto fisso può installare un supporto a parete. Facendo scorrere l'ETAPpro nel supporto, l'insieme diventa una stazione di ricarica fissa. Il supporto alimenta il caricatore ed è facile da collegare. Ha inoltre una serratura con chiavi per fissare l'ETAPpro, così nessun altro appassionato del prodotto se lo porta via.
+D:105§Se dovesse succedere, il modulo GPS integrato le consente di vedere in ogni momento dove viene usato l'apparecchio, e può bloccare il caricatore a distanza.
+D:106§Se vuole portare la sua stazione di ricarica in viaggio o in vacanza, sfili l'ETAPpro dal supporto e lo colleghi con gli adattatori a diversi tipi di presa. Attualmente ci sono adattatori per prese domestiche (incluso nella confezione standard), per spine blu da campeggio da 16A–32A e per prese industriali trifase rosse da 16A–32A (opzionali).
+D:107§## Caricatore intelligente
+D:108§Per usare le funzioni intelligenti dell'ETAPpro serve la comunicazione con il contatore digitale o con un dispositivo che legge i consumi elettrici. Per questo sono stati progettati MTAP e CTAP. Con l'MTAP si legge il contatore digitale tramite la porta P1; con il CTAP si applicano le pinze di misura sui cavi in ingresso dell'impianto elettrico.
+D:109§Se non ha (ancora) un contatore digitale, funzioni come la tariffa di capacità non si applicano, e anche i prezzi dinamici, che cambiano ogni ora, richiedono un contatore digitale. Il bilanciamento del carico, in cui il caricatore tiene conto dei consumi di casa, e la ripartizione del carico, in cui la potenza disponibile viene divisa tra più caricatori, sono invece disponibili anche senza contatore digitale.
+D:110§Anche l'uso dell'elettricità prodotta dai suoi pannelli solari è di serie, ed evita di immettere gratis in rete l'energia prodotta.
+D:111§Abbiamo inoltre organizzato un ottimo servizio di assistenza: se, contro ogni previsione, dovesse esserci un problema con la sua stazione di ricarica, riceverà un'unità sostitutiva configurata esattamente allo stesso modo per continuare subito a ricaricare mentre esaminiamo e risolviamo a fondo il guasto della sua.
+D:113§Con il supporto a parete trasforma rapidamente l'ETAPpro portatile in una stazione di ricarica fissa. Collegamento elettrico e montaggio sono rapidi e semplici. Il supporto è compatibile con tutti i modelli ETAPpro attuali e futuri.
+D:114§Inserendo l'ETAPpro nel supporto a parete il collegamento elettrico avviene automaticamente: basta farlo scorrere e iniziare a ricaricare.
+D:115§Il supporto a parete comprende inoltre una serratura con le relative chiavi per proteggere l'ETAPpro dal furto. È progettato per avvolgere ordinatamente il cavo di ricarica attorno all'apparecchio. È incluso anche un supporto per il connettore, così resta ben fissato e non a terra.
+D:116§Per attivare alcune funzioni intelligenti dell'ETAPpro serve la comunicazione con il contatore digitale, ed è a questo che serve l'MTAP. Si collega facilmente alla porta P1 del contatore digitale con il cavo in dotazione e, una volta attivato, rileva automaticamente gli apparecchi ETAPpro in rete.
+D:117§Da quel momento la stazione di ricarica può tenere conto dei consumi di casa, della tariffa di capacità, dell'energia solare prodotta, ecc. L'MTAP trasmette i dati necessari via Wi-Fi o via Ethernet/PLC alla stazione o alle stazioni di ricarica. Il segnale P1 viene inoltre ritrasmesso attivamente (non è un semplice sdoppiatore), così gli apparecchi esistenti continuano a funzionare. C'è perfino una porta USB-C per fornire alimentazione supplementare, se serve.
+D:118§L'MTAP è attualmente compatibile con i contatori digitali ufficiali di Belgio, Paesi Bassi e Lussemburgo.
+D:119§Con questo cavo adattatore CEE monofase da 16A può collegare l'ETAPpro a una presa CEE blu monofase da 16A (spina da campeggio) per ricaricare l'auto. L'ETAPpro riconosce il cavo adattatore e limita automaticamente la ricarica a 16A (3700W) per evitare il surriscaldamento della presa.
+D:120§Il cavo adattatore ha inoltre un sensore di temperatura per sorvegliare la presa a muro. Se l'ETAPpro rileva una temperatura anomala nella presa, limita la ricarica o, se necessario, la interrompe.
+D:121§Con questo cavo adattatore Schuko (Tipo E/F) può collegare l'ETAPpro a una normale presa domestica per ricaricare l'auto. L'ETAPpro riconosce il cavo adattatore e limita automaticamente la ricarica a 10A (2300W) per evitare il surriscaldamento della presa.
+D:122§Nota bene: questo adattatore Schuko è già incluso quando ordina un ETAPpro.
+D:123§Eviti di posare cavi Ethernet fino alla stazione ETAPpro usando la Power Line Communication (PLC). Inserisca l'adattatore Powerline in una presa dello stesso circuito elettrico dell'ETAPpro e lo colleghi al router con il corto cavo Ethernet in dotazione: l'ETAPpro è ora connesso a internet.
+D:124§Ideale quando l'ETAPpro non ha copertura Wi-Fi (in cantina o troppo lontano dall'access point).
+D:125§Questo caricatore portatile da 7,5 metri serve a ricaricare il veicolo elettrico con connettore Tipo 2 da una presa domestica. È limitato a 10A, un valore sicuro, perché le prese domestiche non sono pensate per carichi elevati prolungati. Il veicolo elettrico ricaricherà a 2,3 kW
+D:126§Ricarichi sempre da una presa domestica installata a regola d'arte, in grado di erogare 10A e protetta da interruttore differenziale e magnetotermico.
+D:127§Il caricatore comprende:
+D:128§- Protezione dalle dispersioni verso terra
+D:129§- Protezione da sovracorrente
+D:130§- Protezione da sovratensione
+D:131§- Protezione da sottotensione
+D:132§- Protezione da cortocircuito
+D:133§- Protezione dal surriscaldamento
+D:134§Questo caricatore portatile funziona anche se neutro e fase sono invertiti o se manca il neutro (rete 3 x 230V), purché l'auto supporti la ricarica senza neutro.
+D:135§Il nostro caricatore portatile e-TAP da 7,4 kW e 7 metri serve a ricaricare il veicolo elettrico da una presa CEE blu monofase da 32A. La potenza è regolabile su 6A, 10A, 13A, 16A, 20A, 25A o 32A. Il veicolo elettrico ricaricherà a un massimo di 7,4 kW.
+D:136§Il caricatore ha numerose funzioni di sicurezza, tra cui il controllo della temperatura della spina CEE, il rilevamento delle dispersioni in corrente alternata e continua e la protezione dal surriscaldamento.
+D:137§Ricarichi sempre da una presa CEE blu da 32A installata a regola d'arte, dimensionata per 32A e con cavi di almeno 6mm². Insieme al caricatore può ordinare una presa a muro di alta qualità con protezione IP 67 per interno o esterno.
+D:138§- Protezione dalle dispersioni verso terra (CA e CC)
+D:139§- Rilevamento dei guasti interni di commutazione
+D:140§- Protezione dal surriscaldamento della spina a muro
+D:141§- Corrente di ricarica regolabile (6A,10A,13A,16A,20A,25A,32A)
+D:142§## Protegga il suo connettore
+D:143§Supporto cieco per connettori Tipo 2, per appendere ordinatamente il connettore dopo la ricarica. Così il connettore non resta a terra ed è protetto dall'acqua e dall'ossidazione dovuta alla pioggia.
+H:0:h§Ricarica intelligente, potente e flessibile con EVChargeking
+H:0:p0§Benvenuti in EVChargeking, specialisti in soluzioni di ricarica di alta qualità per veicoli elettrici, con una competenza particolare per Tesla.
+H:0:p1§Sviluppiamo e produciamo cavi di ricarica premium che si distinguono per qualità, durata e praticità. I nostri cavi sono prodotti in Belgio con conduttori elettrici di alta qualità e materiali innovativi, e sono quindi:
+H:0:p2§Che ricarichi a casa, in ufficio o in viaggio, con EVChargeking sceglie sicurezza, affidabilità e massima efficienza.
+H:0:l0§Leggeri e flessibili
+H:0:l1§Di uso universale
+H:0:l2§Adatti all'uso quotidiano e all'uso professionale intensivo
+H:0:l3§Affidabili in ogni situazione
+H:1:h§Il futuro della ricarica portatile: ETAPpro
+H:1:p0§EVChargeking progetta e costruisce l'ETAPpro, un'avanzata soluzione di ricarica portatile che cambia alla radice il modo di ricaricare i veicoli elettrici.
+H:2:h§Cavo di ricarica Tesla unico
+H:2:p0§Il cavo di ricarica Tesla di EVChargeking unisce praticità e massima flessibilità. Grazie al cavo leggero e flessibile è facile da maneggiare e da portare ovunque, e la costruzione robusta lo rende adatto a ogni clima. Il pulsante Tesla integrato permette inoltre di aprire lo sportello di ricarica e sbloccare il connettore, rendendo la ricarica ancora più rapida e comoda.
+B:0§EVChargeking è un'azienda belga che offre accessori di ricarica ai proprietari di veicoli elettrici, con un'attenzione particolare ai modelli Tesla.
+B:1§Per i modelli Tesla abbiamo sviluppato un cavo di ricarica leggero che consente di aprire lo sportello di ricarica, e anche di interrompere la sessione e sbloccare il connettore, con la semplice pressione di un pulsante.
+B:2§Anche la soluzione di ricarica portatile ETAPpro è uno sviluppo interno di EVChargeking.
+E:0§## Il futuro della ricarica portatile: ETAPpro
+E:1§EVChargeking progetta e costruisce l'ETAPpro, un'avanzata soluzione di ricarica portatile che cambia alla radice il modo di ricaricare i veicoli elettrici.
+E:2§L'ETAPpro unisce:
+E:3§- Mobilità e disponibilità fissa in un unico sistema
+E:4§- Alta potenza in una soluzione compatta e portatile
+E:5§- Tecnologia professionale con un uso semplice
+E:6§- Massima flessibilità per privati e aziende
+E:7§Dove le soluzioni di ricarica tradizionali sono legate a un luogo, l'ETAPpro offre libertà. Ricarichi dove e quando le serve.
+E:8§## Una nuova soluzione di ricarica visionaria
+E:9§Il nuovo ETAPpro riunisce il meglio di tecnologia e portabilità in un solo apparecchio. Si usa come stazione di ricarica fissa, ma si può anche portare in viaggio e ricaricare ovunque con un cavo adattatore compatibile. Lei gestisce e controlla l'ETAPpro da un'app sul telefono, in ogni momento e ovunque.
+E:10§Oltre alla flessibilità, l'ETAPpro offre un'ampia gamma di funzioni che continuerà a crescere nel tempo. Ci siamo assicurati che includa tutto l'hardware necessario per offrire nuove funzioni in futuro tramite aggiornamenti software automatici e sicuri.
+E:11§L'ETAPpro si adatta automaticamente ai consumi di casa o alla produzione dei pannelli solari, offre ampie funzioni di programmazione, consente di evitare i picchi di consumo, può seguire i prezzi dinamici dell'elettricità per decidere quando ricaricare e invia tutti i dati al nostro archivio cloud, dove sono disponibili per rapporti dettagliati, fatturazione separata e molto altro.
+E:12§L'installazione è semplice; la messa in servizio avviene con l'app ETAP per Android o iPhone, e la comunicazione tra più caricatori ETAPpro e il contatore digitale o il misuratore di potenza passa dai cavi elettrici, quindi non servono Wi-Fi né cablaggi aggiuntivi. Il caricatore include di serie Bluetooth, Wi-Fi, RFID, GPS, 4G e PLC, senza costosi componenti aggiuntivi.
+E:13§Poiché l'ETAPpro è così intelligente, ogni anno può risparmiare una somma apprezzabile sulla bolletta elettrica.
+E:14§Naturalmente l'ETAPpro è compatibile con tutte le piattaforme CPO (OCPP 1.6) e supporta inoltre chiamate API e comunicazione Modbus, consentendo l'integrazione con qualsiasi sistema di gestione dell'energia.
+E:15§Per maggiori informazioni visiti il nostro sito ETAP.pro

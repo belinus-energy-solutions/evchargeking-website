@@ -1,0 +1,521 @@
+U:nav_login§Kundenlogin
+U:reg_portal§Das Portal (portal.belinus.com) wird von allen Unternehmen der Belinus-Gruppe gemeinsam genutzt.
+U:done_portal§Ihr Konto im Belinus-Serviceportal ist bereit. Legen Sie über den Link in Ihrer E-Mail Ihr Passwort fest und verfolgen Sie dort Ihre Bestellung. Bestellung und Rechnung sind als EVChargeking-Dokumente gekennzeichnet.
+U:menu§Menü
+U:region_h§Sprache
+U:theme_light§Helles Design
+U:theme_dark§Dunkles Design
+U:th_dark§Dunkel
+U:th_light§Hell
+U:from§ab
+U:sort§Sortieren
+U:sort_feat§Empfohlen
+U:sort_lo§Preis aufsteigend
+U:sort_hi§Preis absteigend
+U:sort_az§Name A–Z
+U:n_products§{n} Produkte
+U:loc_h§Stimmt das für Sie?
+U:loc_country§Lieferland
+U:loc_lang§Sprache
+U:loc_prices§Preise
+U:loc_yes§Ja, weiter
+U:loc_change§Ändern
+U:ck_h§Ihre Privatsphäre
+U:ck_p§Wir verwenden notwendige Cookies für den Betrieb des Shops: Warenkorb, Sprache und Land. Mit Ihrer Zustimmung verwenden wir außerdem Cookies, um Einstellungen zu speichern, Besuche zu messen und passende Werbung zu zeigen. Nichts Optionales wird gesetzt, bevor Sie wählen.
+U:ck_accept§Alle akzeptieren
+U:ck_reject§Alle ablehnen
+U:ck_custom§Nach Kategorie wählen
+U:ck_save§Auswahl speichern
+U:ck_settings§Cookie-Einstellungen
+U:ck_always§immer aktiv
+U:ck_nec§Notwendig
+U:ck_nec_d§Warenkorb, Kasse, Sprache, Land und diese Auswahl.
+U:ck_pref§Präferenzen
+U:ck_pref_d§Merkt sich zuletzt angesehene Produkte und Ihr Design.
+U:ck_stat§Statistik
+U:ck_stat_d§Anonyme Besuchsmessung (Google Analytics), um den Shop zu verbessern.
+U:ck_mkt§Marketing
+U:ck_mkt_d§Tags von Google Ads, Meta und LinkedIn zur Messung von Kampagnen.
+U:ck_more§Datenschutzerklärung lesen
+U:group§Ein Unternehmen der <b>Belinus</b>-Gruppe
+U:nav_home§Start
+U:nav_shop§Shop
+U:nav_finder§Kabelfinder
+U:nav_etap§ETAPpro
+U:nav_support§Kundenservice
+U:nav_about§Über uns
+U:cart§Warenkorb
+U:private§Privat
+U:business§Geschäftlich
+U:top_free§Kostenlose Lieferung in {list} ab {amt}
+U:top_vat§Preise: {v}
+U:incl§inkl. {r} % MwSt.
+U:excl§zzgl. MwSt.
+U:export§ohne EU-MwSt. · Export
+U:g_tesla§Tesla
+U:g_tesla_d§Kabel, Pigtails und Steckersets mit dem Tesla-Knopf
+U:g_type2§Typ 2
+U:g_type2_d§Ladekabel und Pigtails
+U:g_type13§Typ 1 & Typ 3
+U:g_type13_d§Kabel für Typ-1-Fahrzeuge und Typ-3-Ladepunkte
+U:g_etap§ETAPpro
+U:g_etap_d§Ladegeräte, Adapter und Montage
+U:g_mobile§Mobile Ladegeräte
+U:g_mobile_d§Laden an der Haushalts- oder CEE-Steckdose
+U:g_parts§Teile & Zubehör
+U:g_parts_d§Stecker, Steckdosen, Halter und Taschen
+U:g_all§Alle Produkte
+U:r_best§Bestseller
+U:r_award§Ausgezeichnet
+U:r_promo§Aktion
+U:co_wait§Einen Moment, wir bereiten Ihre Zahlung vor…
+U:co_err_missing§Bitte noch ausfüllen: {f}.
+U:co_err_email§Bitte prüfen Sie Ihre E-Mail-Adresse.
+U:co_err_vat§Diese USt-IdNr. ist laut dem europäischen VIES-Register nicht gültig.
+U:co_err_vies§Wir konnten Ihre USt-IdNr. gerade nicht prüfen. Versuchen Sie es in einer Minute erneut oder bestellen Sie als Privatkunde.
+U:co_err§Etwas ist schiefgelaufen, es wurde keine Zahlung gestartet. Bitte versuchen Sie es erneut.
+U:vat_checking§Prüfung im europäischen VIES-Register…
+U:vat_vies_ok§In VIES bestätigt. Rechnung mit Reverse-Charge, ohne MwSt.
+U:vat_vies_bad§In VIES nicht gefunden. Ohne gültige Nummer berechnen wir MwSt.
+U:vat_vies_na§VIES antwortet gerade nicht. Wir prüfen erneut, wenn Sie bestellen.
+U:f_first§Vorname
+U:f_last§Nachname
+U:f_email§E-Mail
+U:f_street§Straße und Hausnummer
+U:f_zip§Postleitzahl
+U:f_city§Ort
+U:f_company§Firmenname
+U:st_checking§Wir prüfen Ihre Zahlung…
+U:st_paid_t§Bestellung {n} ist bezahlt.
+U:st_open_t§Bestellung {n}: Wir warten auf Ihre Zahlung.
+U:st_open_p§Ihre Zahlung ist noch nicht bestätigt. Diese Seite aktualisiert sich von selbst.
+U:st_failed_t§Die Zahlung für Bestellung {n} ist nicht durchgegangen.
+U:st_failed_p§Es wurde kein Geld abgebucht. Ihr Warenkorb ist noch da, Sie können es erneut versuchen.
+U:st_again§Zurück zur Kasse
+U:st_none§Wir konnten diese Bestellung nicht finden.
+U:st_total§Gezahlter Gesamtbetrag
+U:st_sent§Bestellt mit
+U:tp_eb§Testzahlung
+U:tp_h§Wählen Sie, wie diese Testzahlung endet
+U:tp_p§Es ist noch kein Mollie-Schlüssel hinterlegt, daher nutzt der Shop seinen eigenen Zahlungssimulator. Es fließt kein echtes Geld.
+U:tp_paid§Bezahlt
+U:tp_failed§Fehlgeschlagen
+U:tp_canceled§Vom Kunden abgebrochen
+U:tp_expired§Abgelaufen
+U:tp_order§Bestellung
+U:tp_amount§Betrag
+U:calc_btn§Ihren Vorteil berechnen
+U:sup_o1_h§Über das Belinus-Serviceportal
+U:sup_o1_p§Registrieren Sie sich oder melden Sie sich im Portal an und senden Sie von dort ein Support-Ticket. Ticket, Bestellungen und Rechnungen verfolgen Sie am selben Ort.
+U:sup_o1_b§Serviceportal öffnen
+U:sup_o2_h§Per E-Mail
+U:sup_o2_p§Lieber per E-Mail? Schreiben Sie uns, wir antworten so schnell wie möglich.
+U:sup_note§EVChargeking ist ein Unternehmen der Belinus-Gruppe. Das Serviceportal wird von allen Belinus-Unternehmen gemeinsam genutzt; Ihre EVChargeking-Bestellungen und -Rechnungen bleiben als EVChargeking-Dokumente gekennzeichnet.
+U:full_desc§Vollständige Beschreibung
+U:more_info§Weitere Informationen
+U:et_h§Zu Hause eine feste Ladestation, unterwegs ein mobiles Ladegerät
+U:et_p§Der ETAPpro rastet mit einem Handgriff in seine Wandhalterung ein und wieder aus. In der Halterung ist er Ihr Ladepunkt zu Hause; mit einem Adapterkabel lädt er an jeder geeigneten Steckdose.
+U:et_s1§3 × 16 A, auch einphasig
+U:et_s2§Stecker
+U:et_s3§Schutzart
+U:et_s4§entwickelt und gefertigt
+U:et_f1§Lädt mit Ihrem eigenen Solarstrom
+U:et_f1d§Er folgt Ihrer Solarproduktion und dem Verbrauch im Haus.
+U:et_f2§Schont Ihre Sicherungen
+U:et_f2d§Er kommuniziert mit Ihrem digitalen Zähler und berücksichtigt den Kapazitätstarif.
+U:et_f3§Eine App für alles
+U:et_f3d§Einstellungen, Überwachung und ein Bericht zu jedem Ladevorgang, für Android und iOS.
+U:et_f4§Kein Netzwerkkabel nötig
+U:et_f4d§Er verbindet sich über WLAN oder Powerline, über Ihre vorhandenen Leitungen.
+U:et_h2§Ihr Ladegerät folgt dem Auto, nicht dem Haus
+U:et_p2§Weil Sie ihn selbst aus der Halterung nehmen, zieht der ETAPpro mit Ihnen um: in die Zweitwohnung, an eine neue Adresse oder zum nächsten Firmenwagen.
+U:et_a1§ETAPpro in seiner Wandhalterung neben einem ladenden Auto
+U:et_a2§ETAPpro an einer Garagenwand beim Laden eines Elektroautos
+U:rev_h§Was unsere Kunden auf Google sagen
+U:rev_on§{n} Google-Bewertungen
+U:rev_asof§Google-Bewertung vom {d}.
+U:rev_read§Bewertungen lesen
+U:rev_write§Bewertung schreiben
+U:follow§EVChargeking folgen
+U:share§Teilen
+U:share_copy§Link kopieren
+U:copied§Link kopiert
+U:like§Merken
+U:liked§Gemerkt
+U:favs§Favoriten
+U:promo_eb§Jahresendaktion
+U:promo_h§{pct} % Rabatt auf den ETAPpro 11
+U:promo_terms§Bis {date}. Nur für Online-Bestellungen. Der Rabatt ist bereits im Preis enthalten.
+U:promo_short§Jahresendaktion · nur online
+U:promo_top§Jahresendaktion: {pct} % Rabatt auf den ETAPpro 11, nur online
+U:promo_btn§Online bestellen
+U:cta_finder§Ihr Kabel finden
+U:cta_shop§Zum Shop
+U:bench_t§Ihr Kabel finden
+U:add§In den Warenkorb
+U:view§Ansehen
+U:open_finder§Alle Optionen
+U:details§Produktdetails
+U:cats_eb§Nach Kategorie einkaufen
+U:cats_h§Alles zum Laden zu Hause, bei der Arbeit und unterwegs
+U:best_eb§Meistbestellt
+U:best_h§Die Favoriten unserer Kunden
+U:see_all§Alle Produkte ansehen
+U:discover§Entdecken
+U:c_tesla_d§mit Ladeklappen-Knopf
+U:c_type2§Typ 2
+U:c_type2_d§die meisten europäischen E-Autos
+U:c_type1§Typ 1
+U:c_type3§Typ 3
+U:c_type3_d§Typ-3C-Ladepunkte
+U:p74_d§einphasig · 32 A
+U:p22_d§dreiphasig · 32 A
+U:k_cable§Ladekabel
+U:k_cable_d§Stecker an beiden Enden
+U:k_pig§Pigtail
+U:k_pig_d§offenes Ende, für eine Ladestation
+U:f_eb§Kabelfinder
+U:f_h§Das richtige Ladekabel finden
+U:s1§Produkt
+U:s2§Stecker auf der Fahrzeugseite
+U:s3§Leistung
+U:s4§Länge
+U:s5§Steckerfarbe
+U:s6§Oft dazu bestellt
+U:sum_t§Ihre Auswahl
+U:sum_len§Länge
+U:sum_col§Steckerfarbe
+U:unit§Preis
+U:total§Gesamt
+U:vat_line§MwSt. {r} %
+U:len_note§Gemessen einschließlich beider Stecker. Lieber 1 Meter zu lang als 10 cm zu kurz.
+U:other_len§Andere Länge gewünscht? Schreiben Sie uns, wir machen Ihnen ein Angebot.
+U:shop_h§Shop
+U:crumb_shop§Shop
+U:qty§Menge
+U:in_stock§Auf Lager
+U:made§Auf Bestellung in Belgien gefertigt
+U:weight§Gewicht
+U:no_desc§Für dieses Produkt gibt es noch keine ausführliche Beschreibung.
+U:no_photo§Foto folgt
+U:also§Oft dazu bestellt
+U:d_title§Ihr Warenkorb
+U:d_empty§Ihr Warenkorb ist leer.
+U:d_cont§Weiter einkaufen
+U:d_free_left§Noch {amt} bis zur kostenlosen Lieferung
+U:d_free_ok§Kostenlose Lieferung
+U:d_up§Oft hinzugefügt
+U:remove§Entfernen
+U:sub§Produkte
+U:ship§Lieferung
+U:ship_from§Lieferung ab
+U:checkout§Zur Kasse
+U:added§Zum Warenkorb hinzugefügt
+U:co_t§Kasse
+U:co1§Ihre Daten
+U:reg_note§Wenn Sie bestellen, legen wir mit dieser E-Mail-Adresse automatisch Ihr Konto im Belinus-Serviceportal an. Sie erhalten eine E-Mail, um Ihr Passwort festzulegen, und können dort Ihre Bestellung verfolgen.
+U:acc_type§Ich kaufe als
+U:have_acc§Schon Kunde? Anmelden
+U:co_priv§Privatperson
+U:co_comp§Unternehmen
+U:email§E-Mail
+U:phone§Telefon
+U:fname§Vorname
+U:lname§Nachname
+U:company§Unternehmen
+U:vat§USt-IdNr.
+U:vat_ok§Gültiges Format. Wird bei der Zahlung in VIES geprüft; Rechnung mit Reverse-Charge, ohne MwSt.
+U:vat_ok_be§Gültiges Format. Belgische Unternehmen erhalten eine Rechnung mit 21 % MwSt.
+U:vat_bad§Das sieht nicht nach einer USt-IdNr. aus {c} aus, zum Beispiel {ex}. Ohne Nummer berechnen wir wie für Privatpersonen, mit MwSt.
+U:co2§Lieferadresse
+U:street§Straße und Hausnummer
+U:zip§Postleitzahl
+U:city§Ort
+U:country§Land
+U:co3§Lieferung
+U:home§{c} Lieferung nach Hause
+U:pickup§{c} Abholpunkt
+U:pickup_d§den Abholpunkt wählen Sie nach der Zahlung
+U:free§Kostenlos
+U:co4§Zahlung
+U:pay_note§Zahlungen laufen über Mollie. Sie bestätigen in Ihrer Bank- oder Wallet-App.
+U:terms_ok§Ich akzeptiere die Allgemeinen Geschäftsbedingungen und habe die Datenschutzerklärung gelesen.
+U:place§Bestellung aufgeben
+U:demo§Testshop: Zahlungen sind Testzahlungen. Es fließt kein echtes Geld und es wird nichts versendet.
+U:sum_order§Bestellübersicht
+U:rc§Reverse-Charge, 0 %
+U:done_t§Bestellung {n} erhalten.
+U:done_p§Vielen Dank. Dies ist eine Testbestellung: Es wird nichts versendet.
+U:back§Zurück zum Shop
+U:sup_h§Kundenservice
+U:sup_p§Zwei Wege, uns zu erreichen.
+U:about_h§Über EVChargeking
+U:about_group§EVChargeking ist ein Unternehmen der Belinus-Gruppe. Belinus baut Heimspeicher, die in Europa entwickelt und montiert werden; EVChargeking ergänzt das Angebot um Ladekabel und das in Belgien gefertigte Ladegerät ETAPpro.
+U:contact§Kontakt
+U:foot_shop§Shop
+U:foot_help§Hilfe
+U:foot_co§Unternehmen
+U:terms_l§Allgemeine Geschäftsbedingungen
+U:privacy§Datenschutz
+U:legal_nl§Dieser Text ist derzeit nur auf Niederländisch verfügbar.
+U:etap_more§Mehr auf etap.pro
+U:etap_range§ETAPpro-Ladegeräte und Zubehör
+C:eyebrow§Beispielrechnung · Belgien
+C:h§Was Sie sparen mit
+C:em§einer Ladestation zu Hause.
+C:car§Auto
+C:company§Firmenwagen
+C:private§Privatwagen
+C:region§Region
+C:vl§Flandern
+C:br§Brüssel
+C:wa§Wallonien
+C:km§Kilometer pro Jahr
+C:smart§Intelligentes Laden mit Themis und dynamischem Vertrag
+C:solar§Anteil, der mit eigenen Solarmodulen geladen wird
+C:perYear§pro Jahr
+C:kwh§kWh pro Jahr
+C:privH§Ersparnis gegenüber öffentlichem Laden
+C:home§Laden zu Hause
+C:pub§Laden an einer öffentlichen Ladesäule
+C:er§Ersparnis für den Arbeitgeber
+C:erB§Laden zu Hause, erstattet zum CREG-Tarif, statt öffentliches Laden mit Ladekarte.
+C:ee§Ersparnis für den Arbeitnehmer
+C:eeB§Differenz zwischen der CREG-Erstattung und dem, was das Laden zu Hause tatsächlich kostet.
+C:eeZero§Mit einem Standardvertrag deckt die Erstattung ungefähr Ihre Kosten. Intelligentes Laden und Solarmodule machen den Unterschied.
+C:note§Schätzung von Belinus. Verbrauch 18 kWh pro 100 km einschließlich Ladeverlusten. Öffentliches Laden 0,50 €/kWh (durchschnittlicher AC-Tarif in Belgien 2026: 0,40–0,55 €). Heimpreis und Erstattung zum CREG-Tarif für Q4 2026 je Region (Flandern 32,25, Brüssel 36,88, Wallonien 37,79 c€/kWh, inkl. MwSt.). Intelligentes Laden: etwa 4 c€/kWh günstiger. Solarstrom bewertet mit der entgangenen Einspeisevergütung (4 c€/kWh). Die Kosten für Ladestation und Installation sind nicht enthalten.
+C:src§Quelle CREG-Tarif
+Y:transfer§Überweisung
+Y:invoice§Rechnung, 30 Tage
+N:199§Tesla-Ladekabel nach Maß
+N:60§Tesla-Ladekabel, dreiphasig 32A - 22kW
+N:96§Tesla-Ladekabel, einphasig 32A - 7,4kW
+N:115§Tesla-Pigtail, dreiphasig 32A - 22kW
+N:116§Tesla-Pigtail, einphasig 32A - 7,4kW
+N:126§Tesla-Steckerset
+N:67§Tesla-Mini-Steckerset
+N:122§Tesla-Nachrüstset
+N:98§Typ-2-Ladekabel, dreiphasig 32A - 22kW
+N:99§Typ-2-Ladekabel, einphasig 32A - 7,4kW
+N:118§Pigtail, dreiphasig 32A - 22kW
+N:119§Pigtail, einphasig 32A - 7,4kW
+N:103§Typ-1-Ladekabel 32A
+N:105§Typ-3-Ladekabel, einphasig 32A - 7,4kW
+N:134§Ladekabel Typ 3 - Typ 1 32A - 7,4kW
+N:130§ETAPpro Wandhalterungs-Set
+N:35§MTAP P1-Dongle
+N:30§ETAPpro Adapterkabel 16A einphasig
+N:29§ETAPpro Adapterkabel 16A dreiphasig
+N:174§ETAPpro Adapterkabel 32A dreiphasig
+N:182§ETAPpro Adapterkabel 32A einphasig
+N:38§Schuko-Adapterkabel
+N:73§PLC-Stecker
+N:47§Ohmy Montagesäule, einfach, Aluminium
+N:43§Ohmy Metallsockel
+N:44§Ohmy Adapterplatte
+N:160§Betonfundament für Ohmy-Ladesäule
+N:83§Mobiles Ladegerät Typ 2 - 10A
+N:85§Mobiles Ladegerät Typ 1 - 10A
+N:87§e-TAP 7,4 kW Mobiles Ladegerät
+N:101§Aufbewahrungstasche
+N:110§Typ-2-Blindsteckdose
+N:111§Typ-1-Blindsteckdose
+N:46§Adapter 32A auf 16A
+N:69§Typ-2-Kupplung (weiblich), Bausatz
+N:71§Typ-2-Stecker (männlich), Bausatz
+N:102§Typ-1-Stecker 32A
+N:100§Typ-3-Stecker (männlich)
+N:156§Kontaktsatz für Typ-2-Kupplung
+N:58§Elektrokabel 7,4 kW
+N:79§CEE-Steckdose 16A, blau
+N:80§CEE-Steckdose 32A, blau
+N:81§CEE-Steckdose 3x16A, rot
+N:82§CEE-Steckdose 3x32A, rot
+S:1§Versand: 1–2 Werktage
+A:0§Länge
+A:1§Steckerfarbe
+A:2§Schwarz
+A:3§Blau
+A:4§Stromstärke
+A:5§Farbe
+A:6§Wasserdichte Batterie 3,3V
+A:7§Ohne Batterie
+A:8§Mit Batterie
+A:9§Drucktaster
+A:10§Ohne Drucktaster
+A:11§Mit Drucktaster
+A:12§Kabellänge
+D:0§## Einzigartiges Tesla-Ladekabel
+D:1§Dieses einzigartige Tesla-Ladekabel eignet sich für alle europäischen Tesla-Modelle.
+D:2§Dieses Ladekabel nutzt die EVChargeking Tesla-Chargeport-Technologie: ein sauber integrierter Drucktaster am fahrzeugseitigen Stecker, mit dem Sie die Ladeklappe öffnen und das Kabel entriegeln, ohne zuerst die Ladeklappe im Auto freizugeben oder Schlüssel oder Telefon zu benutzen. Diese Funktion gibt es nur bei EVChargeking-Ladekabeln.
+D:3§Die Funktion arbeitet natürlich nur, wenn der Autoschlüssel (oder beim Model 3/Y Ihr Telefon) in der Nähe ist. Ohne Schlüssel in unmittelbarer Nähe lässt sich das Kabel nicht entriegeln (wie an den Superchargern).
+D:4§Unser Tesla-Ladekabel eignet sich für alle europäischen Tesla-Modelle, einschließlich Model S und X sowie Model 3 und Model Y aller Baujahre.
+D:5§Die All-in-one-Lösung: Dieses Tesla-Ladekabel eignet sich für alle Einsatzfälle, einphasig, dreiphasig und für alle Leistungen bis 22 kW.
+D:6§Außerdem ist es das leichteste und praktischste Kabel für Tesla auf dem Markt: Das 7 Meter lange Kabel wiegt nur 3,15 kg.
+D:7§7 Meter ist unsere meistgefragte Länge. Denken Sie daran: lieber 1 Meter zu lang als 10 cm zu kurz.
+D:8§Wenn Sie das Kabel dauerhaft draußen lassen möchten, empfehlen wir dringend einen Typ-2-Steckerhalter, den Sie an der Kasse dazubestellen können. Auch eine praktische Tragetasche ist günstig erhältlich.
+D:9§Technische Daten:
+D:10§Stecker | Typ 2 auf beiden Seiten, eingebauter Tesla-Knopf auf der Fahrzeugseite. |
+D:11§Kabel | Dreiphasig, 5 x 4mm² + 0,50mm² mit einem maximalen Strom von 3 x 32A (22 kW Ladeleistung) |
+D:12§Farbe | Schwarz |
+D:13§Gewicht | 3,15kg |
+D:14§Die All-in-one-Lösung: Dieses Tesla-Ladekabel eignet sich für alle Einsatzfälle, einphasig, dreiphasig und für alle Leistungen bis 22 kW. Außerdem ist es das leichteste und praktischste Kabel für Tesla auf dem Markt; das 7-Meter-Kabel wiegt nur 3,15 kg.
+D:15§7 Meter ist unsere beliebteste Länge. Denken Sie daran: lieber 1 Meter zu lang als 10 cm zu kurz.
+D:16§Wenn Sie das Kabel dauerhaft draußen lassen möchten, empfehlen wir dringend einen Typ-2-Steckerhalter, den Sie an der Kasse dazubestellen können. Für einen kleinen Aufpreis gibt es auch eine praktische Tragetasche.
+D:17§Gewicht | 3,15 kg |
+D:18§Dieses Ladekabel ist mit allen Tesla-Modellen kompatibel.
+D:19§Dieses Ladekabel bietet die Tesla-Chargeport-Funktion: ein nahtlos integrierter, wasserdichter Knopf im fahrzeugseitigen Typ-2-Stecker, mit dem Sie die Ladeklappe öffnen, das Laden Ihres Tesla starten und stoppen oder das Kabel entriegeln, ohne erst ins Auto zu steigen oder Schlüssel oder Telefon zu benutzen.
+D:20§Diese Funktion gibt es nur bei Tesla-Ladekabeln von EVChargeking. Die Kabelentriegelung funktioniert natürlich nur, wenn der Autoschlüssel (oder beim Model 3/Y Ihr Telefon) in der Nähe ist. Ohne Schlüssel in der Nähe wird das Ladekabel nicht entriegelt (wie an den Superchargern).
+D:21§Das Ladekabel hat Leiter mit 5 x 6mm² und erlaubt damit 3 x 32A Strom, was einer Ladeleistung von 22 kW entspricht.
+D:22§Selbstverständlich können Sie mit diesem Kabel auch mit 16A oder 32A, ein- oder dreiphasig laden.
+D:23§Sie können das Ladekabel in jeder gewünschten Länge bestellen, indem Sie den passenden Wert in der Auswahlliste wählen. Achten Sie auf die richtige Länge: lieber 1 Meter zu lang als 10 cm zu kurz. Für Längen, die nicht in der Liste stehen, schreiben Sie uns einfach, und wir machen Ihnen ein Angebot.
+D:24§Vergessen Sie nicht, bei der Bestellung die richtige Länge zu wählen. Lieber 1 Meter zu lang als 10 cm zu kurz. Die Länge des Ladekabels wird einschließlich der Stecker (männlich/weiblich) an beiden Enden gemessen.
+D:25§Achtung: Ein Ladekabel ist KEIN Verlängerungskabel. Ladekabel können nicht als Verlängerung verwendet werden, sondern nur, um Ihr Elektrofahrzeug direkt mit einer Ladestation zu verbinden. Zwei Kabel zu verbinden funktioniert NICHT.
+D:26§Stecker | Typ 2 auf beiden Seiten, integrierter Tesla-Knopf auf der Fahrzeugseite |
+D:27§Kabel | Dreiphasig, 5 x 6mm² + 0,75mm², max. Leistung: 3 x 32A (22 kW Ladeleistung) |
+D:28§Dieses Ladekabel hat an beiden Enden Typ-2-Stecker (1 weiblich, 1 männlich). Das Kabel passt zu allen Tesla-Modellen.
+D:29§Dieses Ladekabel bietet die Tesla-Chargeport-Funktion: ein nahtlos integrierter, wasserdichter Knopf im fahrzeugseitigen Typ-2-Stecker, mit dem Sie die Ladeklappe öffnen, das Laden Ihres Tesla starten und stoppen oder das Kabel entriegeln, ohne erst ins Auto zu steigen oder Schlüssel oder Telefon zu benutzen. Diese Funktion gibt es nur bei Tesla-Ladekabeln von EVChargeking.
+D:30§Die Kabelentriegelung funktioniert natürlich nur, wenn der Autoschlüssel (oder beim Model 3/Y Ihr Telefon) in der Nähe ist. Ohne Schlüssel in der Nähe wird das Ladekabel nicht entriegelt (wie an den Superchargern).
+D:31§Das Kabel hat Leiter mit 3 x 6mm² und erlaubt damit 32A Strom, was einer Ladeleistung von 7,4 kW entspricht. Der Preisunterschied zu einem schwächeren 16A-Kabel ist so gering, dass Sie mit diesem Topmodell besser fahren. Wenn Sie auf ein größeres Elektroauto umsteigen oder eine leistungsfähigere Ladeinfrastruktur installieren, brauchen Sie kein neues Kabel.
+D:32§Selbstverständlich können Sie mit diesem Kabel auch mit 16A laden.
+D:33§Die Standardlänge des Kabels beträgt 2 Meter, Sie können aber jede gewünschte Länge bestellen, indem Sie den passenden Wert in der Auswahlliste wählen. Für Längen, die nicht in der Liste stehen, schreiben Sie uns einfach, und wir machen Ihnen ein Angebot.
+D:34§Kontaktieren Sie uns
+D:35§Vergessen Sie nicht, bei der Bestellung die richtige Länge zu wählen. Lieber 1 Meter zu lang als 10 cm zu kurz. Die Länge des Ladekabels wird einschließlich der Stecker (männlich/weiblich) an beiden Enden gemessen.
+D:36§Stecker | Typ 2 auf beiden Seiten, integrierter Tesla-Knopf im fahrzeugseitigen Stecker. |
+D:37§Kabel | Einphasig, 3 x 6mm² + 0,75mm², max. Leistung: 1 x 32A (7,4 kW Ladeleistung) |
+D:38§Dieses Ladekabel hat an einem Ende eine Typ-2-Kupplung mit Tesla-Knopf und am anderen ein offenes Ende. Es eignet sich für Ladestationen mit fest angeschlossenem Kabel.
+D:39§## Achtung: Sie können an diesen Pigtail keinen blauen oder roten CEE-Stecker anschließen und an einer CEE-Steckdose laden. Er darf nur in Verbindung mit einer Ladestation verwendet werden! Der Pigtail ist auch kein Standardersatz für das Kabel der Tesla-Wallbox; er kann dafür verwendet werden, erfordert aber einige zusätzliche Schritte, siehe diesen Forenbeitrag: Change Charging Cable of Tesla Wall Connector. Nicht kompatibel mit der Tesla-Wallbox Gen3 oder neuer!
+D:40§Dieser Pigtail bietet die Tesla-Chargeport-Funktion: ein nahtlos integrierter, wasserdichter Knopf am fahrzeugseitigen Typ-2-Stecker, mit dem Sie die Ladeklappe öffnen, das Laden Ihres Tesla starten und stoppen oder das Kabel entriegeln, ohne erst ins Auto zu steigen oder den Schlüssel zu suchen. Diese Funktion gibt es nur bei EVChargeking-Kabeln.
+D:41§Die Kabelentriegelung funktioniert natürlich nur, wenn der Autoschlüssel in der Nähe ist. Ohne Schlüssel in der Nähe wird das Kabel nicht entriegelt (wie an den Superchargern).
+D:42§Das Kabel hat Leiter mit 5 x 6mm² und erlaubt damit 3 x 32A Strom, was einer Ladeleistung von 22 kW entspricht.
+D:43§Die Standardlänge des Kabels beträgt 2 Meter, Sie können aber jede gewünschte Länge bestellen, indem Sie den passenden Wert in der Auswahlliste wählen. Für Längen, die nicht in der Liste stehen, schreiben Sie uns einfach, und wir machen Ihnen ein Angebot.
+D:44§Stecker | Typ-2-Kupplung mit Tesla-Knopf auf der Fahrzeugseite, offenes Ende auf der anderen Seite. |
+D:45§Kabel | Dreiphasig, 5 x 6mm² + 0,5mm², max. Leistung: 3 x 32A (22 kW Ladeleistung) |
+D:46§Farbe | Schwarz / Blau |
+D:47§Dieses Ladekabel hat am Fahrzeugende eine Typ-2-Kupplung mit Tesla-Knopf und am anderen Ende ein offenes Ende. Es eignet sich zum Anschluss an eine Ladestation mit fest angeschlossenem Kabel.
+D:48§## Bitte beachten: Sie können an diese Kabel keinen blauen oder roten CEE-Stecker schrauben und damit Ihr Fahrzeug laden. Nur in Verbindung mit einer Ladestation verwenden! Dieser Pigtail ist kein direkter Ersatz für das Original-Ladekabel der Tesla-Wallbox; er kann dafür verwendet werden, erfordert aber einige kleine Anpassungen. Siehe diesen Forenbeitrag: Change Charging Cable of Tesla Wall Connector. Nicht kompatibel mit der Tesla-Wallbox Gen3 oder neuer!
+D:49§Dieses Kabel nutzt die EVChargeking Tesla-Chargeport-Technologie: ein sauber integrierter Drucktaster am fahrzeugseitigen Typ-2-Stecker, mit dem Sie die Ladeklappe öffnen und das Kabel entriegeln, ohne die Klappe zuerst vom Auto aus zu öffnen oder den Schlüssel zu suchen. Diese Funktion gibt es nur bei EVChargeking-Kabeln.
+D:50§Die Funktion arbeitet natürlich nur, wenn der Autoschlüssel in der Nähe ist. Ohne Schlüssel in der Nähe lässt sich das Kabel nicht entriegeln (wie an den Superchargern).
+D:51§Die Ladeleistung dieses Kabels beträgt 1 x 32A. Sie können mit bis zu 7,4 kW laden.
+D:52§Die Standardlänge beträgt 2 Meter, das Kabel kann aber in jeder gewünschten Länge bestellt werden, indem Sie die Länge in der Auswahlliste wählen. Liegt der Anschluss auf der anderen Seite des Autos, brauchen Sie mindestens 4 Meter. Für eine Länge, die nicht aufgeführt ist, kontaktieren Sie uns, und wir machen Ihnen ein passendes Angebot.
+D:53§Stecker | Typ 2 mit Tesla-Knopf auf der Fahrzeugseite und offenes Ende auf der anderen Seite. |
+D:54§Kabel | Einphasig, 3 x 6 mm² + 0,75 mm² mit einem maximalen Strom von 32 A (7,4 kW Ladeleistung bei 240 V) |
+D:55§## Mit diesem Set lässt sich ein eigener Tesla-Knopf in eine vorhandene Typ-2-Kupplung einbauen. Stellen Sie sicher, dass sich der Stecker öffnen lässt und innen genug Platz für die Platine und, falls nötig, die Batterie ist. Sie benötigen eine 3V-Versorgung oder eine 3V-Batterie! Die Elektronik für den Batteriebetrieb ist eine andere!
+D:56§Alle Komponenten sind wasserdicht. Das Set arbeitet mit einer 3,3V-Quelle; diese muss von Ihrer Ladestation über das Ladekabel bereitstehen, oder Sie verwenden die optionale 3V-Batterie. Der optional mitgelieferte Drucktaster benötigt eine Bohrung von 16 mm.
+D:57§Diese Anschlüsse sind beim Einbau des Sets herzustellen:
+D:58§- roter Draht an +3,3V (oder an den roten Draht der Batterie, falls vorhanden)
+D:59§- grüner Draht an die PE-Klemme des Steckers (und an den grauen Draht der Batterie, falls vorhanden)
+D:60§- violetter Draht an die PP-Klemme des Steckers
+D:61§- graue Drähte an den Drucktaster
+D:62§Um den grünen und den violetten Draht anzuschließen, schauen Sie in den Stecker: Dort verläuft ein Draht von der PP-Klemme zur PE-Klemme (Erde). In diesem Draht sitzt ein Widerstand (220 Ohm bei einem 32A-Stecker, 680 Ohm bei der 16A-Version). Trennen Sie beide Enden des Widerstands ab, um ihn zu entfernen. Den richtigen Widerstand liefert die Platine.
+D:63§Verbinden Sie den violetten Draht mit dem Draht auf der PP-Seite und den grünen Draht mit der PE-Seite des gerade durchtrennten Drahts.
+D:64§Bestellen Sie unbedingt die richtige Version für Ihr Kabel. Eine 32A-Version an einem 16A-Kabel kann dazu führen, dass Ihr Kabel Feuer fängt; eine 16A-Version an einem 32A-Kabel verringert Ihre Ladeleistung.
+D:65§Nach einem Einbauversuch sind Rückgabe oder Erstattung des Nachrüstsets nicht möglich.
+D:66§Dieses Ladekabel hat an beiden Enden einen Typ-2-Stecker (1 männlich, 1 weiblich). Es eignet sich für Fahrzeuge mit Typ-2-Anschluss (heute die meisten europäischen Modelle) und Typ-2-Ladepunkte, wie sie an öffentlichen Ladestationen in Europa üblich sind.
+D:67§Wir verwenden nicht das Standardkabel aus China, sondern ein hochwertiges europäisches Produkt, das 20 % leichter und dünner und zudem langlebiger ist. Die Stecker haben vollständig rostfreie Kontakte.
+D:68§Dieses Kabel hat eine Ladeleistung von 3 x 32A (5 x 6mm²) und reicht damit für jede Ladeinfrastruktur und jedes Fahrzeug. Sie können mit bis zu 22 kW laden. Natürlich lässt sich das Kabel auch für 16A oder 32A, ein- oder dreiphasig, verwenden; Sie sind also auch für höhere Leistungen gerüstet.
+D:69§Das Kabel kann in jeder gewünschten Länge bestellt werden, indem Sie die Länge in der Auswahlliste wählen. Für eine Länge, die nicht aufgeführt ist, kontaktieren Sie uns, und wir machen Ihnen ein passendes Angebot. Liegt der Anschluss auf der anderen Seite des Autos, brauchen Sie mindestens 4 Meter.
+D:70§Bitte beachten: Ein Ladekabel ist KEIN Verlängerungskabel:
+D:71§Ein Ladekabel für Elektrofahrzeuge kann nur verwendet werden, um das Fahrzeug mit einer Ladestation zu verbinden. Als Verlängerungskabel funktioniert es NICHT.
+D:72§Wenn Sie das Kabel dauerhaft draußen hängen lassen möchten, empfehlen wir dringend einen Typ-2-Steckerhalter, den Sie an der Kasse dazubestellen können. Auch eine praktische Tragetasche ist günstig erhältlich.
+D:73§Stecker | Typ 2 auf beiden Seiten |
+D:74§Kabel | Dreiphasig, 5 x 6 mm² mit einem maximalen Strom von 32 A (22 kW Ladeleistung bei 240 V) |
+D:75§Dieses Ladekabel hat auf der Infrastrukturseite einen Typ-3C-Stecker und auf der Fahrzeugseite einen Typ-2-Stecker. Es eignet sich für alle Autos mit Typ-2-Anschluss, die an einem Typ-3C-Ladepunkt laden, wie es vor allem in Frankreich vorkommt. Für das übrige Europa benötigen Sie ein Kabel Typ 2 - Typ 2, das Sie ebenfalls im Shop finden.
+D:76§Sie können jede benötigte Länge bestellen, indem Sie den passenden Wert in der Auswahlliste wählen. Für Längen, die nicht in der Liste stehen, schreiben Sie uns einfach, und wir machen Ihnen ein Angebot.
+D:77§Achtung: Ein Ladekabel ist KEIN Verlängerungskabel:
+D:78§Ladekabel können nicht als Verlängerung verwendet werden, sondern nur, um Ihr Elektrofahrzeug direkt mit einer Ladestation zu verbinden. Zwei Kabel zu verbinden funktioniert NICHT.
+D:79§Stecker | Typ 3C auf der Infrastrukturseite, Typ 2 auf der Fahrzeugseite |
+D:80§Kabel | Einphasig, 3 x 6mm² + 0,5mm², max. Leistung: 1 x 32A (7,4 kW Ladeleistung bei 230V) |
+D:81§Farbe | Blau / Schwarz / Weiß |
+D:82§## Ein visionäres Ladegerät, das das Beste aus zwei Welten vereint.
+D:83§Der ETAPpro vereint das Beste aus zwei Welten: In die Wandhalterung eingerastet ist er eine klassische Ladestation, an der Sie Ihr Auto mit hoher Leistung (11 kW) laden. Nehmen Sie ihn aus der Halterung und schließen ein Adapterkabel an, haben Sie ein mobiles Ladegerät, das Sie überallhin mitnehmen und an jeder geeigneten Steckdose nutzen können.
+D:84§Der ETAPpro 11 ist ein dreiphasiges Gerät mit einer maximalen Leistung von 11 kW (3 x 16A), das sich aber problemlos einphasig anschließen und nutzen lässt.
+D:85§Außerdem ist er sehr kompakt und doch voll mit neuester Technik. Er kann zum Beispiel mit Ihrem digitalen Zähler kommunizieren oder, bei älteren analogen Zählern, mit einem kleinen Gerät, das den Stromverbrauch im Zählerschrank misst. So lassen sich Kapazitätstarif, Solarstrom, Haushaltsverbrauch und weitere ETAPpro-Ladepunkte berücksichtigen. Sie behalten jederzeit die volle Kontrolle, ohne dass Sicherungen auslösen oder unnötig hohe Stromrechnungen entstehen.
+D:86§Der ETAPpro ist einfach zu bedienen und bietet dennoch einen großen Funktionsumfang. Einrichtung und Überwachung erfolgen über eine eigene App für Android oder iOS. Die Verbindung zur Cloud-Plattform, auf der alle Daten gespeichert werden, läuft über WLAN oder sogar Powerline (über die vorhandenen Stromleitungen), sodass Sie kein zusätzliches Netzwerkkabel verlegen müssen.
+D:87§Über ein Benutzerportal erstellen Sie ganz einfach Berichte zu vergangenen Ladevorgängen, mit Ort, kWh, Zeitpunkt und mehr.
+D:88§Der ETAPpro ist auch für die Zukunft gebaut: Alle Software-Updates erfolgen automatisch und sicher „over the air“, sodass sich das Gerät an neue Vorschriften und technische Entwicklungen der Elektromobilität anpassen kann.
+D:89§## Fest oder mobil
+D:90§Wenn Sie den ETAPpro an einem festen Ort nutzen möchten, können Sie eine Wandhalterung installieren. Schieben Sie den ETAPpro in die Halterung, wird er zur festen Ladestation. Die Halterung versorgt das Ladegerät mit Strom und ist einfach anzuschließen. Außerdem hat sie ein Schloss mit Schlüsseln, mit dem Sie den ETAPpro sichern, damit kein anderer Fan des Produkts damit davongeht.
+D:91§Sollte das doch passieren, sehen Sie über das eingebaute GPS-Modul jederzeit, wo das Gerät verwendet wird, und können das Ladegerät aus der Ferne sperren.
+D:92§Möchten Sie Ihre Ladestation auf eine Reise oder in den Urlaub mitnehmen, schieben Sie den ETAPpro aus der Wandhalterung und schließen ihn mit den Adaptern an verschiedene Steckdosen an. Derzeit gibt es Adapter für Haushaltssteckdosen (im Standardpaket enthalten), für blaue 16A-Campingstecker und für rote dreiphasige 16A-Industriesteckdosen (als Option).
+D:93§Der ETAPpro erkennt außerdem automatisch, welchen Adapter Sie verwenden, und begrenzt den Ladestrom, um gefährliche Situationen zu vermeiden. Zusätzlich haben die Adapter Temperatursensoren zum Schutz Ihrer Steckdosen, sowohl im Gerät selbst als auch im Stecker, der ins Auto kommt. Wird es zu warm, wird der Ladestrom reduziert oder das Laden ganz gestoppt. Sicherheit geht vor.
+D:94§## Intelligentes Ladegerät
+D:95§Für die intelligenten Funktionen des ETAPpro ist eine Verbindung zum digitalen Zähler oder zu einem Gerät nötig, das den Stromverbrauch erfasst. Dafür wurden MTAP und CTAP entwickelt. Mit dem MTAP lesen Sie den digitalen Zähler über den P1-Anschluss aus; beim CTAP klemmen Sie die Messzangen an die Zuleitungen der Installation.
+D:96§Wenn Sie (noch) keinen digitalen Zähler haben, entfallen Funktionen wie der Kapazitätstarif, und auch dynamische, stündlich wechselnde Preise setzen einen digitalen Zähler voraus. Lastmanagement, bei dem das Ladegerät den Haushaltsverbrauch berücksichtigt, und Lastverteilung, bei der die verfügbare Leistung auf mehrere Ladegeräte aufgeteilt wird, stehen aber auch ohne digitalen Zähler zur Verfügung.
+D:97§Auch die Nutzung von lokal erzeugtem Solarstrom gehört zum Standard. So speisen Sie den erzeugten Strom nicht umsonst ins Netz ein.
+D:98§Darüber hinaus haben wir einen hervorragenden Pannenservice eingerichtet: Sollte es wider Erwarten ein Problem mit der Ladestation geben, erhalten Sie ein identisch konfiguriertes Ersatzgerät und können sofort weiterladen, während wir das Problem an Ihrem Gerät gründlich untersuchen und beheben.
+D:99§Der ETAPpro vereint das Beste aus zwei Welten: In die Wandhalterung eingerastet ist er eine klassische Ladestation, an der Sie Ihr Auto mit hoher Leistung (11 kW) laden. Nehmen Sie ihn aus der Halterung und schließen ein Adapterkabel an, haben Sie ein mobiles Ladegerät, das Sie überallhin mitnehmen und an jeder geeigneten Steckdose nutzen können.
+D:100§Der ETAPpro 7 ist ein einphasiges Gerät mit einer maximalen Leistung von 7,4 kW (1 x 32 A)
+D:101§Außerdem ist er sehr kompakt und doch voll mit neuester Technik. Er kann zum Beispiel mit Ihrem digitalen Zähler kommunizieren oder, bei älteren analogen Zählern, mit einem kleinen Gerät, das den Stromverbrauch im Zählerschrank misst. So lassen sich Kapazitätstarif, Solarstrom, Haushaltsverbrauch und weitere ETAPpro-Ladepunkte berücksichtigen. Sie behalten jederzeit die volle Kontrolle, ohne dass Sicherungen auslösen oder unnötig hohe Stromrechnungen entstehen.
+D:102§Der ETAPpro ist einfach zu bedienen und bietet dennoch einen großen Funktionsumfang. Einrichtung und Überwachung erfolgen über eine eigene App für Android oder iOS. Die Verbindung zur Cloud-Plattform, auf der alle Daten gespeichert werden, läuft über WLAN oder sogar Powerline (über die vorhandenen Stromleitungen), sodass Sie kein zusätzliches Netzwerkkabel verlegen müssen.
+D:103§Über ein Benutzerportal erstellen Sie ganz einfach Berichte zu vergangenen Ladevorgängen, mit Ort, kWh, Zeitpunkt und mehr.
+D:104§Wenn Sie den ETAPpro an einem festen Ort nutzen möchten, können Sie eine Wandhalterung installieren. Schieben Sie den ETAPpro in die Halterung, wird das Ganze zur festen Ladestation. Die Halterung versorgt das Ladegerät mit Strom und ist einfach anzuschließen. Außerdem hat sie ein Schloss mit Schlüsseln, mit dem Sie den ETAPpro sichern, damit kein anderer Fan des Produkts damit davongeht.
+D:105§Sollte das doch passieren, sehen Sie über das eingebaute GPS-Modul jederzeit, wo das Gerät verwendet wird, und können das Ladegerät aus der Ferne sperren.
+D:106§Möchten Sie Ihre Ladestation auf eine Reise oder in den Urlaub mitnehmen, schieben Sie den ETAPpro aus der Wandhalterung und schließen ihn mit den Adaptern an verschiedene Steckdosen an. Derzeit gibt es Adapter für Haushaltssteckdosen (im Standardpaket enthalten), für blaue Campingstecker 16A–32A und für rote dreiphasige Industriesteckdosen 16A–32A (als Option).
+D:107§## Intelligentes Ladegerät
+D:108§Für die intelligenten Funktionen des ETAPpro ist eine Verbindung zum digitalen Zähler oder zu einem Gerät nötig, das den Stromverbrauch erfasst. Dafür wurden MTAP und CTAP entwickelt. Mit dem MTAP lesen Sie den digitalen Zähler über den P1-Anschluss aus; beim CTAP klemmen Sie die Messzangen an die Zuleitungen der elektrischen Anlage.
+D:109§Wenn Sie (noch) keinen digitalen Zähler haben, entfallen Funktionen wie der Kapazitätstarif, und auch dynamische, stündlich wechselnde Preise setzen einen digitalen Zähler voraus. Lastmanagement, bei dem das Ladegerät den Haushaltsverbrauch berücksichtigt, und Lastverteilung, bei der die verfügbare Leistung auf mehrere Ladegeräte aufgeteilt wird, stehen aber auch ohne digitalen Zähler zur Verfügung.
+D:110§Auch die Nutzung von lokal erzeugtem Solarstrom gehört zum Standard. So speisen Sie den erzeugten Strom nicht umsonst ins Netz ein.
+D:111§Darüber hinaus haben wir einen hervorragenden Pannenservice eingerichtet: Sollte es wider Erwarten ein Problem mit Ihrer Ladestation geben, erhalten Sie ein identisch konfiguriertes Ersatzgerät und können sofort weiterladen, während wir das Problem an Ihrem Gerät gründlich untersuchen und beheben.
+D:113§Mit der Wandhalterung machen Sie aus dem mobilen ETAPpro schnell eine feste Ladestation. Der elektrische Anschluss und die Montage sind schnell und einfach erledigt. Die Halterung ist mit allen aktuellen und künftigen ETAPpro-Modellen kompatibel.
+D:114§Wenn Sie den ETAPpro in die Wandhalterung einsetzen, wird die elektrische Verbindung automatisch hergestellt: einschieben und laden.
+D:115§Die Wandhalterung hat außerdem ein Schloss mit passenden Schlüsseln, um Ihren ETAPpro vor Diebstahl zu schützen. Sie ist so gestaltet, dass Sie das Ladekabel des ETAPpro ordentlich um das Gerät wickeln können. Ein passender Steckerhalter liegt bei, damit der Ladestecker sicher sitzt und nicht auf dem Boden liegt.
+D:116§Für bestimmte intelligente Funktionen des ETAPpro ist die Kommunikation mit Ihrem digitalen Zähler nötig, und dafür gibt es den MTAP. Er wird mit dem beiliegenden Kabel einfach in den P1-Anschluss des digitalen Zählers gesteckt und erkennt nach der Aktivierung automatisch die ETAPpro-Geräte im Netzwerk.
+D:117§Ab dann kann die Ladestation den Energieverbrauch im Haushalt, den Kapazitätstarif, den erzeugten Solarstrom und mehr berücksichtigen. Der MTAP überträgt die nötigen Daten per WLAN oder Ethernet/PLC an die Ladestation(en). Außerdem wird das P1-Signal aktiv durchgeschleift (kein einfacher Hardware-Splitter), sodass vorhandene Geräte weiter genutzt werden können. Ein USB-C-Anschluss liefert bei Bedarf zusätzlichen Strom.
+D:118§Der MTAP unterstützt derzeit die offiziellen digitalen Zähler in Belgien, den Niederlanden und Luxemburg.
+D:119§Mit diesem einphasigen CEE-16A-Adapterkabel schließen Sie Ihren ETAPpro an eine blaue einphasige CEE-16A-Steckdose (Campingstecker) an, um Ihr Auto zu laden. Der ETAPpro erkennt das Adapterkabel und begrenzt das Laden automatisch auf 16A (3700W), damit die Steckdose nicht überhitzt.
+D:120§Das Adapterkabel hat zudem einen eingebauten Temperatursensor zur Überwachung der Steckdose. Erkennt der ETAPpro eine ungewöhnlich hohe Temperatur, wird das Laden begrenzt oder, falls nötig, unterbrochen.
+D:121§Mit diesem Schuko-Adapterkabel (Typ E/F) schließen Sie Ihren ETAPpro an eine normale Haushaltssteckdose an, um Ihr Auto zu laden. Der ETAPpro erkennt das Adapterkabel und begrenzt das Laden automatisch auf 10A (2300W), damit die Steckdose nicht überhitzt.
+D:122§Bitte beachten: Dieser Schuko-Adapter ist bei der Bestellung eines ETAPpro bereits enthalten!
+D:123§Sparen Sie sich Ethernet-Kabel zu Ihrer ETAPpro-Ladestation und nutzen Sie Power Line Communication (PLC). Stecken Sie den Powerline-Adapter in eine Steckdose am selben Stromkreis wie Ihr ETAPpro und verbinden Sie ihn mit dem beiliegenden kurzen Ethernet-Kabel mit Ihrem Internet-Router: Ihr ETAPpro ist online.
+D:124§Ideal, wenn Ihr ETAPpro keine WLAN-Verbindung hat (im Keller oder zu weit vom WLAN-Zugangspunkt entfernt).
+D:125§Mit diesem 7,5 Meter langen mobilen Ladegerät laden Sie Ihr Elektrofahrzeug mit Typ-2-Anschluss an einer Haushaltssteckdose. Es ist auf sichere 10A begrenzt, weil Haushaltssteckdosen nicht für hohe Dauerlasten ausgelegt sind. Ihr Elektrofahrzeug lädt mit 2,3 kW
+D:126§Laden Sie bitte nur an einer korrekt installierten Haushaltssteckdose, die 10A liefern kann und über einen FI/LS-Schalter abgesichert ist.
+D:127§Das Ladegerät bietet:
+D:128§- Fehlerstromschutz
+D:129§- Überstromschutz
+D:130§- Überspannungsschutz
+D:131§- Unterspannungsschutz
+D:132§- Kurzschlussschutz
+D:133§- Überhitzungsschutz
+D:134§Dieses mobile Ladegerät funktioniert auch, wenn Neutralleiter und Phase vertauscht sind oder der Neutralleiter ganz fehlt (3 x 230V-Netz), sofern Ihr Auto das Laden ohne Neutralleiter unterstützt.
+D:135§Mit unserem 7 Meter langen mobilen Ladegerät e-TAP 7,4 kW laden Sie Ihr Elektrofahrzeug an einer blauen einphasigen CEE-Steckdose 32A. Die Leistung ist einstellbar auf 6A, 10A, 13A, 16A, 20A, 25A oder 32A. Ihr Elektrofahrzeug lädt mit maximal 7,4 kW.
+D:136§Das Ladegerät hat zahlreiche Sicherheitsfunktionen, darunter die Überwachung der Temperatur des CEE-Steckers, die Erkennung von AC- und DC-Fehlerströmen und einen Überhitzungsschutz.
+D:137§Laden Sie bitte nur an einer korrekt installierten blauen CEE-Steckdose 32A, die für 32A ausgelegt und mit Leitungen von mindestens 6mm² angeschlossen ist. Eine hochwertige Wandsteckdose mit Schutzart IP 67 für innen und außen können Sie zum Ladegerät dazubestellen.
+D:138§- Fehlerstromschutz (AC und DC)
+D:139§- Erkennung interner Schaltfehler
+D:140§- Überhitzungsschutz für den Wandstecker
+D:141§- Einstellbarer Ladestrom (6A,10A,13A,16A,20A,25A,32A)
+D:142§## Schützen Sie Ihren Stecker
+D:143§Blindsteckdose für Typ-2-Stecker, um den Stecker nach dem Laden ordentlich aufzuhängen. So liegt der Stecker nicht auf dem Boden und ist zudem vor Wasserschäden und Oxidation durch Regen geschützt.
+H:0:h§Intelligent, leistungsstark und flexibel laden mit EVChargeking
+H:0:p0§Willkommen bei EVChargeking, dem Spezialisten für hochwertige Ladelösungen für Elektrofahrzeuge, mit besonderer Erfahrung bei Tesla.
+H:0:p1§Wir entwickeln und fertigen Premium-Ladekabel, die sich durch Qualität, Haltbarkeit und Bedienkomfort auszeichnen. Unsere Kabel werden in Belgien aus hochwertigen elektrischen Leitern und innovativen Materialien hergestellt. Das macht sie:
+H:0:p2§Ob zu Hause, im Büro oder unterwegs: Mit EVChargeking entscheiden Sie sich für Verlässlichkeit, Sicherheit und maximale Effizienz.
+H:0:l0§Leicht und flexibel
+H:0:l1§Universell einsetzbar
+H:0:l2§Geeignet für den täglichen und intensiven professionellen Einsatz
+H:0:l3§Zuverlässig in jeder Situation
+H:1:h§Die Zukunft des mobilen Ladens: ETAPpro
+H:1:p0§EVChargeking ist Entwickler und Hersteller des ETAPpro, einer fortschrittlichen mobilen Ladelösung, die das Laden von Elektrofahrzeugen grundlegend verändert.
+H:2:h§Einzigartiges Tesla-Ladekabel
+H:2:p0§Das Tesla-Ladekabel von EVChargeking verbindet Bedienkomfort mit maximaler Flexibilität. Dank des leichten, flexiblen Kabels lässt es sich gut handhaben und überallhin mitnehmen, und durch seine robuste Bauweise eignet es sich für jedes Wetter. Mit dem integrierten Tesla-Knopf öffnen Sie die Ladeklappe und entriegeln den Stecker, was das Laden noch schneller und bequemer macht.
+B:0§EVChargeking ist ein belgisches Unternehmen, das Ladezubehör für Besitzer von Elektrofahrzeugen anbietet, mit Schwerpunkt auf Tesla-Modellen.
+B:1§Für Tesla-Modelle haben wir ein leichtes Ladekabel entwickelt, mit dem Sie per Knopfdruck die Ladeklappe öffnen, aber auch den Ladevorgang beenden und den Stecker entriegeln.
+B:2§Auch die mobile Ladelösung ETAPpro ist eine eigene Entwicklung von EVChargeking.
+E:0§## Die Zukunft des mobilen Ladens: ETAPpro
+E:1§EVChargeking ist Entwickler und Hersteller des ETAPpro, einer fortschrittlichen mobilen Ladelösung, die das Laden von Elektrofahrzeugen grundlegend verändert.
+E:2§Der ETAPpro vereint:
+E:3§- Mobilität und feste Verfügbarkeit in einem System
+E:4§- Hohe Leistung in einer kompakten, tragbaren Lösung
+E:5§- Professionelle Technik mit einfacher Bedienung
+E:6§- Maximale Flexibilität für Privatpersonen und Unternehmen
+E:7§Wo herkömmliche Ladelösungen an einen Ort gebunden sind, bietet der ETAPpro Freiheit. Laden Sie, wo und wann Sie es brauchen.
+E:8§## Eine visionäre neue Ladelösung
+E:9§Der neue ETAPpro verbindet das Beste aus Technik und Mobilität in einem Gerät. Er lässt sich als feste Ladestation nutzen, kann aber auch auf Reisen mitgenommen werden, um mit einem passenden Adapterkabel überall zu laden. Sie verwalten und steuern den ETAPpro jederzeit und überall per App auf Ihrem Telefon.
+E:10§Neben der mobilen Flexibilität bietet der ETAPpro einen großen Funktionsumfang, der mit der Zeit weiter wächst. Wir haben dafür gesorgt, dass der ETAPpro die gesamte nötige Hardware enthält, um künftig neue Funktionen über automatische und sichere Software-Updates bereitzustellen.
+E:11§Der ETAPpro passt sich automatisch an Ihren Haushaltsverbrauch oder den Ertrag Ihrer Solarmodule an, bietet umfangreiche Zeitplanfunktionen, kann Verbrauchsspitzen vermeiden, beobachtet dynamische Strompreise, um den besten Ladezeitpunkt zu bestimmen, und sendet alle Daten in unseren Cloud-Speicher, wo sie für detaillierte Berichte, getrennte Abrechnung und vieles mehr verfügbar sind.
+E:12§Die Installation ist einfach; die Einrichtung erfolgt über die ETAP-App für Android oder iPhone, und die Kommunikation zwischen mehreren ETAPpro-Ladegeräten und dem digitalen Zähler oder Messgerät läuft über die Stromleitungen, sodass weder WLAN noch zusätzliche Kabel nötig sind. Das Ladegerät hat serienmäßig Bluetooth, WLAN, RFID, GPS, 4G und PLC, teure Zusatzmodule entfallen.
+E:13§Weil der ETAPpro so intelligent ist, sparen Sie jedes Jahr spürbar bei der Stromrechnung.
+E:14§Selbstverständlich ist der ETAPpro mit allen CPO-Plattformen kompatibel (OCPP 1.6) und unterstützt außerdem API-Aufrufe und Modbus-Kommunikation, sodass er sich in alle Energiemanagementsysteme einbinden lässt.
+E:15§Mehr Informationen finden Sie auf unserer Website ETAP.pro

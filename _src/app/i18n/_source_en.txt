@@ -1,0 +1,567 @@
+U:nav_login§Customer login
+U:acc_eb§Belinus service portal
+U:acc_h§One login for every Belinus company
+U:acc_p§EVChargeking is a Belinus group company. Your customer account lives in the Belinus service portal, the one place for customers of all Belinus companies. You sign in there with the email address you used for your EVChargeking order.
+U:acc_l1§Your EVChargeking orders, invoices and delivery tracking
+U:acc_l2§Service tickets and warranty for your cables and ETAPpro
+U:acc_l3§The same login if you also own a Belinus home battery
+U:acc_btn§Sign in at portal.belinus.com
+U:acc_new§New here? Your account is created automatically when you place your first order.
+U:acc_docs_h§Your EVChargeking documents stay EVChargeking documents
+U:acc_docs_p§In the portal every order and invoice shows which company it comes from. EVChargeking documents carry the EVChargeking name and logo and are issued by {legal}.
+U:acc_ex§Example of the portal view
+U:acc_all§All companies
+U:acc_order§Order
+U:acc_invoice§Invoice
+U:acc_issued§Issued by EVChargeking · {legal} · {vat}
+U:acc_other§Documents from other Belinus companies appear in the same list, under their own name.
+U:reg_portal§The portal (portal.belinus.com) is shared by all Belinus group companies.
+U:done_portal§Your account in the Belinus service portal is ready. Use the link in your email to set your password, then follow your order there. Your order and invoice are marked as EVChargeking documents.
+U:menu§Menu
+U:region_h§Region & language
+U:b2c§B2C
+U:b2b§B2B
+U:theme_light§Light theme
+U:theme_dark§Dark theme
+U:th_dark§Dark
+U:th_light§Light
+U:from§from
+U:sort§Sort
+U:sort_feat§Featured
+U:sort_lo§Price, low to high
+U:sort_hi§Price, high to low
+U:sort_az§Name A–Z
+U:n_products§{n} products
+U:loc_h§Is this right for you?
+U:loc_p§We picked this from your browser settings. You can change it at any time at the top of the page.
+U:loc_country§Delivery country
+U:loc_lang§Language
+U:loc_prices§Prices
+U:loc_yes§Yes, continue
+U:loc_change§Change
+U:ck_h§Your privacy
+U:ck_p§We use necessary cookies to run the shop: your cart, language and country. With your permission we also use cookies to remember preferences, measure visits and show relevant ads. Nothing optional is set until you choose.
+U:ck_accept§Accept all
+U:ck_reject§Reject all
+U:ck_custom§Choose per category
+U:ck_save§Save my choice
+U:ck_settings§Cookie settings
+U:ck_always§always on
+U:ck_nec§Necessary
+U:ck_nec_d§Cart, checkout, language, country and this choice.
+U:ck_pref§Preferences
+U:ck_pref_d§Remembers recently viewed products and your theme across visits.
+U:ck_stat§Statistics
+U:ck_stat_d§Anonymous visit measurement (Google Analytics) to improve the shop.
+U:ck_mkt§Marketing
+U:ck_mkt_d§Google Ads, Meta and LinkedIn tags to measure campaigns.
+U:ck_more§Read the privacy statement
+U:group§A <b>Belinus</b> group company
+U:nav_home§Home
+U:nav_shop§Shop
+U:nav_finder§Cable finder
+U:nav_etap§ETAPpro
+U:nav_support§Customer support
+U:nav_about§About
+U:cart§Cart
+U:private§Private
+U:business§Business
+U:top_free§Free delivery in {list} from {amt}
+U:top_vat§Prices: {v}
+U:incl§incl. {r}% VAT
+U:excl§excl. VAT
+U:export§no EU VAT · export
+U:g_tesla§Tesla
+U:g_tesla_d§Cables, pigtails and connector kits with the Tesla button
+U:g_type2§Type 2
+U:g_type2_d§Charging cables and pigtails
+U:g_type13§Type 1 & Type 3
+U:g_type13_d§Cables for Type 1 cars and Type 3 charge points
+U:g_etap§ETAPpro
+U:g_etap_d§Chargers, adapters and mounting
+U:g_mobile§Mobile chargers
+U:g_mobile_d§Charge from a household or CEE socket
+U:g_parts§Parts & accessories
+U:g_parts_d§Connectors, sockets, holders and bags
+U:g_all§All products
+U:r_best§Bestseller
+U:r_award§Awarded
+U:r_promo§Promo
+U:co_wait§One moment, we are preparing your payment…
+U:co_err_missing§Please fill in: {f}.
+U:co_err_email§Please check your e-mail address.
+U:co_err_vat§This VAT number is not valid according to the European VIES register.
+U:co_err_vies§We could not verify your VAT number right now. Try again in a minute, or order as a private customer.
+U:co_err§Something went wrong and no payment was started. Please try again.
+U:vat_checking§Checking in the European VIES register…
+U:vat_vies_ok§Confirmed in VIES. Invoiced with reverse charge, no VAT.
+U:vat_vies_bad§Not found in VIES. Without a valid number we invoice with VAT.
+U:vat_vies_na§VIES does not answer right now. We check again when you order.
+U:f_first§first name
+U:f_last§last name
+U:f_email§e-mail
+U:f_street§street and number
+U:f_zip§postcode
+U:f_city§town
+U:f_company§company name
+U:st_checking§Checking your payment…
+U:st_paid_t§Order {n} is paid.
+U:st_open_t§Order {n}: waiting for your payment.
+U:st_open_p§Your payment is not confirmed yet. This page updates by itself.
+U:st_failed_t§The payment for order {n} did not go through.
+U:st_failed_p§No money was taken. Your cart is still there, so you can try again.
+U:st_again§Back to checkout
+U:st_none§We could not find this order.
+U:st_total§Total paid
+U:st_sent§Order placed with
+U:tp_eb§Test payment
+U:tp_h§Choose how this test payment ends
+U:tp_p§No Mollie key is set yet, so the shop uses its own payment simulator. No real money moves.
+U:tp_paid§Paid
+U:tp_failed§Failed
+U:tp_canceled§Cancelled by customer
+U:tp_expired§Expired
+U:tp_order§Order
+U:tp_amount§Amount
+U:calc_btn§Calculate your savings
+U:sup_o1_h§Through the Belinus service portal
+U:sup_o1_p§Sign up or sign in at the portal and send a support ticket from there. You follow your ticket, your orders and your invoices in the same place.
+U:sup_o1_b§Open the service portal
+U:sup_o2_h§By e-mail
+U:sup_o2_p§Prefer e-mail? Write to us and we answer as soon as possible.
+U:sup_note§EVChargeking is a Belinus group company. The service portal is shared by all Belinus companies; your EVChargeking orders and invoices stay marked as EVChargeking documents.
+U:full_desc§Full description
+U:more_info§More information
+U:et_h§A fixed charger at home, a mobile charger on the road
+U:et_p§The ETAPpro clicks in and out of its wall holder in one move. In the holder it is your home charge point; with an adapter cable it charges at any suitable socket.
+U:et_s1§3 × 16 A, also single-phase
+U:et_s2§connector
+U:et_s3§protection rating
+U:et_s4§designed and made
+U:et_f1§Charges on your own solar power
+U:et_f1d§It follows your solar production and your household consumption.
+U:et_f2§Keeps your fuses in
+U:et_f2d§It talks to your digital meter and respects the capacity tariff.
+U:et_f3§One app for everything
+U:et_f3d§Settings, monitoring and a report of every charging session, on Android and iOS.
+U:et_f4§No network cable needed
+U:et_f4d§It connects over Wi-Fi or Powerline, through your existing wiring.
+U:et_h2§Your charger follows the car, not the house
+U:et_p2§Because you can take it out of the holder yourself, the ETAPpro moves with you: to a second home, a new address or the next company car.
+U:et_a1§ETAPpro in its wall holder next to a car being charged
+U:et_a2§ETAPpro on a garage wall charging an electric car
+U:rev_h§What our customers say on Google
+U:rev_on§{n} Google reviews
+U:rev_asof§Google rating on {d}.
+U:rev_read§Read the reviews
+U:rev_write§Write a review
+U:follow§Follow EVChargeking
+U:share§Share
+U:share_copy§Copy link
+U:copied§Link copied
+U:like§Save
+U:liked§Saved
+U:favs§Favourites
+U:promo_eb§End-of-year offer
+U:promo_h§{pct}% off the ETAPpro 11
+U:promo_terms§Until {date}. Online orders only. The discount is already in the price.
+U:promo_short§End-of-year offer · online only
+U:promo_top§End-of-year offer: {pct}% off ETAPpro 11, online only
+U:promo_btn§Order online
+U:cta_finder§Find your cable
+U:cta_shop§Browse the shop
+U:bench_t§Find your cable
+U:add§Add to cart
+U:view§View
+U:open_finder§All options
+U:details§Product details
+U:cats_eb§Shop by category
+U:cats_h§Everything for charging at home, at work and on the road
+U:best_eb§Most ordered
+U:best_h§Our customers' favourites
+U:see_all§See all products
+U:discover§Discover
+U:c_tesla§Tesla
+U:c_tesla_d§with charge-port button
+U:c_type2§Type 2
+U:c_type2_d§most European EVs
+U:c_type1§Type 1
+U:c_type1_d§7.4 kW
+U:c_type3§Type 3
+U:c_type3_d§Type 3C charge points
+U:p74§7.4 kW
+U:p74_d§single phase · 32 A
+U:p22§22 kW
+U:p22_d§3-phase · 32 A
+U:k_cable§Charging cable
+U:k_cable_d§plug on both ends
+U:k_pig§Pigtail
+U:k_pig_d§open end, for a charging station
+U:f_eb§Cable finder
+U:f_h§Find the right charging cable
+U:s1§Product
+U:s2§Connector on the car side
+U:s3§Power
+U:s4§Length
+U:s5§Plug colour
+U:s6§Often ordered with it
+U:sum_t§Your selection
+U:sum_len§Length
+U:sum_col§Plug colour
+U:unit§Price
+U:total§Total
+U:vat_line§VAT {r}%
+U:len_note§Measured including both plugs. Better 1 metre too long than 10 cm too short.
+U:other_len§Need another length? Send us a message and we will quote it.
+U:shop_h§Shop
+U:crumb_shop§Shop
+U:qty§Quantity
+U:in_stock§In stock
+U:made§Made to order in Belgium
+U:ref§Odoo product ID
+U:weight§Weight
+U:no_desc§A full description for this product is not on the current website yet.
+U:no_photo§Photo to add
+U:also§Often ordered with it
+U:d_title§Your cart
+U:d_empty§Your cart is empty.
+U:d_cont§Continue shopping
+U:d_free_left§Add {amt} for free delivery
+U:d_free_ok§Free delivery
+U:d_up§Often added
+U:remove§Remove
+U:sub§Products
+U:ship§Delivery
+U:ship_from§Delivery from
+U:checkout§Checkout
+U:added§Added to cart
+U:co_t§Checkout
+U:co1§Your details
+U:reg_note§When you place your order, we automatically create your account in the Belinus service portal with this email address. You get an email to set your password, and you can follow your order there.
+U:acc_type§I am buying as
+U:pw§Password
+U:pw_h§At least 8 characters
+U:have_acc§Already a customer? Sign in
+U:signin_demo§Preview: sign-in is not connected yet
+U:co_priv§Private person
+U:co_comp§Company
+U:email§Email
+U:phone§Phone
+U:fname§First name
+U:lname§Last name
+U:company§Company
+U:vat§VAT number
+U:vat_ok§Valid format. Checked in VIES when you pay; invoiced with reverse charge, no VAT.
+U:vat_ok_be§Valid format. Belgian companies are invoiced with 21% VAT.
+U:vat_bad§This doesn't look like a VAT number from {c}, for example {ex}. Without one we invoice as a private person, with VAT.
+U:co2§Delivery address
+U:street§Street and number
+U:zip§Postcode
+U:city§City
+U:country§Country
+U:co3§Delivery
+U:home§{c} home delivery
+U:pickup§{c} Pickup point
+U:pickup_d§choose the point after paying
+U:free§Free
+U:co4§Payment
+U:pay_note§Payments run through Mollie. You confirm in your bank or wallet app.
+U:terms_ok§I accept the terms and conditions and have read the privacy statement.
+U:place§Place order
+U:demo§Test shop: payments are test payments. No real money moves and nothing is shipped.
+U:sum_order§Order summary
+U:rc§Reverse charge, 0%
+U:done_t§Order {n} received.
+U:done_p§Thank you. This is a test order: nothing is shipped.
+U:back§Back to the shop
+U:sup_h§Customer service
+U:sup_p§Two ways to reach us.
+U:sup_ticket§Service ticket
+U:sup_contact§Contact us
+U:sup_contact_p§Contact us about anything related to our company or services. We'll do our best to get back to you as soon as possible.
+U:name§Your name
+U:subject§Subject
+U:descr§Description
+U:question§Question
+U:serial§Device serial number
+U:serial_h§It can be found below the barcode on the grey sticker.
+U:attach§Attachment
+U:submit§Submit
+U:not_sent§Prototype: the form was not sent
+U:about_h§About EVChargeking
+U:about_group§EVChargeking is a Belinus group company. Belinus builds home batteries engineered and assembled in Europe; EVChargeking adds the charging cables and the Belgian-made ETAPpro charger.
+U:contact§Contact
+U:foot_shop§Shop
+U:foot_help§Help
+U:foot_co§Company
+U:terms_l§Terms & conditions
+U:privacy§Privacy
+U:notes§Review & build notes
+U:legal_nl§The current website publishes this text in Dutch only. It is carried over unchanged.
+U:etap_more§More on etap.pro
+U:etap_range§ETAPpro chargers and accessories
+C:eyebrow§Example calculation · Belgium
+C:h§What you save with
+C:em§a charger at home.
+C:car§Car
+C:company§Company car
+C:private§Private car
+C:region§Region
+C:vl§Flanders
+C:br§Brussels
+C:wa§Wallonia
+C:km§Kilometres per year
+C:smart§Smart charging with Themis and a dynamic contract
+C:solar§Share charged with your own solar panels
+C:perYear§per year
+C:kwh§kWh per year
+C:privH§Savings compared with public charging
+C:home§Charging at home
+C:pub§Charging at a public charger
+C:er§Employer savings
+C:erB§Home charging reimbursed at the CREG rate instead of public charging with a charge card.
+C:ee§Employee savings
+C:eeB§Difference between the CREG reimbursement and what charging really costs you at home.
+C:eeZero§With a standard contract the reimbursement roughly covers your cost. Smart charging and solar panels make the difference.
+C:note§Belinus estimate. Consumption 18 kWh per 100 km including charging losses. Public charging €0.50/kWh (average AC rate in Belgium 2026: €0.40–0.55). Home price and reimbursement at the CREG rate for Q4 2026 per region (Flanders 32.25, Brussels 36.88, Wallonia 37.79 c€/kWh, incl. VAT). Smart charging: about 4 c€/kWh cheaper. Solar power valued at the lost feed-in fee (4 c€/kWh). The cost of the charger and its installation is not included.
+C:src§Source CREG rate
+Y:transfer§Bank transfer
+Y:invoice§Invoice, 30 days
+N:199§Bespoke Tesla charging cable
+N:60§Tesla charging cable, 3-phase 32A - 22kW
+N:96§Tesla charging cable, single phase 32A - 7.4kW
+N:115§Tesla pigtail, 3-phase 32A - 22kW
+N:116§Tesla pigtail, single phase 32A - 7.4kW
+N:126§Tesla connector kit
+N:67§Tesla mini connector kit
+N:122§Tesla retrofit kit
+N:98§Type 2 charging cable, 3-phase 32A - 22kW
+N:99§Type 2 charging cable, single phase 32A - 7.4kW
+N:118§Pigtail, 3-phase 32A - 22kW
+N:119§Pigtail, single phase 32A - 7.4kW
+N:103§Type 1 charging cable 32A
+N:105§Type 3 charging cable, single phase 32A - 7.4kW
+N:134§Charging cable type 3 - type 1 32A - 7.4kW
+N:176§ETAPpro 11
+N:51§ETAPpro 7
+N:130§ETAPpro wall bracket kit
+N:35§MTAP P1 dongle
+N:32§CTAPpro 3Ph
+N:31§CTAPpro 1Ph
+N:30§ETAPpro 16A single phase adapter cable
+N:29§16A 3-phase ETAPpro adapter cable
+N:174§ETAPpro 32A 3-phase adapter cable
+N:182§ETAPpro 32A 1-phase adapter cable
+N:38§Schuko adapter cable
+N:73§PLC plug
+N:47§Ohmy mounting pole, single, aluminium
+N:43§Ohmy metal pedestal
+N:44§Ohmy adapter plate
+N:160§Concrete base for Ohmy chargepole
+N:83§Type 2 Mobile charger - 10A
+N:85§Mobile charger type 1 - 10A
+N:87§e-TAP 7.4 kW Mobile charger
+N:101§Storage bag
+N:110§Type 2 dummy socket
+N:111§Type 1 dummy socket
+N:46§32A to 16A adapter
+N:69§Type 2 female connector assembly
+N:71§Type 2 male connector assembly
+N:102§Type 1 connector 32A
+N:100§Type 3 male connector
+N:156§Type 2 female plug terminal set
+N:58§7.4 kW electric cable
+N:79§CEE socket 16A, blue
+N:80§CEE socket 32A, blue
+N:81§CEE socket 3x16A, red
+N:82§CEE socket 3x32A, red
+S:1§Shipping: 1-2 business days
+A:0§Length
+A:1§Plug color
+A:2§Black
+A:3§Blue
+A:4§Power rating
+A:5§Color
+A:6§Waterproof battery 3,3V
+A:7§No battery
+A:8§With battery
+A:9§Pushbutton
+A:10§No pushbutton
+A:11§With pushbutton
+A:12§Cable length
+A:13§L 7.5m
+D:0§## Unique Tesla charging cable
+D:1§This unique Tesla charging cable is suitable for all European Tesla models.
+D:2§This charging cable uses EVChargeking Tesla Chargeport technology, a neatly integrated push button on the vehicle-side plug that allows you to open the chargeport and unlock the cable without first having to unblock the chargeport in the car or use your car key or phone. This is a unique feature that can only be found on EVChargeking charging cables!
+D:3§Of course, this functionality only works if the car key (or your phone for the Model 3/Y) is nearby! The cable cannot be unlocked without the key fob in close proximity (just like with the superchargers...).
+D:4§Our Tesla charging cable is suitable for all European Tesla models, including the S and X as well as the Model 3 and Model Y of all model years.
+D:5§De alles-in-één-oplossing: Deze Tesla laadkabel is geschikt voor gebruik in alle mogelijke omstandigheden, enkelfase, driefase en voor alle vermogens tot 22kW!
+D:6§Bovendien is dit de lichtste en meest praktische kabel op de markt voor Tesla, de 7 meter lange kabel weegt slechts 3,15 kg.
+D:7§7 meter is onze meest gevraagde lengte. Denk eraan: beter 1 meter te lang dan 10 cm te kort...
+D:8§If you want to leave the cable permanently outside, we strongly recommend installing a Type 2 power strip, available at checkout. You can also order a handy carrying case at a great price!
+D:9§Specifications:
+D:10§Connectors | Type 2 on both sides, built-in Tesla button on vehicle side. |
+D:11§Cable | Three-phase, 5 x 4mm² + 0.50mm² with a maximum current of 3 x 32A (22 kW charging capacity) |
+D:12§Color | Black |
+D:13§Weight | 3,15kg |
+D:14§The all-in-one solution: This Tesla charging cable is suitable for use in all possible conditions, single-phase, three-phase, and for all power ratings up to 22kW! What's more, this is the lightest and most practical cable on the market for Tesla; the 7 meter cable weighs a mere 3.15 kg
+D:15§7 meters is our most popular length. Remember: it's better to be 1 meter too long than 10 cm too short!
+D:16§If you want to leave the cable outside permanently, we strongly recommend installing a type 2 plug holder, available at checkout. You can also order a handy carrying bag for a small fee!
+D:17§Weight | 3.15 kg |
+D:18§This charging cable is compatible with all Tesla models.
+D:19§This charging cable has the Tesla Chargeport functionality, a seamlessly integrated waterproof button in the vehicle-side Type 2 connector, allowing you to open the chargeport, start and stop charging your Tesla or unlock the cable, without the need to enter the car first, or use the keyfob or phone.
+D:20§This is a unique feature found only on EVChargeking Tesla charging cables! The cable release of course only works when the car's keyfob (or your telephone in case of a Model 3/Y) is around! The charging cable will not unlock when the car's keyfob is not in the vicinity (same as at the superchargers).
+D:21§The charging cable has 5 x 6mm² conductors, allowing 3 x 32A current, which represents a charging capacity of 22 kW.
+D:22§It is of course perfectly possible to charge at 16A or 32A, single or 3-phase with this cable!
+D:23§You can order the charging cable in any length you like by selecting the appropriate value in the dropdown selector. Make sur to order the correct length, better to have 1 meter too long than 10cm short. For lengths not specified in the list, just send us a message and we will quote you for your special request.
+D:24§Don't forget to choose the right length when ordering. It is better to have 1 meter too long than 10cm too short! The length of the EV cable is measured including the plugs (male/ female) on either end of the EV cable.
+D:25§Attention: An EV charging cable is NOT an extension cable: Please note that charging cables can not be used as extension cables and can only be used to connect your electric vehicle directly to a charging station. Connecting 2 cables will NOT work!
+D:26§Connectors | Type 2 on both sides, integrated Tesla button on vehicle side |
+D:27§Cable | 3 - phase, 5 x 6mm² + 0.75mm², max electric power: 3 x 32A (22 kW charging capability) |
+D:28§This charging cable has Type 2 connectors on both ends of the cable (1 female, 1 male). The cable fits all Tesla models.
+D:29§This charging cable has the Tesla Chargeport functionality, a seamlessly integrated waterproof button in the vehicle-side Type 2 connector, allowing you to open the chargeport, start and stop charging your Tesla or unlock the cable, without the need to enter the car first, or use the keyfob or phone. This is a unique feature found only on EVChargeking Tesla charging cables!
+D:30§The cable release of course only works when the car's keyfob (or your telephone in case of a Model 3/Y) is around! The charging cable will not unlock when the car's keyfob is not in the vicinity (same as at the superchargers).
+D:31§The cable has 3 x 6mm² conductors, allowing 32A current, which represents a charging capacity of 7.4 kW. The price difference with a weaker 16A cable is so small that we think you are better off with this top model. In case you switch to a bigger electric car or install a more performant charging infrastructure, you won't need to upgrade your cable.
+D:32§It is of course perfectly possible to charge at 16A with this cable!
+D:33§Standard length of the cable is 2 meters, but you can order any length you like by selecting the appropriate value in the dropdown selector. For lengths not specified in the list, just send us a message and we will quote you for your special request.
+D:34§contact met ons nemen
+D:35§Don't forget to choose the right length when ordering. It is better to have 1 meter too long than 10cm too short! The length of the EV cable is measured including the plugs (male/ female) on either end of the EV cable.en zorgen wij voor een gepaste offerte.
+D:36§Connectors | Type 2 on both sides, integrated Tesla button in vehicle side connector. |
+D:37§Cable | Single phase, 3 x 6mm² + 0.75mm², max electric power: 1 x 32A (7.4 kW charging capability) |
+D:38§This charging cable has a Type 2 female connector witgh Tesla button on one end of the cable, and an open end at the other end. This cable can be used in tethered charging stations.
+D:39§## Attention: You cannot connect a blue or red commando plug to this pigtail and charge from a commando socket. It can only be used in combination with a charging station! This pigtail also is not a standard replacement for the cable used in the Tesla Wallchargers, it can be used for that purpose but you need to perform a few extra steps, see this forum post: Change Charging Cable of Tesla Wall Connector Not compatible with the Gen3 or newer Tesla Wallbox!
+D:40§This pigtail has the Tesla Chargeport functionality, a seamlessly integrated waterproof button on the vehicle-side Type 2 connector, allowing you to open the chargeport, start and stop charging your Tesla or unlock the cable, without the need to enter the car first, or look for the keyfob. This is a unique feature found only on EVChargeKing cables!
+D:41§The cable release of course only works when the car's keyfob is around! The cable will not unlock when the car's keyfob is not in the vincinity (same as at the superchargers).
+D:42§The cable has 5 x 6mm² conductors, allowing 3 x 32A current, which represents a charging capacity of 22 kW.
+D:43§Standard length of the cable is 2 meter, but you can order any length you like by selecting the appropriate value in the dropdown selector. For lengths not specified in the list, just send us a message and we will quote you for your special request.
+D:44§Connectors | Type 2 female with Teskla button on vehicle side, open end at the other side. |
+D:45§Cable | 3 - phase, 5 x 6mm² + 0.5mm², max electric power: 3 x 32A (22 kW charging capability) |
+D:46§Color | Zwart / Blauw |
+D:47§This charging cable has a Type 2 female connector with a Tesla button on the vehicle end and an open end on the other end. This cable is suitable for connecting to a charging station with a fixed cable.
+D:48§## Please note: You cannot screw a blue or red CEE plug (commando socket) onto these cables and charge your vehicle. Use only in combination with a charging station! This pigtail is not a direct replacement for the original Tesla Wallbox charging cable; it can be used with it but requires a few minor adjustments. See this forum post: Change Charging Cable of Tesla Wall Connector. Not compatible with the Gen3 or later Tesla Wallbox!
+D:49§This cable uses EVChargeKing Tesla Chargeport technology, a neatly integrated push button on the vehicle-side Type 2 connector that allows you to open the chargeport and unlock the cable without first having to open the charging flap from inside the car or search for your car key. This is a unique feature found only on EVChargeKing cables!
+D:50§Of course, this feature only works if the car key is nearby! The cable cannot be unlocked without the key fob nearby (just like with the superchargers...)
+D:51§The charging capacity of this cable is 1 x 32A. You can charge at a rate of up to 7.4 kW.
+D:52§The standard length is 2 meters, but the cable can be ordered in any desired length by selecting the desired length from the drop-down list. If the connection point is on the other side of the cart, you will need at least 4 meters. If you would like a length that is not listed, you can contact us and we'll provide you with a suitable quote.
+D:53§Connectors | Type 2 with a Tesla connector on one side of the vehicle and an open end on the other side. |
+D:54§Cable | Single-phase, 3 x 6 mm² + 0.75 mm² with a maximum current of 32 A (7.4 kW charging capacity at 240 V) |
+D:55§## This kit can be used to incorporate a custom Tesla button in an existing female type 2 plug. Make sure you can open the plug and that there is enough space inside to house the electronic print and the battery if needed. You need a 3V power supply or use a 3V battery! The electronics for use with a battery are different!
+D:56§All components are waterproof. The kit uses a 3.3V source, you need to have this available from your charging station through the charging cable or use the optional 3V battery. The optional pushbutton provided with the kit needs a hole diameter of 16mm.
+D:57§These are the connections to be made when installing the kit:
+D:58§- red wire to +3.3V (or red wire of battery if fitted)
+D:59§- green wire goes to PE terminal of connector (and grey wire of battery if fitted)
+D:60§- purple wire goes to the PP terminal of the connector
+D:61§- grey wires go to the pushbutton switch
+D:62§To connect the green and purple wire, look inside the connector and you will see a wire running from the PP terminal to the PE (earth) terminal. There will be a resistance in the wire (220 Ohm for a 32A connector, 680 Ohm for a 16A version). You need to cut both ends of the resistance to remove it from the wire. The correct resistance is provided by the electronic print.
+D:63§Connect the purple wire to the PP side wire and the green cable to the PE side of the wire you just cut.
+D:64§Make sure you order the correct version for your cable. Installing a 32A version on a 16A cable might cause your cable to catch fire, installing a 16A version on a 32A cable will reduce your charging power...
+D:65§Return or refund for the retrofit kit is not possible after an installation attempt has been performed
+D:66§This charging cable has a Type 2 connector on both ends (1 male and 1 female). This cable is suitable for vehicles with a Type 2 connector (most European models these days) and a Type 2 charging point on the infrastructure side, such as those typically found at public charging stations in Europe.
+D:67§We don't use the standard cable made in China, but a high-quality European product that is 20% lighter and thinner—and more durable! The plugs have completely rust-free contacts.
+D:68§This cable has a charging capacity of 3 x 32A (5 x 6mm²), which is sufficient for all types of charging infrastructure and any type of vehicle. You can charge at a rate of up to 22 kW. Of course, this cable can also be used for charging at 16A or 32A, single-phase or three-phase, so you’re ready for the heavier-duty work if needed!
+D:69§The cable can be ordered in any desired length by selecting the correct length from the drop-down list. If you would like a length that is not listed, you can contact us and we'll provide you with a suitable quote. If the connection point is on the other side of the car, you'll need at least 4 meters.
+D:70§Please note: a charging cable is NOT an extension cord:
+D:71§An electric vehicle charging cable can only be used to connect the vehicle to a charging station. Using the cable as an extension cord will NOT work!
+D:72§If you want to leave the cable hanging outside permanently, we strongly recommend installing a Type 2 power strip, available at checkout. You can also order a practical carrying bag at a great price!
+D:73§Connectors | Type 2 on both sides |
+D:74§Cable | Three-phase, 5 x 6 mm² with a maximum current of 32 A (22 kW charging capacity at 240 V) |
+D:75§This charging cable has a Type 3C connector at the infrastructure side of the cable and a Type 2 connectors at the vehicle sides of the cables. This cable can be used for all cars having a Type 2 connector on the vehicle side and need a Type 3C connector on the infrastructure side, as is mostly the case in France. For the rest of Europe, you would need a type 2 - type 2 cable, sold elsewhere in the shop.
+D:76§You can order any length you need by selecting the appropriate value in the dropdown selector. For lengths not specified in the list, just send us a message and we will quote you for your special request. contact met ons nemen
+D:77§Attention: An EV charging cable is NOT an extension cable:
+D:78§Please note that charging cables cannot be used as extension cables and can only be used to connect your electric vehicle directly to a charging station. Connecting 2 cables will NOT work!
+D:79§Connectors | Type 3C infrastructure side, Type 2 vehicle side |
+D:80§Cable | Single phase, 3 x 6mm² + 0.5mm², max electric power: 1 x 32A (7.4 Kw charging capability at 230V) |
+D:81§Color | Blauw / Zwart / Wit |
+D:82§## A visionary charger that combines the best of both worlds.
+D:83§The ETAPpro combines the best of both worlds: When the ETAPpro is snapped into the wall mount, you have a standard charger that allows you to charge your car at high power (11 kW), but… when you remove the ETAPpro from the wall mount and connect it to an adapter cable, you have a portable charger that you can take with you anywhere and use at any compatible outlet.
+D:84§De ETAPpro 11 is een driefasig toestel met een maximaal vermogen van 11kW (3 x 16A), maar dat perfect enkelfasig kan aangesloten en gebruikt worden.
+D:85§What’s more, it’s a very compact device, yet packed with the latest technology! For example, it can communicate with your digital meter or, in the case of older analog meters, with a small device that measures electricity usage in your meter cabinet. This allows you to account for the capacity tariff, your solar energy, household consumption, and other ETAPpro charging points, ensuring you maintain full control at all times and never blow a fuse or face unnecessarily high electricity bills.
+D:86§The ETAPpro is easy to use yet offers a wide range of features. The device is configured and monitored via a proprietary app for Android or iOS, and communication with the cloud platform where all data is stored can be done via Wi-Fi or even Powerline (using existing electrical wiring), so you don’t need to run any additional network cables.
+D:87§Through a user portal, you can easily generate reports on past charging sessions, including the location, the number of kWh, the time, etc.
+D:88§The ETAPpro is also built for the future; all software updates are performed automatically and securely "over the air," ensuring that the device will be increasingly able to adapt to changing regulations and technical developments in the electric vehicle sector.
+D:89§## Fixed or mobile
+D:90§If you want to use the ETAPpro in a fixed location, you can install a wall mount. When you slide the ETAPpro into the wall mount, it becomes a fixed charging station. The wall mount naturally provides power to the charger and is easy to connect. Additionally, the wall mount is equipped with a lock and keys that allow you to secure the ETAPpro so that another fan of the product can’t walk off with it.
+D:91§If that were to happen, you can always see where the device is being used via the built-in GPS module, and you can remotely lock the charger!
+D:92§If you want to take your charging station with you on a trip or on vacation, you can slide the ETAPpro out of the wall mount and, using the adapters, connect it to various types of outlets. Currently, adapters are available for standard household outlets (included in the standard package), for blue 16A camping plugs, and for red 16A three-phase industrial outlets (available as options).
+D:93§The ETAPpro also automatically detects which adapter you’re using and sets the maximum charging current to prevent dangerous situations. In addition, the adapters are equipped with temperature sensors to protect your outlets—both in the device itself and in the plug that goes into your car. If the temperature gets too high, the charging current will be reduced or charging will stop entirely. Safety first!
+D:94§## Smart charger
+D:95§To use the ETAPpro’s smart features, you’ll naturally need to communicate with the digital meter or a device capable of reading electricity consumption. That’s why the MTAP and CTAP were designed. With the MTAP, you can read the digital meter via the P1 port; with the CTAP, you’ll need to clip the measurement clamps onto the incoming power wires of the installation.
+D:96§If you don’t have a digital meter (yet), features such as capacity-based rates do not apply, and dynamic pricing—which varies by the hour—also requires a digital meter. However, load balancing—where the charger takes household consumption into account—and load sharing—where available power is distributed across multiple chargers—are available even without a digital meter.
+D:97§Using local electricity generated by solar panels is also a standard feature, which prevents you from feeding the generated electricity back into the grid for free.
+D:98§On top of all this, we’ve set up an excellent breakdown service so that, in the unlikely event of a problem with the charging station, you’ll receive a replacement unit that’s configured exactly the same way, allowing you to continue using it right away while we thoroughly investigate and resolve the issue with your unit.
+D:99§The ETAPpro combines the best of both worlds: When the ETAPpro is clicked into the wall mount, you have a standard charging station and can charge your car at high power (11 kW), but… if you click the ETAPpro out of the wall mount and connect it to an adapter cable, you have a portable charger that you can take with you anywhere and use at any compatible outlet.
+D:100§The ETAPpro 7 is a single-phase unit with a maximum power output of 7.4 kW (1 x 32 A)
+D:101§What’s more, it’s a very compact device, yet packed with the latest technology! For example, it can communicate with your digital meter or, in the case of older analog meters, with a small device that measures electricity usage in your meter cabinet. This makes it possible to account for the capacity rate, your solar energy, household consumption, and other ETAPpro charging points, so you can maintain full control at all times and never have to deal with blown fuses or pay unnecessarily high electricity bills.
+D:102§The ETAPpro is easy to use yet offers a wide range of features. The device is configured and monitored via a proprietary app for Android or iOS, and communication with the cloud platform where all data is stored can be done via Wi-Fi or even Powerline (over existing electrical wiring), so you don’t need to run any additional network cables.
+D:103§Through a user portal, you can easily generate reports on past charging sessions, including the location where they took place, the number of kWh, the time, etc.
+D:104§If you want to use the ETAPpro in a fixed location, you can install a wall mount. When you slide the ETAPpro into the wall mount, the entire unit becomes a fixed charging station. The wall mount, of course, provides power to the charger and is easy to connect. In addition, the wall mount is equipped with a lock and keys that allow you to lock the ETAPpro in place so that another fan of the product can’t walk off with it.
+D:105§If that were to happen, you can always use the built-in GPS module to see where the device is being used, and you can remotely block the charger!
+D:106§If you want to take your charging station with you on a trip or on vacation, you can slide the ETAPpro out of the wall mount and, using the adapters, connect it to various types of outlets. Currently, adapters are available for standard household outlets (included in the standard package), for blue 16A–32A camping plugs, and for red 16A–32A industrial three-phase outlets (available as an option).
+D:107§## Smart Charger
+D:108§To use the ETAPpro’s smart features, you’ll need to communicate with the digital meter or a device that can read electricity consumption. The MTAP and CTAP were designed for this purpose. With the MTAP, you can read the digital meter via the P1 port; with the CTAP, you’ll need to clip the measurement clamps onto the incoming power wires of the electrical system.
+D:109§If you don’t have a digital meter (yet), features such as the capacity rate do not apply, and dynamic pricing—which varies by the hour—also requires a digital meter. However, load balancing—where the charger takes household consumption into account—and load sharing—where available power is distributed among multiple chargers—are available even without a digital meter.
+D:110§Using local electricity generated by solar panels is also a standard feature, which prevents you from feeding the generated electricity into the grid for free.
+D:111§On top of all this, we’ve set up an excellent breakdown assistance service so that, in the unlikely event of a problem with your charging station, you’ll receive a replacement unit configured exactly the same way, allowing you to continue using it right away while we thoroughly investigate and resolve the issue with your unit.
+D:112§Voeg een bijschrift toe om de betekenis van deze afbeelding te versterken.
+D:113§By using the wall bracket, you can quickly transform the portable ETAPpro into a fixed charging station. The necessary electrical connection and installation are quick and easy. The wall bracket is compatible with all current and future models of the ETAPpro.
+D:114§When you insert the ETAPpro into the wall bracket, the electrical connection is made automatically—so just slide it in and start charging!
+D:115§The wall mount also features a locking mechanism with matching keys to secure your ETAPpro against theft. The wall mount is designed so that you can neatly wrap the ETAPpro’s charging cable around the device. A matching plug holder is also included so you can securely lock the charging plug in place and avoid leaving it lying around on the floor.
+D:116§To enable certain smart features of the ETAPpro, communication with your digital meter is required, and that’s where the MTAP comes in. The MTAP can be easily plugged into the P1 port of the digital meter using the included cable and, once activated, will automatically detect ETAPpro devices on the network.
+D:117§From that point on, the charging station can take into account household energy consumption, the capacity rate, solar energy generated, etc. The necessary data is transmitted by the MTAP via Wi-Fi or an Ethernet connection/PLC to the charging station(s). In addition, the P1 signal is actively looped through (not a standard hardware splitter!) so that existing devices can continue to be used. There is even a USB-C port provided to supply additional power if needed.
+D:118§MTAP currently supports official digital meters in Belgium, the Netherlands, and Luxembourg.
+D:119§With this CEE 16A single-phase adapter cable, you can connect your ETAPpro to a blue CEE single-phase 16A outlet (camping plug) to charge your car. The ETAPpro recognizes this adapter cable and automatically limits charging to 16A (3700W) to prevent the outlet from overheating.
+D:120§The adapter cable also features a built-in temperature sensor to monitor the wall outlet. If the ETAPpro detects an abnormally high temperature in the outlet, charging is limited or, if necessary, even interrupted.
+D:121§With this Schuko (Type E/F) adapter cable, you can connect your ETAPpro to a standard household outlet to charge your car. The ETAPpro recognizes this adapter cable and automatically limits charging to 10A (2300W) to prevent the outlet from overheating.
+D:122§Please note: This Schuko adapter is already included when you order an ETAPpro!
+D:123§Avoid having to run Ethernet cables to your ETAPpro charging station by using Power Line Communication (PLC). Plug the Power Line adapter into an outlet on the same electrical circuit as your ETAPpro, then connect the adapter to your internet router using the included short Ethernet cable—and your ETAPpro is connected to the internet!
+D:124§Ideal for situations where your ETAPpro doesn't have a Wi-Fi connection (in basements or too far from the Wi-Fi access point).
+D:125§This 7.5 meter mobile charger can be used to charge your electric vehicle equipped with a Type 2 connector from a household socket. It is rated at a safe 10A charging limit, because household sockets are not made to deliver high loads for a long duration of time. Your electric vehicle will charge at 2.3 kW
+D:126§Please make sure you charge from a correctly installed household socket that is able to deliver 10A, and is electrically protected with an RCBO.
+D:127§The charger features:
+D:128§- Earth leakage protection
+D:129§- Over current protection
+D:130§- Over voltage protection
+D:131§- Low voltage protection
+D:132§- Short circuit protection
+D:133§- Overheat protection
+D:134§This mobile charger will also work in case neutral and phase are reversed or when neutral is missing alltogether (3 x 230V network) and provided your car supports charging without neutral.
+D:135§Our e-TAP 7.4 kW 7 meter length mobile charger can be used to charge your electric vehicle from a blue 32A single phase CEE socket. The power is adjustable to 6A, 10A, 13A, 16A, 20A, 25A or 32A. Your electric vehicle will charge at a maximum rate of 7.4 kW.
+D:136§The charger has a multitude of safety features, including monitoring of the CEE plug temperature, AC and DC residual current leak detection, overheating, ...
+D:137§Please make sure you charge from a correctly installed blue 32A CEE socket as depicted on the left, that is rated to deliver 32A, installed with minimum 6mm² wires. You can order a high quality wall socket that is IP 67 rated for in- or outdoor use with the charger.
+D:138§- Earth leakage protection (AC and DC)
+D:139§- Internal current switching problem detection
+D:140§- Wall plug overheat protection
+D:141§- Adjustable charging amps (6A,10A,13A,16A,20A,25A,32A)
+D:142§## Protect your plug
+D:143§Dummy socket for Type 2 plugs to neatly hang the plug after use. Not only does this prevent the plug from lying on the ground, but it also protects the plug from water damage and oxidation caused by rain.
+H:0:h§Smart, powerful and flexible charging with EVChargeking
+H:0:p0§Welcome to EVChargeking – specialists in high-quality charging solutions for electric vehicles, with particular expertise in Tesla.
+H:0:p1§We develop and manufacture premium charging cables that excel in quality, durability and ease of use. Our cables are manufactured in Belgium using high-quality electrical conductors and innovative materials, making them:
+H:0:p2§Whether you are charging at home, at the office or on the road, with EVChargeking you are choosing certainty, safety and maximum efficiency.
+H:0:l0§Lightweight and flexible
+H:0:l1§Universally applicable
+H:0:l2§Suitable for daily and intensive professional use
+H:0:l3§Reliable performance in every situation
+H:1:h§The future of mobile charging: ETAPpro
+H:1:p0§EVChargeking is the designer and manufacturer of the revolutionary ETAPpro, an advanced mobile charging solution that fundamentally changes the way electric vehicles are charged.
+H:2:h§Unique Tesla charging cable
+H:2:p0§The EVChargeking Tesla charging cable combines ease of use with maximum flexibility. Thanks to its lightweight and flexible cable, it is easy to handle and take with you wherever you go, while its robust construction makes it suitable for use in all weather conditions. The integrated Tesla button also allows you to easily open the charging port and unlock the plug, making charging even faster and more convenient.
+B:0§EVChargeking is a Belgian company that offers charging accessories for owners of electric vehicles, with a focus on Tesla models.
+B:1§For Tesla models, we developed a lightweight charging cable that allows you to easily open the chargeport, but also stop the charging session and unlock the plug at the touch of a button.
+B:2§The ETAPpro mobile charging solution is also a unique development by EVChargeking.
+E:0§## The future of mobile charging: ETAPpro
+E:1§EVChargeKing is the designer and manufacturer of the revolutionary ETAPpro – an advanced mobile charging solution that fundamentally changes the way electric vehicles are charged.
+E:2§The ETAPpro combines:
+E:3§- Mobility and fixed availability in one system
+E:4§- High power in a compact, portable solution
+E:5§- Professional technology with user-friendly operation
+E:6§- Maximum flexibility for individuals and businesses
+E:7§Where traditional charging solutions are limited to one location, ETAPpro offers freedom. Charge wherever and whenever you need to.
+E:8§## A visionary new charging solution
+E:9§The new ETAPpro combines the best in technology and portability in a single device. It can be used as a stationary charging station, but can also be taken along on trips to charge devices anywhere using a compatible adapter cable. You can manage and control the ETAPpro via an app on your phone, anytime, anywhere.
+E:10§While offering mobile flexibility, the ETAPpro features a wide range of functionalities that will only continue to grow over time. We have ensured that the ETAPpro includes all the necessary hardware to offer new functionalities in the future through automatic and secure software updates.
+E:11§The ETAPpro automatically adapts to your household consumption or solar panel output, offers extensive scheduling features, includes an option to avoid peak consumption, can monitor dynamic electricity prices to determine when to charge, and sends all its data to our cloud storage, where it is accessible for detailed reporting, split billing, and much more.
+E:12§Installation is simple; onboarding is done through the ETAP app for Android or iPhone, and communication between multiple ETAPpro chargers and the digital meter or power monitoring device takes place via the electrical wiring, so no Wi-Fi connection or installation of additional cabling is required. The charger comes standard with Bluetooth, Wi-Fi, RFID, GPS, 4G, and PLC communication, so there’s no need for expensive add-ons.
+E:13§Because ETAPpro is so smart, you can save a significant amount on your electricity bill every year, making this charger the most advanced and cost-effective charger available.
+E:14§Of course, the ETAPpro is compatible with all CPO platforms (OCPP 1.6) and also supports API calls and Modbus communication, allowing it to integrate with all energy management systems.
+E:15§For more information, visit our website ETAP.pro
