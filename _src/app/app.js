@@ -2,7 +2,7 @@
 const D=window.EVDATA, PR=D.products, PID=Object.fromEntries(PR.map(p=>[p.id,p]));
 const BASE_VAT=1.21;  // website prices in Odoo are shown incl. 21% Belgian VAT
 const PORTAL="https://portal.belinus.com";
-const CO={name:"EVChargeking",legal:"Some BV",street:"Hooilaar 40",zip:"2230",city:"Herselt",vat:"BE 0829.249.337",email:"service@evchargeking.com",phone:"+32 475 44 36 69"};
+const CO={name:"EVChargeking",legal:"Some BV",street:"Probastraat 21",zip:"2235",city:"Westmeerbeek",vat:"BE 0829.249.337",email:"service@evchargeking.com",phone:"+32 475 44 36 69"};
 const VAT={BE:21,NL:21,FR:20,DE:19,AT:20,LU:17,DK:25,ES:21,PT:23,IE:23,SE:25,HU:27,LT:21,IT:22,PL:23,FI:25.5,CZ:21,SK:23,BG:20,HR:25,CY:19,EE:24,GR:24,LV:21,MT:18,RO:21,SI:22,GB:0,CH:0};
 const EU=new Set(["BE","NL","FR","DE","AT","LU","DK","ES","PT","IE","SE","HU","LT","IT","PL","FI","CZ","SK","BG","HR","CY","EE","GR","LV","MT","RO","SI"]);
 // DPD rates excl. VAT as charged on recent webshop orders in Odoo; tbc = no recent order to that country
@@ -448,7 +448,7 @@ function renderNotes(){
    `<b>${noPhoto.length} products have no photo:</b> ${noPhoto.map(esc).join(", ")}.`,
    `<b>${noDesc} of ${PR.length} products have no description</b> on the live site, among them the Type 2 7.4 kW cable, the Type 1 cable, both plain pigtails, the CTAPpro sensors and the storage bag.`,
    "<b>Mixed languages.</b> The English pages of the Bespoke Tesla cable and the ETAPpro 11 contain Dutch paragraphs; the MTAP page carried a “Translated with DeepL (free version)” line (removed here). Five product names were Dutch in English and French (CEE sockets, Muurbeugel Kit, Ohmy montagepaal) and one had a typo (“charking”). They are renamed here; fix them in Odoo.",
-   "<b>Legal texts.</b> Terms exist in Dutch only and name “Some bvba”; the privacy page names “Some BV”, gives an older address (Probastraat 21, 2235 Westmeerbeek) next to Hooilaar 40, 2230 Herselt, and a register number 838 249 337 that does not match VAT BE 0829.249.337. Both texts are carried over unchanged and need a legal update, including the Belinus group.",
+   "<b>Legal texts.</b> Terms exist in Dutch only and name “Some bvba”; the privacy page names “Some BV”, gives an older address (Probastraat 21, 2235 Westmeerbeek) next to Probastraat 21, 2235 Westmeerbeek, and a register number 838 249 337 that does not match VAT BE 0829.249.337. Both texts are carried over unchanged and need a legal update, including the Belinus group.",
    "<b>Returns.</b> The terms give 14 days and allow excluding made-to-specification products, but no product page says whether a cable cut to length can be returned. Decide and state it.",
    "<b>Leftovers on the live site.</b> An unconfigured Odoo snippet message on the home and ETAPpro pages and the ETAPpro text repeated three times in the page source.",
    "<b>Price steps.</b> Some length extras are off by a cent or more (6 m +€52.01, 10 m +€80.01, 25 m +€298.98, 14 m +€119.94). Worth rounding in Odoo.",

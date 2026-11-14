@@ -22,7 +22,7 @@ GSC_TOKEN = ""
 LOCALE = {"nl": "nl_BE", "fr": "fr_BE", "en": "en_GB"}
 ORG = {"@type": "OnlineStore", "@id": "https://evchargeking.com/#org", "name": "EVChargeking", "legalName": "Some BV", "url": "https://evchargeking.com",
        "logo": "https://evchargeking.com/share/logo.png", "email": "service@evchargeking.com", "telephone": "+32475443669", "vatID": "BE0829249337",
-       "address": {"@type": "PostalAddress", "streetAddress": "Hooilaar 40", "postalCode": "2230", "addressLocality": "Herselt", "addressCountry": "BE"},
+       "address": {"@type": "PostalAddress", "streetAddress": "Probastraat 21", "postalCode": "2235", "addressLocality": "Westmeerbeek", "addressCountry": "BE"},
        "sameAs": ["https://www.facebook.com/evchargeking", "https://x.com/EVChargeKing", "https://www.linkedin.com/company/evchargeking", "https://www.youtube.com/@EVChargeking/videos"],
        "parentOrganization": {"@type": "Organization", "name": "Belinus", "url": "https://belinus.com"}}
 SRC = Path(__file__).resolve().parent
