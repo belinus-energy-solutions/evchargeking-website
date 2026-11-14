@@ -17,12 +17,12 @@ Preview address: https://evchargeking-website.b-cdn.net/ (the live evchargeking.
 - [x] Google tags prepared for go-live only: Consent Mode v2, Tag Manager container `GTM-5G8H3GLB` (from the live shop) loaded after consent, page and e-commerce events. The preview loads no tracker.
 - [x] Product pages: short description first, full text in collapsible sections; ETAPpro showcase with the Belinus product photos
 - [ ] Before go-live: Search Console verification code (`GSC_TOKEN` in `build.py`), check the Tag Manager container fires on the new events, confirm ETAPpro IP67 / Type 2 against the final data sheet
-- [ ] Checkout service (Supabase functions `evck-*` in project "Belinus Portal"): cart total from Odoo, VAT number check, order in Odoo, Mollie payment, automatic service-portal account
+- [x] Checkout service `evck-shop` (Supabase project "Belinus Portal", source in `_src/shop/`): server-side prices from `/assets/shop-catalog.json`, VAT number check in VIES, order stored in table `evck_orders`, payment through Mollie or, while no `MOLLIE_API_KEY` secret is set, a built-in payment simulator. A live Mollie key is refused unless `EVCK_ALLOW_LIVE=1`.
+- [ ] Checkout, still to connect after payment: order in the EVChargeking Odoo, confirmation e-mail (Mailgun), automatic service-portal account
 - [ ] Odoo: dedicated API user; website pricelist rule for the ETAPpro 11 end-of-year promotion; product references; Mollie journal
 - [ ] Nightly catalogue sync from Odoo (products, prices, stock, photos) instead of the snapshot in `_src/app/data.js`
 - [ ] Go-live: `python3 _src/app/build.py --live`, then DNS for evchargeking.com to the pull zone, SSL, Force SSL, redirects from the old Odoo addresses
 
-Until the checkout service is live, the checkout page says ordering is not switched on and creates nothing.
 
 ## Production safety (rule set by Steve, 14 Nov 2026)
 
@@ -31,9 +31,9 @@ Nothing in this repository may alter EVChargeking's production set-up until Stev
 - **DNS for evchargeking.com** stays on Odoo. No hostnames for evchargeking.com are added to the pull zone.
 - **Odoo (evck.odoo.com)**: read-only. No products, prices, pricelists, orders, website or payment settings are changed.
 - **Mollie**: read-only. No payments, webhooks or profile settings are created or changed.
-- **Supabase "Belinus Portal"**: no functions, tables or secrets are added for the shop until agreed.
+- **Supabase "Belinus Portal"**: the shop only uses its own function `evck-shop` and its own table `evck_orders` (added 14 Nov 2026 at Steve's request). Nothing of the portal or the investor platform is changed.
 - The deploy workflow only touches the Bunny zones named `evchargeking-website`; it never edits other zones.
-- The preview is not indexable and its checkout creates no orders.
+- The preview is not indexable. Its checkout creates test orders only (test payments, nothing sent to Odoo or to customers).
 
 ## How it is built
 

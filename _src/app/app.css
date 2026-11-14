@@ -624,3 +624,8 @@ footer.site .social a:hover{color:#8f95ff;border-color:#6d74ff}
 .themetog button svg{width:15px;height:15px;stroke:currentColor;fill:none;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
 .themetog button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
 .themetog button[aria-pressed="false"]:hover{color:var(--blue)}
+
+/* checkout messages, test payment */
+.co-msg{margin:0;font-size:.88rem;color:var(--bad);min-height:1.2em}
+label.f input.bad{border-color:var(--bad)!important;box-shadow:0 0 0 3px color-mix(in srgb,var(--bad) 22%,transparent)}
+.tp-btns{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}

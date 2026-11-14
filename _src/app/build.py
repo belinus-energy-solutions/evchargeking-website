@@ -39,6 +39,21 @@ ver = hashlib.sha1(b"".join((SRC / f).read_bytes() for f in ("app.js", "app.css"
 for f in ("app.js", "app.css", "data.js"): shutil.copy(SRC / f, ROOT / "assets" / f)
 shell = (SRC / "shell.html").read_text(encoding="utf-8").replace("__V__", ver)
 
+# 1a. catalogue for the checkout service (same figures as the pages): /assets/shop-catalog.json
+def shop_catalog():
+    src = (SRC / "data.js").read_text(encoding="utf-8"); D, _ = json.JSONDecoder().raw_decode(src[src.index("window.EVDATA=") + 14:])
+    js = (SRC / "app.js").read_text(encoding="utf-8")
+    def const(name): return re.search(r"^const " + name + r"=(.*?);\s*(?://.*)?$", js, re.M).group(1)
+    jsobj = lambda t: json.loads(re.sub(r"([{,])\s*([A-Za-z_]\w*)\s*:", r'\1"\2":', t))
+    ship = {c: {"home": v.get("home"), "pickup": v.get("pickup")} for c, v in jsobj(const("SHIP")).items()}
+    fs = const("FREE_SHIP"); promo = jsobj(const("PROMO"))
+    out = {"products": {str(p["id"]): {"p": p["p"], "n": p["n"]["en"], "w": p.get("w", 0),
+           "a": [[{"l": (v["l"] if isinstance(v["l"], str) else v["l"].get("en")), "x": v.get("x", 0) or 0} for v in a["v"]] for a in p.get("a", [])]} for p in D["products"]},
+           "baseVat": 1.21, "vat": jsobj(const("VAT")), "eu": json.loads(re.search(r"\[.*\]", const("EU")).group(0)), "ship": ship,
+           "freeShip": {"countries": json.loads(re.search(r"\[.*?\]", fs).group(0)), "over": float(re.search(r"over:(\d+)", fs).group(1))}, "promo": promo}
+    (ROOT / "assets" / "shop-catalog.json").write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+shop_catalog()
+
 # 1b. share images: 1200x630 JPEG per product, category and a default one (what WhatsApp, Facebook, LinkedIn and X show)
 from PIL import Image
 def share_image(src, dest):
