@@ -18,6 +18,17 @@ Preview address: https://evchargeking-website.b-cdn.net/ (the live evchargeking.
 
 Until the checkout service is live, the checkout page says ordering is not switched on and creates nothing.
 
+## Production safety (rule set by Steve, 14 Nov 2026)
+
+Nothing in this repository may alter EVChargeking's production set-up until Steve approves go-live:
+
+- **DNS for evchargeking.com** stays on Odoo. No hostnames for evchargeking.com are added to the pull zone.
+- **Odoo (evck.odoo.com)**: read-only. No products, prices, pricelists, orders, website or payment settings are changed.
+- **Mollie**: read-only. No payments, webhooks or profile settings are created or changed.
+- **Supabase "Belinus Portal"**: no functions, tables or secrets are added for the shop until agreed.
+- The deploy workflow only touches the Bunny zones named `evchargeking-website`; it never edits other zones.
+- The preview is not indexable and its checkout creates no orders.
+
 ## How it is built
 
 - `_src/app/` is the source: `shell.html` (page frame), `app.css`, `app.js` (all pages and texts), `data.js` (catalogue snapshot from Odoo and evchargeking.com, 14 Nov 2026).
