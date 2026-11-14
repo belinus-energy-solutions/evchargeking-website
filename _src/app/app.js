@@ -29,7 +29,7 @@ en:{nav_login:"Customer login",acc_eb:"Belinus service portal",acc_h:"One login 
  group:"A <b>Belinus</b> group company",nav_home:"Home",nav_shop:"Shop",nav_finder:"Cable finder",nav_etap:"ETAPpro",nav_support:"Customer support",nav_about:"About",
  cart:"Cart",private:"Private",business:"Business",top_free:"Free delivery in {list} from {amt}",top_vat:"Prices: {v}",incl:"incl. {r}% VAT",excl:"excl. VAT",export:"no EU VAT · export",
  g_tesla:"Tesla",g_tesla_d:"Cables, pigtails and connector kits with the Tesla button",g_type2:"Type 2",g_type2_d:"Charging cables and pigtails",g_type13:"Type 1 & Type 3",g_type13_d:"Cables for Type 1 cars and Type 3 charge points",g_etap:"ETAPpro",g_etap_d:"Chargers, adapters and mounting",g_mobile:"Mobile chargers",g_mobile_d:"Charge from a household or CEE socket",g_parts:"Parts & accessories",g_parts_d:"Connectors, sockets, holders and bags",g_all:"All products",
- r_best:"Bestseller",r_award:"Awarded",r_promo:"Promo",promo_eb:"End-of-year offer",promo_h:"{pct}% off the ETAPpro 11",promo_terms:"Until {date}. Online orders only. The discount is already in the price.",promo_short:"End-of-year offer · online only",promo_top:"End-of-year offer: {pct}% off ETAPpro 11, online only",promo_btn:"Order online",
+ r_best:"Bestseller",r_award:"Awarded",r_promo:"Promo",full_desc:"Full description",more_info:"More information",et_h:"A fixed charger at home, a mobile charger on the road",et_p:"The ETAPpro clicks in and out of its wall holder in one move. In the holder it is your home charge point; with an adapter cable it charges at any suitable socket.",et_s1:"3 × 16 A, also single-phase",et_s2:"connector",et_s3:"protection rating",et_s4:"designed and made",et_f1:"Charges on your own solar power",et_f1d:"It follows your solar production and your household consumption.",et_f2:"Keeps your fuses in",et_f2d:"It talks to your digital meter and respects the capacity tariff.",et_f3:"One app for everything",et_f3d:"Settings, monitoring and a report of every charging session, on Android and iOS.",et_f4:"No network cable needed",et_f4d:"It connects over Wi-Fi or Powerline, through your existing wiring.",et_h2:"Your charger follows the car, not the house",et_p2:"Because you can take it out of the holder yourself, the ETAPpro moves with you: to a second home, a new address or the next company car.",et_a1:"ETAPpro in its wall holder next to a car being charged",et_a2:"ETAPpro on a garage wall charging an electric car",rev_h:"What our customers say on Google",rev_on:"{n} Google reviews",rev_asof:"Google rating on {d}.",rev_read:"Read the reviews",rev_write:"Write a review",follow:"Follow EVChargeking",share:"Share",share_copy:"Copy link",copied:"Link copied",like:"Save",liked:"Saved",favs:"Favourites",promo_eb:"End-of-year offer",promo_h:"{pct}% off the ETAPpro 11",promo_terms:"Until {date}. Online orders only. The discount is already in the price.",promo_short:"End-of-year offer · online only",promo_top:"End-of-year offer: {pct}% off ETAPpro 11, online only",promo_btn:"Order online",
  cta_finder:"Find your cable",cta_shop:"Browse the shop",bench_t:"Find your cable",add:"Add to cart",view:"View",open_finder:"All options",details:"Product details",
  cats_eb:"Shop by category",cats_h:"Everything for charging at home, at work and on the road",best_eb:"Most ordered",best_h:"Our customers' favourites",see_all:"See all products",discover:"Discover",
  c_tesla:"Tesla",c_tesla_d:"with charge-port button",c_type2:"Type 2",c_type2_d:"most European EVs",c_type1:"Type 1",c_type1_d:"7.4 kW",c_type3:"Type 3",c_type3_d:"Type 3C charge points",
@@ -54,7 +54,7 @@ nl:{nav_login:"Klantenlogin",acc_eb:"Belinus serviceportaal",acc_h:"Eén login v
  group:"Een bedrijf van de <b>Belinus</b>-groep",nav_home:"Home",nav_shop:"Shop",nav_finder:"Kabelkiezer",nav_etap:"ETAPpro",nav_support:"Klantenservice",nav_about:"Over ons",
  cart:"Winkelmand",private:"Particulier",business:"Zakelijk",top_free:"Gratis levering in {list} vanaf {amt}",top_vat:"Prijzen: {v}",incl:"incl. {r}% btw",excl:"excl. btw",export:"geen EU-btw · export",
  g_tesla:"Tesla",g_tesla_d:"Kabels, open-einde kabels en connectorkits met de Tesla-knop",g_type2:"Type 2",g_type2_d:"Laadkabels en open-einde kabels",g_type13:"Type 1 & Type 3",g_type13_d:"Kabels voor Type 1-wagens en Type 3-laadpunten",g_etap:"ETAPpro",g_etap_d:"Laders, adapters en montage",g_mobile:"Mobiele laders",g_mobile_d:"Laden aan een huishoud- of CEE-stopcontact",g_parts:"Onderdelen & accessoires",g_parts_d:"Stekkers, contactdozen, houders en tassen",g_all:"Alle producten",
- r_best:"Bestseller",r_award:"Bekroond",r_promo:"Promo",promo_eb:"Eindejaarsactie",promo_h:"{pct}% korting op de ETAPpro 11",promo_terms:"Tot en met {date}. Alleen voor online bestellingen. De korting zit al in de prijs.",promo_short:"Eindejaarsactie · alleen online",promo_top:"Eindejaarsactie: {pct}% korting op ETAPpro 11, alleen online",promo_btn:"Bestel online",
+ r_best:"Bestseller",r_award:"Bekroond",r_promo:"Promo",full_desc:"Volledige beschrijving",more_info:"Meer informatie",et_h:"Thuis een vast laadpunt, onderweg een mobiele lader",et_p:"De ETAPpro klikt in één beweging in en uit zijn muurbeugel. In de beugel is hij je laadpunt thuis; met een adapterkabel laadt hij aan elk geschikt stopcontact.",et_s1:"3 × 16 A, ook enkelfasig",et_s2:"stekker",et_s3:"beschermingsgraad",et_s4:"ontworpen en gemaakt",et_f1:"Laadt op je eigen zonnestroom",et_f1d:"Hij volgt je zonneproductie en het verbruik in huis.",et_f2:"Houdt je zekeringen erin",et_f2d:"Hij praat met je digitale meter en houdt rekening met het capaciteitstarief.",et_f3:"Eén app voor alles",et_f3d:"Instellingen, opvolging en een rapport van elke laadbeurt, op Android en iOS.",et_f4:"Geen netwerkkabel nodig",et_f4d:"Hij verbindt via wifi of Powerline, over je bestaande leidingen.",et_h2:"Je lader volgt de wagen, niet het huis",et_p2:"Omdat je hem zelf uit de beugel haalt, verhuist de ETAPpro met je mee: naar een tweede verblijf, een nieuw adres of de volgende bedrijfswagen.",et_a1:"ETAPpro in zijn muurbeugel naast een wagen die laadt",et_a2:"ETAPpro aan een garagemuur die een elektrische wagen laadt",rev_h:"Wat onze klanten zeggen op Google",rev_on:"{n} Google-reviews",rev_asof:"Google-score op {d}.",rev_read:"Lees de reviews",rev_write:"Schrijf een review",follow:"Volg EVChargeking",share:"Delen",share_copy:"Link kopiëren",copied:"Link gekopieerd",like:"Bewaren",liked:"Bewaard",favs:"Favorieten",promo_eb:"Eindejaarsactie",promo_h:"{pct}% korting op de ETAPpro 11",promo_terms:"Tot en met {date}. Alleen voor online bestellingen. De korting zit al in de prijs.",promo_short:"Eindejaarsactie · alleen online",promo_top:"Eindejaarsactie: {pct}% korting op ETAPpro 11, alleen online",promo_btn:"Bestel online",
  cta_finder:"Vind je kabel",cta_shop:"Naar de shop",bench_t:"Vind je kabel",add:"In winkelmand",view:"Bekijk",open_finder:"Alle opties",details:"Productdetails",
  cats_eb:"Shop per categorie",cats_h:"Alles om thuis, op het werk en onderweg te laden",best_eb:"Meest besteld",best_h:"De favorieten van onze klanten",see_all:"Alle producten",discover:"Ontdek",
  c_tesla:"Tesla",c_tesla_d:"met laadklepknop",c_type2:"Type 2",c_type2_d:"de meeste Europese EV's",c_type1:"Type 1",c_type1_d:"7,4 kW",c_type3:"Type 3",c_type3_d:"Type 3C-laadpunten",
@@ -79,7 +79,7 @@ fr:{nav_login:"Espace client",acc_eb:"Portail de service Belinus",acc_h:"Un seul
  group:"Une société du groupe <b>Belinus</b>",nav_home:"Accueil",nav_shop:"Boutique",nav_finder:"Choisir un câble",nav_etap:"ETAPpro",nav_support:"Service client",nav_about:"À propos",
  cart:"Panier",private:"Particulier",business:"Pro",top_free:"Livraison gratuite en {list} dès {amt}",top_vat:"Prix : {v}",incl:"TVA {r} % incluse",excl:"HT",export:"sans TVA UE · export",
  g_tesla:"Tesla",g_tesla_d:"Câbles, extrémités ouvertes et kits connecteur avec le bouton Tesla",g_type2:"Type 2",g_type2_d:"Câbles de recharge et extrémités ouvertes",g_type13:"Type 1 & Type 3",g_type13_d:"Câbles pour voitures Type 1 et bornes Type 3",g_etap:"ETAPpro",g_etap_d:"Chargeurs, adaptateurs et montage",g_mobile:"Chargeurs mobiles",g_mobile_d:"Recharge sur prise domestique ou CEE",g_parts:"Pièces & accessoires",g_parts_d:"Connecteurs, prises, supports et sacs",g_all:"Tous les produits",
- r_best:"Best-seller",r_award:"Primé",r_promo:"Promo",promo_eb:"Offre de fin d’année",promo_h:"{pct} % de réduction sur l’ETAPpro 11",promo_terms:"Jusqu’au {date}. Uniquement pour les commandes en ligne. La réduction est déjà dans le prix.",promo_short:"Offre de fin d’année · en ligne uniquement",promo_top:"Offre de fin d’année : {pct} % sur l’ETAPpro 11, en ligne uniquement",promo_btn:"Commander en ligne",
+ r_best:"Best-seller",r_award:"Primé",r_promo:"Promo",full_desc:"Description complète",more_info:"Plus d’informations",et_h:"Borne fixe à la maison, chargeur mobile en déplacement",et_p:"L’ETAPpro se clipse dans son support mural et s’en retire en un geste. Dans le support, c’est votre borne à domicile ; avec un câble adaptateur, il recharge sur toute prise adaptée.",et_s1:"3 × 16 A, aussi en monophasé",et_s2:"connecteur",et_s3:"indice de protection",et_s4:"conçu et fabriqué",et_f1:"Recharge avec votre énergie solaire",et_f1d:"Il suit votre production solaire et la consommation de la maison.",et_f2:"Ne fait pas sauter les fusibles",et_f2d:"Il communique avec votre compteur numérique et tient compte du tarif capacitaire.",et_f3:"Une seule appli",et_f3d:"Réglages, suivi et rapport de chaque recharge, sur Android et iOS.",et_f4:"Sans câble réseau",et_f4d:"Il se connecte en Wi-Fi ou en Powerline, par votre installation électrique existante.",et_h2:"Votre chargeur suit la voiture, pas la maison",et_p2:"Comme vous le retirez vous-même du support, l’ETAPpro vous accompagne : dans une seconde résidence, à une nouvelle adresse ou avec la prochaine voiture de société.",et_a1:"ETAPpro dans son support mural à côté d’une voiture en charge",et_a2:"ETAPpro sur un mur de garage rechargeant une voiture électrique",rev_h:"Ce que nos clients disent sur Google",rev_on:"{n} avis Google",rev_asof:"Note Google au {d}.",rev_read:"Lire les avis",rev_write:"Rédiger un avis",follow:"Suivre EVChargeking",share:"Partager",share_copy:"Copier le lien",copied:"Lien copié",like:"Enregistrer",liked:"Enregistré",favs:"Favoris",promo_eb:"Offre de fin d’année",promo_h:"{pct} % de réduction sur l’ETAPpro 11",promo_terms:"Jusqu’au {date}. Uniquement pour les commandes en ligne. La réduction est déjà dans le prix.",promo_short:"Offre de fin d’année · en ligne uniquement",promo_top:"Offre de fin d’année : {pct} % sur l’ETAPpro 11, en ligne uniquement",promo_btn:"Commander en ligne",
  cta_finder:"Trouver votre câble",cta_shop:"Voir la boutique",bench_t:"Trouver votre câble",add:"Ajouter au panier",view:"Voir",open_finder:"Toutes les options",details:"Détails du produit",
  cats_eb:"Par catégorie",cats_h:"Tout pour recharger à la maison, au travail et en déplacement",best_eb:"Les plus commandés",best_h:"Les favoris de nos clients",see_all:"Tous les produits",discover:"Découvrir",
  c_tesla:"Tesla",c_tesla_d:"avec bouton de trappe",c_type2:"Type 2",c_type2_d:"la plupart des VE européens",c_type1:"Type 1",c_type1_d:"7,4 kW",c_type3:"Type 3",c_type3_d:"bornes Type 3C",
@@ -111,11 +111,47 @@ const TZ={"Europe/Brussels":"BE","Europe/Amsterdam":"NL","Europe/Paris":"FR","Eu
 // Detection: the prototype reads browser language and time zone. The live shop should use Odoo's GeoIP country instead.
 function detect(){let lang="en",country="BE"; try{const ls=navigator.languages||[navigator.language||"en"]; const l=ls.map(x=>x.slice(0,2).toLowerCase()).find(x=>LANGN[x]); if(l)lang=l; const tz=Intl.DateTimeFormat().resolvedOptions().timeZone||""; const reg=(ls.map(x=>(x.split("-")[1]||"").toUpperCase()).find(x=>SHIP[x]))||""; country=TZ[tz]||reg||"BE"; if(!langsOf(country).includes(lang))lang="en";}catch(e){} return {lang,country};}
 const DET=window.__PRERENDER?{lang:"en",country:"BE"}:detect();
-const S={lang:DET.lang,country:DET.country,buyer:"private",cart:[],cat:"all",sort:"feat",sel:{},img:{},theme:null,locOk:false,consent:null,
+/* Social profiles (from the Odoo company record) and the Google Business rating.
+   GOOGLE figures were read on the date below; refresh them at each build (later: automatically through the Google Places API). */
+const SOCIAL={facebook:"https://www.facebook.com/evchargeking",x:"https://x.com/EVChargeKing",linkedin:"https://www.linkedin.com/company/evchargeking",youtube:"https://www.youtube.com/@EVChargeking/videos"};
+const GOOGLE={placeId:"ChIJ0xRrH9dawUcRdAHS7wWMbcI",rating:4.9,count:294,asOf:"2026-11-14"};
+GOOGLE.read="https://search.google.com/local/reviews?placeid="+GOOGLE.placeId; GOOGLE.write="https://search.google.com/local/writereview?placeid="+GOOGLE.placeId;
+const IC={facebook:"M13.5 21v-7.5h2.5l.4-3h-2.9V8.6c0-.9.3-1.5 1.5-1.5h1.5V4.4c-.3 0-1.2-.1-2.2-.1-2.2 0-3.7 1.3-3.7 3.8v2.4H8.1v3h2.5V21z",
+ x:"M17.8 3h3.1l-6.8 7.8 8 10.2h-6.3l-4.9-6.2L5.3 21H2.2l7.3-8.3L1.8 3h6.4l4.4 5.7zm-1.1 16.2h1.7L7.4 4.7H5.5z",
+ linkedin:"M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.75h4V21H3zm6.5 0h3.8v1.6h.1c.5-1 1.8-1.9 3.7-1.9 4 0 4.7 2.5 4.7 5.8V21h-4v-5c0-1.2 0-2.7-1.7-2.7s-1.9 1.3-1.9 2.6V21h-4z",
+ youtube:"M21.6 7.2a2.7 2.7 0 0 0-1.9-1.9C18 4.8 12 4.8 12 4.8s-6 0-7.7.5a2.7 2.7 0 0 0-1.9 1.9C2 8.9 2 12 2 12s0 3.1.4 4.8a2.7 2.7 0 0 0 1.9 1.9c1.7.5 7.7.5 7.7.5s6 0 7.7-.5a2.7 2.7 0 0 0 1.9-1.9c.4-1.7.4-4.8.4-4.8s0-3.1-.4-4.800zM10 15V9l5.2 3z",
+ whatsapp:"M12 2a10 10 0 0 0-8.6 15.100L2 22l5-1.300A10 10 0 1 0 12 2zm0 18.200a8.200 8.200 0 0 1-4.200-1.200l-.300-.200-3 .800.800-2.900-.200-.300A8.200 8.200 0 1 1 12 20.200zm4.500-6.100c-.200-.100-1.500-.700-1.700-.800s-.400-.100-.600.100-.600.800-.800 1-.300.200-.500.100a6.700 6.700 0 0 1-3.300-2.900c-.300-.400.200-.400.700-1.300.100-.200 0-.300 0-.500l-.800-1.800c-.200-.500-.400-.400-.600-.400h-.500a1 1 0 0 0-.700.300 2.900 2.900 0 0 0-.900 2.200 5.100 5.100 0 0 0 1.100 2.700 11.600 11.600 0 0 0 4.400 3.900c1.700.700 2.300.800 3.100.600a2.600 2.600 0 0 0 1.700-1.200 2.100 2.100 0 0 0 .200-1.200c-.100-.200-.300-.200-.500-.300z",
+ mail:"M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm9 8.200L4.600 7H19.400zM4 8.300V17h16V8.300l-8 6.300z",
+ link:"M10.600 13.400a1 1 0 0 1 0-1.400l3-3a1 1 0 1 1 1.400 1.400l-3 3a1 1 0 0 1-1.400 0zM8 16a3 3 0 0 1 0-4.200l2-2A1 1 0 0 0 8.600 8.400l-2 2a5 5 0 0 0 7 7l2-2a1 1 0 0 0-1.400-1.400l-2 2A3 3 0 0 1 8 16zm8-8a3 3 0 0 1 0 4.200l-2 2a1 1 0 0 0 1.400 1.400l2-2a5 5 0 0 0-7-7l-2 2A1 1 0 0 0 9.800 10l2-2A3 3 0 0 1 16 8z",
+ share:"M18 8a3 3 0 1 0-2.900-2.300L8.700 9a3 3 0 1 0 0 6l6.400 3.300A3 3 0 1 0 16 16.500L9.600 13.200a3 3 0 0 0 0-2.400L16 7.500A3 3 0 0 0 18 8z",
+ heart:"M12 20.700l-1.200-1.100C6 15.300 3 12.600 3 9.200A4.700 4.700 0 0 1 7.700 4.500c1.700 0 3.300.800 4.300 2.100 1-1.300 2.600-2.100 4.300-2.100A4.700 4.700 0 0 1 21 9.200c0 3.400-3 6.100-7.800 10.400z"};
+const icon=k=>`<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="${IC[k]}"/></svg>`;
+const ext='target="_blank" rel="noopener"';
+function socialRow(){return `<div class="social">${[["facebook","Facebook"],["x","X"],["linkedin","LinkedIn"],["youtube","YouTube"]].map(([k,n])=>`<a href="${SOCIAL[k]}" ${ext} aria-label="EVChargeking ${n}" title="${n}">${icon(k)}</a>`).join("")}</div>`;}
+function stars(){return `<span class="stars" role="img" aria-label="${GOOGLE.rating} / 5"><i style="width:${(GOOGLE.rating/5*100).toFixed(1)}%"></i></span>`;}
+function fnum(v){return String(v).replace(".",S.lang==="en"?".":",");}
+function googleBadge(compact){const d=new Intl.DateTimeFormat(LOC[S.lang],{day:"numeric",month:"long",year:"numeric"}).format(new Date(GOOGLE.asOf));
+  return compact?`<a class="gbadge" href="${GOOGLE.read}" ${ext}><b>${fnum(GOOGLE.rating)}</b>${stars()}<span>${t("rev_on",{n:GOOGLE.count})}</span></a>`
+  :`<div class="greviews"><div class="gr-score"><b>${fnum(GOOGLE.rating)}</b><div>${stars()}<span>${t("rev_on",{n:GOOGLE.count})}</span></div></div><div class="gr-txt"><h2>${t("rev_h")}</h2><p>${t("rev_asof",{d})}</p></div><div class="gr-act"><a class="btn ghost small" href="${GOOGLE.read}" ${ext}>${t("rev_read")}</a><a class="btn ghost small" href="${GOOGLE.write}" ${ext}>${t("rev_write")}</a></div></div>`;}
+function pageUrl(){return location.origin+pathOf(route());}
+function shareRow(title,pid){const u=encodeURIComponent(pageUrl()), x=encodeURIComponent(title+" · EVChargeking");
+  const a=(k,n,h)=>`<a href="${h}" ${ext} aria-label="${t("share")}: ${n}" title="${n}">${icon(k)}</a>`;
+  return `<div class="sharerow">${pid?`<button class="likebtn" data-like="${pid}" aria-pressed="${S.likes.includes(pid)}">${icon("heart")}<span>${t(S.likes.includes(pid)?"liked":"like")}</span></button>`:""}<span class="sl">${t("share")}</span>
+  ${a("whatsapp","WhatsApp","https://wa.me/?text="+x+"%20"+u)}${a("facebook","Facebook","https://www.facebook.com/sharer/sharer.php?u="+u)}${a("linkedin","LinkedIn","https://www.linkedin.com/sharing/share-offsite/?url="+u)}${a("x","X","https://x.com/intent/post?text="+x+"&url="+u)}<a href="mailto:?subject=${x}&body=${u}" aria-label="${t("share")}: e-mail" title="E-mail">${icon("mail")}</a><button data-share="copy" aria-label="${t("share_copy")}" title="${t("share_copy")}">${icon("link")}</button>${navigator.share?`<button data-share="native" aria-label="${t("share")}" title="${t("share")}">${icon("share")}</button>`:""}</div>`;}
+/* Google tags. Only the go-live build sets window.EV_TAGS, so the preview loads no tracker and sends nothing to the live Analytics.
+   Consent Mode v2: everything denied until the visitor chooses; the Tag Manager container is loaded only after a yes. */
+window.dataLayer=window.dataLayer||[]; function gtag(){dataLayer.push(arguments);}
+function dl(o){if(window.EV_TAGS)dataLayer.push(o);}
+let tagsLoaded=false;
+function applyTags(){const G=window.EV_TAGS; if(!G)return; const c=S.consent||{};
+  gtag("consent","update",{analytics_storage:c.stat?"granted":"denied",ad_storage:c.mkt?"granted":"denied",ad_user_data:c.mkt?"granted":"denied",ad_personalization:c.mkt?"granted":"denied",functionality_storage:c.pref?"granted":"denied"});
+  if((c.stat||c.mkt)&&!tagsLoaded&&G.gtm){tagsLoaded=true; dataLayer.push({"gtm.start":Date.now(),event:"gtm.js"}); const s=document.createElement("script"); s.async=true; s.src="https://www.googletagmanager.com/gtm.js?id="+G.gtm; document.head.appendChild(s);}}
+if(window.EV_TAGS)gtag("consent","default",{analytics_storage:"denied",ad_storage:"denied",ad_user_data:"denied",ad_personalization:"denied",functionality_storage:"denied",security_storage:"granted",wait_for_update:500});
+const S={lang:DET.lang,country:DET.country,buyer:"private",cart:[],cat:"all",sort:"feat",sel:{},img:{},theme:null,locOk:false,consent:null,likes:[],
   fin:{kind:"cable",conn:"tesla",p:"22",li:5,col:0,bag:false,dummy:false},co:{deliv:"home",pay:"card",vat:"",vatValid:false}};
-try{const s=JSON.parse(localStorage.getItem("evck-shop-v3")||"null"); if(s){ if(T[s.lang])S.lang=s.lang; if(SHIP[s.country])S.country=s.country; S.buyer=s.buyer==="company"?"company":"private"; S.cart=(s.cart||[]).filter(l=>PID[l.pid]); S.locOk=!!s.locOk; if(s.theme==="dark"||s.theme==="light")S.theme=s.theme; }
+try{const s=JSON.parse(localStorage.getItem("evck-shop-v3")||"null"); if(s){ if(T[s.lang])S.lang=s.lang; if(SHIP[s.country])S.country=s.country; S.buyer=s.buyer==="company"?"company":"private"; S.cart=(s.cart||[]).filter(l=>PID[l.pid]); S.locOk=!!s.locOk; if(s.theme==="dark"||s.theme==="light")S.theme=s.theme; if(Array.isArray(s.likes))S.likes=s.likes.filter(i=>PID[i]); }
   const c=JSON.parse(localStorage.getItem("evck-consent")||"null"); if(c&&c.at)S.consent=c;}catch(e){}
-function save(){try{localStorage.setItem("evck-shop-v3",JSON.stringify({lang:S.lang,country:S.country,buyer:S.buyer,cart:S.cart,locOk:S.locOk,theme:S.theme}))}catch(e){}}
+function save(){try{localStorage.setItem("evck-shop-v3",JSON.stringify({lang:S.lang,country:S.country,buyer:S.buyer,cart:S.cart,locOk:S.locOk,theme:S.theme,likes:S.likes}))}catch(e){}}
 function curTheme(){return S.theme||"dark";}  // Belinus: ultra-black is the default surface; visitors can switch to light
 function applyTheme(){document.documentElement.setAttribute("data-theme",curTheme());}
 applyTheme();
@@ -155,8 +191,29 @@ function rich(txt){ // "## h" / "- li" / "a | b |" / paragraph
     else{close();h+=`<p>${esc(s)}</p>`;}
   } close(); return h;}
 
+/* Short description first, full text in collapsible sections (native <details>: works without script, readable by search engines). */
+function descBlock(txt,opt){opt=opt||{};
+  const lines=String(txt||"").split("\n").map(x=>x.trim()).filter(Boolean); if(!lines.length)return `<p class="muted">${t("no_desc")}</p>`;
+  const secs=[]; let cur={h:"",b:[]}; for(const ln of lines){ if(ln.startsWith("## ")){ if(cur.h||cur.b.length)secs.push(cur); cur={h:ln.slice(3),b:[]}; } else cur.b.push(ln); } secs.push(cur);
+  const plain=l=>!l.startsWith("- ")&&!/\|\s*$/.test(l), first=secs[0], para=first.b.find(plain)||"";
+  let lead=""; for(const sen of (para.match(/[^.!?…]+[.!?…]+(\s|$)|[^.!?…]+$/g)||[])){ if(lead&&(lead+sen).length>230)break; lead+=sen; } lead=lead.trim();
+  const total=lines.join(" ").length, title=opt.noTitle?"":first.h;
+  let h=(title?`<${opt.tag||"h2"} class="desc-h">${esc(title)}</${opt.tag||"h2"}>`:"")+(lead?`<p class="desc-lead">${esc(lead)}</p>`:"");
+  if(secs.length===1&&total<=lead.length+40)return h;                        // nothing more to show
+  if(secs.length===1&&total<=420)return (title?`<${opt.tag||"h2"} class="desc-h">${esc(title)}</${opt.tag||"h2"}>`:"")+`<div class="desc-short">${rich(first.b.join("\n"))}</div>`;  // short enough: show it all
+  h+=`<div class="accs">`+secs.map((sc,i)=>{ if(!sc.b.length)return ""; const label=i===0?t("full_desc"):(sc.h||t("more_info"));
+    return `<details class="acc"><summary><span>${esc(label)}</span><i aria-hidden="true"></i></summary><div class="acc-b">${rich(sc.b.join("\n"))}</div></details>`; }).join("")+`</div>`;
+  return h;}
+/* ETAPpro showcase: what makes the charger different, in a few lines and two photos (facts from the product text and the Belinus product page). */
+const ETAP_IDS=new Set([176,51]);
+function etapShow(id){const sp=[...(id===176?[["11 kW",t("et_s1")]]:[]),["Type 2",t("et_s2")],["IP67",t("et_s3")],[cname("BE"),t("et_s4")]];
+  return `<section class="etshow"><div class="et-top"><figure><img src="/img/etappro-home.jpg" alt="${esc(t("et_a1"))}" loading="lazy"></figure><div><div class="eyebrow">ETAPpro</div><h2>${t("et_h")}</h2><p>${t("et_p")}</p>
+  <div class="et-specs">${sp.map(([a,b])=>`<div><b>${esc(a)}</b><span>${esc(b)}</span></div>`).join("")}</div></div></div>
+  <div class="et-feats">${[1,2,3,4].map(i=>`<div><span class="num">0${i}</span><h3>${t("et_f"+i)}</h3><p>${t("et_f"+i+"d")}</p></div>`).join("")}</div>
+  <div class="et-top rev"><div><h2>${t("et_h2")}</h2><p>${t("et_p2")}</p></div><figure><img src="/img/etappro-garage.jpg" alt="${esc(t("et_a2"))}" loading="lazy"></figure></div></section>`;}
+
 /* ============ CART ============ */
-function addLine(pid,sel,qty=1,silent){const key=pid+":"+(sel||[]).join("-"); const l=S.cart.find(x=>x.key===key); if(l)l.qty+=qty; else S.cart.push({key,pid,sel:[...(sel||[])],qty}); save(); renderCart(); if(!silent){toast(t("added")); $("cartN").animate?.([{transform:"scale(1.4)"},{transform:"scale(1)"}],{duration:280});}}
+function addLine(pid,sel,qty=1,silent){const key=pid+":"+(sel||[]).join("-"); const l=S.cart.find(x=>x.key===key); if(l)l.qty+=qty; else S.cart.push({key,pid,sel:[...(sel||[])],qty}); save(); renderCart(); {const p=PID[pid]; dl({event:"add_to_cart",ecommerce:{currency:"EUR",value:+(shownEx(gross(p,sel)/BASE_VAT)*qty).toFixed(2),items:[{item_id:String(pid),item_name:p.n.en,quantity:qty}]}});} if(!silent){toast(t("added")); $("cartN").animate?.([{transform:"scale(1.4)"},{transform:"scale(1)"}],{duration:280});}}
 const lineEx=l=>gross(PID[l.pid],l.sel)/BASE_VAT;
 function totals(deliv){const r=vatRate(); const sub=S.cart.reduce((a,l)=>a+lineEx(l)*l.qty,0); const rates=SHIP[S.country]||{}; const m=deliv||(rates.home!=null?"home":"pickup"); let ship=rates[m]; if(ship==null)ship=rates.home??rates.pickup??0;
   const goods=sub*(1+(EU.has(S.country)?VAT[S.country]:0)/100); const free=FREE_SHIP.countries.has(S.country)&&goods>=FREE_SHIP.over-0.005; if(free)ship=0; const ex=sub+ship,vat=ex*r/100; return {sub,ship,free,vat,r,total:ex+vat,goods};}
@@ -208,7 +265,7 @@ function renderChrome(){
   const order=["BE","NL","FR","DE","LU",...Object.keys(SHIP).filter(c=>!["BE","NL","FR","DE","LU"].includes(c)).sort((a,b)=>cname(a).localeCompare(cname(b)))];
   $("regionList").innerHTML=order.map(c=>`<div class="rrow${c===S.country?" on":""}"><span class="nm">${esc(cname(c))}<small>${EU.has(c)?t("incl",{r:String(VAT[c]).replace(".",S.lang==="en"?".":",")}):t("export")}</small></span><span class="lg">${langsOf(c).map(l=>`<button data-rc="${c}" data-rl="${l}" aria-pressed="${c===S.country&&l===S.lang}" aria-label="${esc(cname(c))}, ${LANGN[l]}">${l.toUpperCase()}</button>`).join("")}</span></div>`).join("");
   $("regionFoot").innerHTML=`<button class="textlink" data-act="cookies">${t("ck_settings")}</button><span class="plabel" style="color:var(--blue)">${esc(cname(S.country))} · ${S.lang.toUpperCase()}</span>`;
-  $("footCols").innerHTML=`<div><img class="flogo" src="/img/logo.png" alt="EVChargeking"><div class="groupline">${t("group").replace(/<\/?b>/g,"")}</div><p style="margin:12px 0 0;max-width:42ch">${esc(L(D.pages.about).split("\n")[0])}</p></div>
+  $("footCols").innerHTML=`<div><img class="flogo" src="/img/logo.png" alt="EVChargeking"><div class="groupline">${t("group").replace(/<\/?b>/g,"")}</div><p style="margin:12px 0 14px;max-width:42ch">${esc(L(D.pages.about).split("\n")[0])}</p>${googleBadge(true)}<h4 style="margin:18px 0 8px">${t("follow")}</h4>${socialRow()}</div>
   <div><h4>${t("foot_shop")}</h4>${GROUPS.map(g=>`<a href="#cat-${g}">${t("g_"+g)}</a>`).join("")}<a href="#finder">${t("nav_finder")}</a></div>
   <div><h4>${t("foot_help")}</h4><a href="#account">${t("nav_login")}</a><a href="#support">${t("nav_support")}</a><a href="#terms">${t("terms_l")}</a><a href="#privacy">${t("privacy")}</a><a href="#cookies" data-act="cookies">${t("ck_settings")}</a></div>
   <div><h4>${t("contact")}</h4><p style="margin:0">${CO.name} · ${CO.legal}<br>${CO.street}, ${CO.zip} ${CO.city}, ${esc(cname("BE"))}<br>${t("vat")}: ${CO.vat}<br>${CO.email}<br>${CO.phone}</p></div>`;
@@ -228,6 +285,7 @@ function renderHome(){
   ${promoOn(PID[PROMO.pid])?`<section class="promoband"><div class="wrap"><a href="#p-${PROMO.pid}">${photo(PROMO.pid+"_0","ETAPpro 11")}<div class="pb-t"><div class="eyebrow">${promoTxt("promo_eb")}</div><h2>${promoTxt("promo_h")}</h2><p>${promoTxt("promo_terms")}</p></div><div class="pb-p"><s>${money(shown(grossFull(PID[PROMO.pid])))}</s><b>${money(shown(gross(PID[PROMO.pid])))}</b><small>${vatLabel()}</small><span class="btn">${t("promo_btn")}</span></div></a></div></section>`:""}
   <section class="block"><div class="wrap"><div class="sec-head"><h2>${t("cats_h")}</h2></div><div class="cats">${GROUPS.map(g=>`<a class="cat" href="#cat-${g}">${photo(GROUP_IMG[g],"")}<b>${t("g_"+g)}</b></a>`).join("")}</div></div></section>
   <section class="block tint"><div class="wrap"><div class="sec-head"><h2>${t("best_h")}</h2><a class="btn ghost small" href="#shop">${t("see_all")}</a></div><div class="cards three">${[176,60,98].map(id=>card(PID[id])).join("")}</div></div></section>
+  <section class="block" style="padding-bottom:0"><div class="wrap">${googleBadge()}</div></section>
   <section class="block"><div class="wrap"><div class="band"><div><div class="eyebrow">Belinus</div><h2 style="margin-top:8px">${t("group").replace(/<\/?b>/g,"")}</h2><p>${t("about_group")}</p></div><div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end"><a class="btn" href="#about">${t("nav_about")}</a><a class="btn ghost" href="https://belinus.com">belinus.com</a></div></div></div></section>`;
   renderBench();
 }
@@ -249,12 +307,12 @@ function renderBench(){
 
 /* ============ SHOP ============ */
 function renderShop(){
-  const k=S.cat, sorted=S.sort!=="feat"; let list=k==="all"?PR:PR.filter(p=>p.g===k);
+  const k=S.cat, sorted=S.sort!=="feat"; let list=k==="all"?PR:k==="fav"?PR.filter(p=>S.likes.includes(p.id)):PR.filter(p=>p.g===k);
   if(sorted)list=[...list].sort(S.sort==="lo"?(a,b)=>a.p-b.p:S.sort==="hi"?(a,b)=>b.p-a.p:(a,b)=>L(a.n).localeCompare(L(b.n)));
   const grid=l=>`<div class="cards">${l.map(card).join("")}</div>`;
   const body=(k==="all"&&!sorted)?GROUPS.map(g=>{const l=PR.filter(p=>p.g===g);return `<section class="grp"><div class="grp-h"><h2><a href="#cat-${g}" style="text-decoration:none">${t("g_"+g)}</a></h2><span>${t("g_"+g+"_d")}</span></div>${grid(l)}</section>`}).join(""):grid(list);
   $("v-shop").innerHTML=`<div class="wrap" style="padding-top:38px;padding-bottom:60px"><h1>${k==="all"?t("shop_h"):t("g_"+k)}</h1>${k!=="all"?`<p class="muted" style="margin:10px 0 0">${t("g_"+k+"_d")}</p>`:""}
-  <div class="toolbar"><nav class="ftabs" aria-label="${t("cats_eb")}">${["all",...GROUPS].map(g=>`<a href="#${g==="all"?"shop":"cat-"+g}" aria-current="${k===g}">${t("g_"+g)}</a>`).join("")}</nav><label class="sortbox" for="sortSel"><span>${t("n_products",{n:list.length})} · ${t("sort")}</span><select id="sortSel">${[["feat","sort_feat"],["lo","sort_lo"],["hi","sort_hi"],["az","sort_az"]].map(([v,l])=>`<option value="${v}"${S.sort===v?" selected":""}>${t(l)}</option>`).join("")}</select></label></div>
+  <div class="toolbar"><nav class="ftabs" aria-label="${t("cats_eb")}">${["all",...GROUPS].map(g=>`<a href="#${g==="all"?"shop":"cat-"+g}" aria-current="${k===g}">${t("g_"+g)}</a>`).join("")}${S.likes.length?`<a href="#shop" data-act="favs" aria-current="${k==="fav"}">${icon("heart")} ${t("favs")} (${S.likes.length})</a>`:""}</nav><label class="sortbox" for="sortSel"><span>${t("n_products",{n:list.length})} · ${t("sort")}</span><select id="sortSel">${[["feat","sort_feat"],["lo","sort_lo"],["hi","sort_hi"],["az","sort_az"]].map(([v,l])=>`<option value="${v}"${S.sort===v?" selected":""}>${t(l)}</option>`).join("")}</select></label></div>
   ${body}</div>`;
   $("sortSel").onchange=e=>{S.sort=e.target.value;renderShop();};
 }
@@ -273,10 +331,13 @@ function renderProduct(id){
   ${opts}${CABLE_IDS.has(id)&&p.a?`<p class="note" style="margin:0">${t("len_note")} ${t("other_len")}</p>`:""}
   <div class="buyrow"><span class="qty"><button data-pq="-1" aria-label="−">−</button><span id="pQty">1</span><button data-pq="1" aria-label="+">+</button></span><button class="btn" id="pAdd">${t("add")}</button></div>
   <div>${stockLine(p)}</div>
+  ${googleBadge(true)}
+  ${shareRow(L(p.n),p.id)}
   ${p.w?`<div class="meta"><span>${t("weight")}: ${String(p.w).replace(".",S.lang==="en"?".":",")} kg</span></div>`:""}
   ${also.length?`<div class="upsell"><div class="eyebrow">${t("also")}</div>${also.map(a=>`<div class="u"><a href="#p-${a}" style="text-decoration:none">${esc(L(PID[a].n))}</a><span class="num">${money(shown(PID[a].p))}</span><button class="btn small" data-up="${a}" aria-label="${t("add")}">+</button></div>`).join("")}</div>`:""}
   </div></div>
-  <div class="desc"><div class="eyebrow">${t("details")}</div>${desc?rich(desc):`<p class="muted">${t("no_desc")}</p>`}</div></div>`;
+  ${ETAP_IDS.has(id)?etapShow(id):""}
+  <div class="desc"><div class="eyebrow">${t("details")}</div>${descBlock(desc)}</div></div>`;
   let q=1; $("pAdd").onclick=()=>{addLine(id,selOf(p),q);openCart(true);};
   $("v-product").querySelectorAll("[data-pq]").forEach(b=>b.onclick=()=>{q=Math.max(1,q+ +b.dataset.pq);$("pQty").textContent=q;});
   $("v-product").querySelectorAll("select[data-oa]").forEach(s=>s.onchange=()=>{selOf(p)[+s.dataset.oa]=+s.value;$("pPrice").textContent=money(shown(gross(p,selOf(p))));if($("pOld"))$("pOld").textContent=money(shown(grossFull(p,selOf(p))));});
@@ -306,8 +367,11 @@ function renderFinder(){
 
 /* ============ CONTENT PAGES ============ */
 function renderEtap(){
-  $("v-etappro").innerHTML=`<div class="wrap" style="padding-top:34px"><div class="feature"><div class="legal" style="padding:0">${rich(L(D.pages.etappro)).replace("<h3>","<h1 style='margin-bottom:14px'>").replace("</h3>","</h1>")}<p><a class="btn ghost small" href="https://etap.pro">${t("etap_more")}</a></p></div><div style="display:grid;gap:14px;align-self:start;position:sticky;top:90px">${photo("176_big","ETAPpro")}<div style="display:grid;grid-template-columns:1fr 1fr;gap:14px">${photo("176_1","")}${photo("51_2","")}</div></div></div></div>
-  <section class="block tint" style="margin-top:40px"><div class="wrap"><div class="sec-head"><h2>${t("etap_range")}</h2></div><div class="cards">${PR.filter(p=>p.g==="etap").map(card).join("")}</div></div></section>`;
+  const txt=L(D.pages.etappro), h1=(txt.match(/^##\s*(.+)$/m)||[,"ETAPpro"])[1];
+  $("v-etappro").innerHTML=`<div class="wrap" style="padding-top:34px"><div class="eyebrow">ETAPpro</div><h1 style="margin:10px 0 0;max-width:20ch">${esc(h1)}</h1>
+  ${etapShow(0)}
+  <div class="sec-head" style="margin-top:8px"><h2>${t("etap_range")}</h2></div><div class="cards">${PR.filter(p=>p.g==="etap").map(card).join("")}</div>
+  <div class="desc" style="padding-top:48px"><div class="eyebrow">${t("details")}</div>${descBlock(txt,{noTitle:true})}<p style="margin-top:18px"><a class="btn ghost small" href="https://etap.pro" ${ext}>${t("etap_more")}</a></p>${shareRow("ETAPpro")}</div></div>`;
 }
 function renderSupport(){
   $("v-support").innerHTML=`<div class="wrap" style="padding-top:34px;padding-bottom:54px"><div class="eyebrow">${t("nav_support")}</div><h1 style="margin:8px 0 6px">${t("sup_h")}</h1><p class="muted" style="margin:0 0 24px">${t("sup_p")}</p><div class="two">
@@ -429,12 +493,12 @@ function renderCookie(){
   <div class="acts"><button class="btn even" data-act="ck-reject">${t("ck_reject")}</button><button class="btn even" data-act="ck-accept">${t("ck_accept")}</button></div>
   <button class="textlink" style="justify-self:start" data-act="${ckDetail?"ck-save":"ck-custom"}">${ckDetail?t("ck_save"):t("ck_custom")}</button>`;
 }
-function setConsent(pref,stat,mkt){S.consent={v:1,at:new Date().toISOString(),pref,stat,mkt}; try{localStorage.setItem("evck-consent",JSON.stringify(S.consent))}catch(e){} ckOpen=false;ckDetail=false;renderCookie();
-  // Live shop: load Google Analytics only if stat, ad tags only if mkt. The prototype loads no trackers at all.
+function setConsent(pref,stat,mkt){S.consent={v:1,at:new Date().toISOString(),pref,stat,mkt}; try{localStorage.setItem("evck-consent",JSON.stringify(S.consent))}catch(e){} ckOpen=false;ckDetail=false;renderCookie(); applyTags();
 }
 function act(a){
   if(a==="region"){openPanel("r-open");return;}
   if(a==="signin"){nav("account");return;}
+  if(a==="favs"){S.cat="fav";renderShop();return;}
   if(a==="theme"){S.theme=curTheme()==="dark"?"light":"dark";applyTheme();save();renderChrome();return;}
   if(a==="cookies"){closeAll();ckOpen=true;ckDetail=true;renderCookie();return;}
   if(a==="loc-yes"){S.locOk=true;save();renderLocale();renderCookie();return;}
@@ -454,7 +518,9 @@ function go(){
   renderChrome();
   ({home:renderHome,shop:renderShop,product:()=>renderProduct(arg),finder:renderFinder,etappro:renderEtap,support:renderSupport,about:renderAbout,account:renderAccount,legal:()=>renderLegal(arg),checkout:renderCheckout,done:renderDone,notes:renderNotes})[view]();
   renderCart(); if(!window.__PRERENDER){renderLocale(); renderCookie();}
-  const M=pageMeta(view,arg); document.title=M.title; document.documentElement.lang=urlLang(); window.__meta=M; fixLinks();
+  const M=pageMeta(view,arg); dl({event:"page_view",page_path:location.pathname,page_title:M.title});
+  if(view==="product")dl({event:"view_item",ecommerce:{currency:"EUR",value:M.product.price,items:[{item_id:String(arg),item_name:PID[arg].n.en}]}}); if(view==="checkout"&&S.cart.length)dl({event:"begin_checkout"});
+  document.title=M.title; document.documentElement.lang=urlLang(); window.__meta=M; fixLinks();
 }
 function pageMeta(view,arg){const B="EVChargeking", pl=(s,n)=>{s=String(s||"").replace(/[#*_>|]/g," ").replace(/\s+/g," ").trim(); return s.length>n?s.slice(0,n-1).replace(/\s+\S*$/,"")+"…":s;};
   const H=L(D.pages.home)[0]; let title=B+" · "+pl(H.h,60), desc=pl(H.p[0],155), r=route(), image="/img/199_big.webp", product=null;
@@ -464,7 +530,12 @@ function pageMeta(view,arg){const B="EVChargeking", pl=(s,n)=>{s=String(s||"").r
   else if(view==="support"){title=t("nav_support")+" · "+B; desc=pl(t("sup_p"),155);} else if(view==="about")title=t("nav_about")+" · "+B;
   else if(view==="account"){title=t("nav_login")+" · "+B; desc=pl(t("acc_p"),155);} else if(view==="legal")title=(arg==="terms"?t("terms_l"):t("privacy"))+" · "+B;
   else if(view==="checkout")title=t("co_t")+" · "+B; else if(view==="done")title=B;
-  return {title,desc,image,product,route:r,noindex:view==="checkout"||view==="done"||view==="account"};}
+  const crumbs=[[t("nav_home"),"home"]]; if(view==="shop"||view==="product")crumbs.push([t("nav_shop"),"shop"]); if(view==="shop"&&GROUPS.includes(S.cat))crumbs.push([t("g_"+S.cat),"cat-"+S.cat]);
+  if(view==="product"){const p=PID[arg]; crumbs.push([t("g_"+p.g),"cat-"+p.g],[L(p.n),r]); product.until=promoOn(p)?PROMO.until:null; product.images=p.i.map(k=>"/img/"+(k===p.i[0]&&p.b?p.b:k)+".webp"); product.group=t("g_"+p.g);}
+  else if(view!=="home"&&view!=="shop")crumbs.push([title.split(" · ")[0],r]);
+  const list=view==="shop"?(S.cat==="all"?PR:PR.filter(p=>p.g===S.cat)).map(p=>"p-"+p.id):null;
+  const share=view==="product"?"p-"+arg:view==="shop"&&GROUPS.includes(S.cat)?"cat-"+S.cat:view==="etappro"?"etappro":"default";
+  return {title,desc,image,product,route:r,crumbs,list,share,noindex:view==="checkout"||view==="done"||view==="account"};}
 function collectForm(){const o={};document.querySelectorAll("#coForm input").forEach(i=>{if(i.id)o[i.id]=i.type==="checkbox"?i.checked:i.value});return o;}
 function restoreForm(o){for(const k in o){const el=$(k);if(!el)continue; if(el.type==="checkbox")el.checked=o[k]; else if(k!=="fVat")el.value=o[k];} renderCoSummary();}
 function rerenderKeepingForm(){if(route()==="checkout"&&S.cart.length){const keep=collectForm();renderChrome();renderCheckout();restoreForm(keep);renderCart();} else go();}
@@ -473,6 +544,9 @@ document.addEventListener("click",e=>{
   const b=e.target.closest("button,a"); if(!b)return; const d=b.dataset;
   if(b.tagName==="A"&&!d.act&&(d.r||(b.getAttribute("href")||"").startsWith("#"))&&!(e.metaKey||e.ctrlKey||e.shiftKey||e.button)){const r=d.r||b.getAttribute("href").slice(1); if(r){e.preventDefault(); if(d.close!==undefined)closeAll(); nav(r); return;}}
   if(d.act){ if(b.tagName==="A"&&d.act!=="ck-privacy")e.preventDefault(); if(d.act!=="ck-privacy")act(d.act); else {e.preventDefault();nav("privacy");} return;}
+  if(d.like){const id=+d.like, i=S.likes.indexOf(id); if(i<0)S.likes.push(id); else S.likes.splice(i,1); save(); renderProduct(id); return;}
+  if(d.share==="copy"){(navigator.clipboard?navigator.clipboard.writeText(pageUrl()):Promise.reject()).then(()=>toast(t("copied"))).catch(()=>prompt(t("share_copy"),pageUrl())); return;}
+  if(d.share==="native"){navigator.share({title:document.title,url:pageUrl()}).catch(()=>{}); return;}
   if(d.rc){S.country=d.rc;S.lang=d.rl;save();closeAll();const u=pathOf(route());if(u!==location.pathname)history.replaceState({},"",u);rerenderKeepingForm();return;}
   if(d.b){S.buyer=d.b; if(S.buyer==="private")S.co.vatValid=false; save(); rerenderKeepingForm(); return;}
   if(d.hc){hero.conn=d.hc;renderBench();return;} if(d.hp){hero.p=d.hp;renderBench();return;}
@@ -492,4 +566,5 @@ window.addEventListener("popstate",()=>{closeAll();go();});
 new MutationObserver(fixLinks).observe(document.body,{childList:true,subtree:true});
 // old "#..." links and the bare domain land on the right page
 (function(){const h=location.hash.slice(1), {l}=parsePath(); if(h&&!h.includes("=")){history.replaceState({},"",pathOf(h));} else if(!l){history.replaceState({},"",pathOf(route()));}})();
+applyTags();
 go();

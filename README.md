@@ -12,6 +12,11 @@ Preview address: https://evchargeking-website.b-cdn.net/ (the live evchargeking.
 - [x] Deploy workflow, Bunny zones created by the first run
 - [x] Preview build: every page tells search engines **not** to index it, `robots.txt` blocks everything
 - [ ] Password lock: built (`_src/app/protect.py`, `gate.js`) but switched **off** on 14 Nov 2026 at Steve's request. Switch on with `PROTECT: "on"` in `.github/workflows/deploy.yml` plus the repository secret `PREVIEW_PASSWORD`.
+- [x] Google rating element (4.9 from 294 reviews, read 14 Nov 2026; figures in `GOOGLE` in `app.js`, refresh at each build), social links from Odoo, save/share buttons on product pages
+- [x] Search and share tags: title, description, canonical, language alternates, Open Graph and X cards with a 1200x630 JPEG per product and category (`/share/`), structured data (OnlineStore, WebSite, Product with offer, BreadcrumbList, ItemList), image sitemap. No review-rating markup: Google does not allow marking up third-party (Google) reviews as your own.
+- [x] Google tags prepared for go-live only: Consent Mode v2, Tag Manager container `GTM-5G8H3GLB` (from the live shop) loaded after consent, page and e-commerce events. The preview loads no tracker.
+- [x] Product pages: short description first, full text in collapsible sections; ETAPpro showcase with the Belinus product photos
+- [ ] Before go-live: Search Console verification code (`GSC_TOKEN` in `build.py`), check the Tag Manager container fires on the new events, confirm ETAPpro IP67 / Type 2 against the final data sheet
 - [ ] Checkout service (Supabase functions `evck-*` in project "Belinus Portal"): cart total from Odoo, VAT number check, order in Odoo, Mollie payment, automatic service-portal account
 - [ ] Odoo: dedicated API user; website pricelist rule for the ETAPpro 11 end-of-year promotion; product references; Mollie journal
 - [ ] Nightly catalogue sync from Odoo (products, prices, stock, photos) instead of the snapshot in `_src/app/data.js`
