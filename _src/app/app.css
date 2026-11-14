@@ -574,3 +574,12 @@ footer.site .social a:hover{color:#8f95ff;border-color:#6d74ff}
 .et-feats h3{font-size:1.1rem;margin:10px 0 6px}.et-feats p{margin:0;font-size:.9rem;color:var(--muted)}
 @media (max-width:920px){.et-top{grid-template-columns:1fr;gap:22px}.et-top.rev figure{order:-1}.et-feats{grid-template-columns:1fr 1fr}.etshow{gap:30px;padding:30px 0 24px}}
 @media (max-width:520px){.et-feats{grid-template-columns:1fr}}
+
+/* customer service: two ways */
+.ways{display:grid;grid-template-columns:1fr 1fr;gap:20px;max-width:980px}
+.way{border:1px solid var(--line);border-radius:12px;background:var(--surface);padding:28px;display:grid;gap:12px;align-content:start;justify-items:start}
+.way .num{font:500 11px var(--caps);letter-spacing:.16em;color:var(--blue)}
+.way h2{font-size:1.5rem}.way p{margin:0;color:var(--muted)}.way small{color:var(--muted);font-size:.8rem}
+.way .btn{margin-top:6px;text-transform:none;letter-spacing:.04em;font-size:13px}
+.way .btn:not(.ghost){text-transform:uppercase;letter-spacing:.14em;font-size:12px}
+@media (max-width:760px){.ways{grid-template-columns:1fr}}
