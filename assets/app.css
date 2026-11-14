@@ -629,3 +629,10 @@ footer.site .social a:hover{color:#8f95ff;border-color:#6d74ff}
 .co-msg{margin:0;font-size:.88rem;color:var(--bad);min-height:1.2em}
 label.f input.bad{border-color:var(--bad)!important;box-shadow:0 0 0 3px color-mix(in srgb,var(--bad) 22%,transparent)}
 .tp-btns{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
+
+/* language list: seven languages, no countries */
+.langrow{display:flex;justify-content:space-between;align-items:center;width:100%;border:0;border-bottom:1px solid var(--line);background:none;color:inherit;padding:16px 20px;cursor:pointer;font:300 1.25rem var(--display);letter-spacing:-.01em;text-align:left;transition:color .2s var(--ease),padding .2s var(--ease)}
+.langrow small{font:500 10px var(--caps);letter-spacing:.16em;color:var(--muted)}
+.langrow:hover{color:var(--blue);padding-left:26px}
+.langrow[aria-pressed="true"]{color:var(--blue);background:var(--blue-soft)}
+.langrow[aria-pressed="true"] small{color:var(--blue)}

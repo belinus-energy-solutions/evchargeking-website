@@ -112,7 +112,10 @@ const CLANGS={"BE": ["nl", "fr", "de", "en"], "NL": ["nl", "en"], "FR": ["fr", "
 const langsOf=c=>CLANGS[c]||["en"];
 const TZ={"Europe/Brussels":"BE","Europe/Amsterdam":"NL","Europe/Paris":"FR","Europe/Berlin":"DE","Europe/Vienna":"AT","Europe/Luxembourg":"LU","Europe/Copenhagen":"DK","Europe/Madrid":"ES","Europe/Lisbon":"PT","Europe/Dublin":"IE","Europe/Stockholm":"SE","Europe/Budapest":"HU","Europe/Vilnius":"LT","Europe/Rome":"IT","Europe/Warsaw":"PL","Europe/Helsinki":"FI","Europe/Prague":"CZ","Europe/Bratislava":"SK","Europe/London":"GB","Europe/Zurich":"CH","Europe/Sofia":"BG","Europe/Zagreb":"HR","Asia/Nicosia":"CY","Europe/Tallinn":"EE","Europe/Athens":"GR","Europe/Riga":"LV","Europe/Malta":"MT","Europe/Bucharest":"RO","Europe/Ljubljana":"SI"};
 // Detection: the prototype reads browser language and time zone. The live shop should use Odoo's GeoIP country instead.
-function detect(){let lang="en",country="BE"; try{const ls=navigator.languages||[navigator.language||"en"]; const l=ls.map(x=>x.slice(0,2).toLowerCase()).find(x=>LANGN[x]); if(l)lang=l; const tz=Intl.DateTimeFormat().resolvedOptions().timeZone||""; const reg=(ls.map(x=>(x.split("-")[1]||"").toUpperCase()).find(x=>SHIP[x]))||""; country=TZ[tz]||reg||"BE"; if(!langsOf(country).includes(lang))lang="en";}catch(e){} return {lang,country};}
+// Languages offered on the site, in this order. The country is no longer part of the language choice:
+// it is detected, confirmed in the first-visit pop-up and can be changed there or at checkout.
+const SITE_LANGS=["en","nl","fr","es","de","it","pt"], LANG_H={en:"Language",nl:"Taal",fr:"Langue",es:"Idioma",de:"Sprache",it:"Lingua",pt:"Idioma"};
+function detect(){let lang="en",country="BE"; try{const ls=navigator.languages||[navigator.language||"en"]; const l=ls.map(x=>x.slice(0,2).toLowerCase()).find(x=>SITE_LANGS.includes(x)); if(l)lang=l; const tz=Intl.DateTimeFormat().resolvedOptions().timeZone||""; const reg=(ls.map(x=>(x.split("-")[1]||"").toUpperCase()).find(x=>SHIP[x]))||""; country=TZ[tz]||reg||"BE";}catch(e){} return {lang,country};}
 const DET=window.__PRERENDER?{lang:"en",country:"BE"}:detect();
 /* Social profiles (from the Odoo company record) and the Google Business rating.
    GOOGLE figures were read on the date below; refresh them at each build (later: automatically through the Google Places API). */
@@ -258,19 +261,19 @@ function renderChrome(){
   document.documentElement.lang=S.lang;
   $("groupTag").innerHTML=t("group"); $("cartLbl").textContent=t("cart");
   $("topmsg").innerHTML=(promoOn(PID[PROMO.pid])?`<a href="#p-${PROMO.pid}"><b>${promoTxt("promo_top")}</b></a> · `:"")+t("top_free",{list:esc([...FREE_SHIP.countries].map(cname).join(", ")),amt:"<b>"+money(FREE_SHIP.over)+"</b>"})+(promoOn(PID[PROMO.pid])?"":" · "+esc(t("top_vat",{v:vatLabel()})))+(T[S.lang].partial?" · "+esc(T[S.lang].partial):"");
-  $("rCountry").textContent=cname(S.country); $("rCode").textContent=S.country; $("rLang").textContent=S.lang.toUpperCase();
-  $("regionBtn").setAttribute("aria-label",t("region_h")+": "+cname(S.country)+", "+LANGN[S.lang]);
+  if(!SITE_LANGS.includes(S.lang))S.lang="en";
+  $("rLang").textContent=S.lang.toUpperCase();
+  $("regionBtn").setAttribute("aria-label",(LANG_H[S.lang]||LANG_H.en)+": "+LANGN[S.lang]);
   const dark=curTheme()==="dark"; $("themeBtn").innerHTML=dark?SUN:MOON; $("themeBtn").setAttribute("aria-label",dark?t("theme_light"):t("theme_dark")); $("themeBtn").title=dark?t("theme_light"):t("theme_dark");
   const r=route(), cur=r.startsWith("p-")||r.startsWith("cat-")?"shop":r;
-  $("menuTitle").textContent=t("menu"); $("regionTitle").textContent=t("region_h");
+  $("menuTitle").textContent=t("menu"); $("regionTitle").textContent=LANG_H[S.lang]||LANG_H.en;
   $("menuNav").innerHTML=[["home","nav_home"],["shop","nav_shop"],["finder","nav_finder"],["etappro","nav_etap"],["support","nav_support"],["about","nav_about"]].map(([h,k])=>`<a href="#${h}" data-close${cur===h?' aria-current="page"':""}>${t(k)}</a>${h==="shop"?`<div class="sub">${GROUPS.map(g=>`<a href="#cat-${g}" data-close>${t("g_"+g)}</a>`).join("")}</div>`:""}`).join("")+`<a class="login" href="${PORTAL}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.600 8 7"/></svg>${t("nav_login")}<small>portal.belinus.com</small></a>`;
-  $("menuFoot").innerHTML=`<button class="textlink" data-act="region">${esc(cname(S.country))} · ${S.lang.toUpperCase()}</button><div class="themetog" role="group" aria-label="${t("theme_dark")} / ${t("theme_light")}"><button data-act="theme-dark" aria-pressed="${dark}">${MOON}<span>${t("th_dark")}</span></button><button data-act="theme-light" aria-pressed="${!dark}">${SUN}<span>${t("th_light")}</span></button></div>`;
-  const order=["BE","NL","FR","DE","LU",...Object.keys(SHIP).filter(c=>!["BE","NL","FR","DE","LU"].includes(c)).sort((a,b)=>cname(a).localeCompare(cname(b)))];
-  $("regionList").innerHTML=order.map(c=>`<div class="rrow${c===S.country?" on":""}"><span class="nm">${esc(cname(c))}<small>${EU.has(c)?t("incl",{r:String(VAT[c]).replace(".",S.lang==="en"?".":",")}):t("export")}</small></span><span class="lg">${langsOf(c).map(l=>`<button data-rc="${c}" data-rl="${l}" aria-pressed="${c===S.country&&l===S.lang}" aria-label="${esc(cname(c))}, ${LANGN[l]}">${l.toUpperCase()}</button>`).join("")}</span></div>`).join("");
-  $("regionFoot").innerHTML=`<button class="textlink" data-act="cookies">${t("ck_settings")}</button><span class="plabel" style="color:var(--blue)">${esc(cname(S.country))} · ${S.lang.toUpperCase()}</span>`;
+  $("menuFoot").innerHTML=`<button class="textlink" data-act="region">${LANGN[S.lang]}</button><div class="themetog" role="group" aria-label="${t("theme_dark")} / ${t("theme_light")}"><button data-act="theme-dark" aria-pressed="${dark}">${MOON}<span>${t("th_dark")}</span></button><button data-act="theme-light" aria-pressed="${!dark}">${SUN}<span>${t("th_light")}</span></button></div>`;
+  $("regionList").innerHTML=SITE_LANGS.map(l=>`<button class="langrow" data-sl="${l}" lang="${l}" aria-pressed="${l===S.lang}"><span>${LANGN[l]}</span><small>${l.toUpperCase()}</small></button>`).join("");
+  $("regionFoot").innerHTML=`<button class="textlink" data-act="cookies">${t("ck_settings")}</button>`;
   $("footCols").innerHTML=`<div><img class="flogo" src="/img/logo.png" alt="EVChargeking"><div class="groupline">${t("group").replace(/<\/?b>/g,"")}</div><p style="margin:12px 0 14px;max-width:42ch">${esc(L(D.pages.about).split("\n")[0])}</p>${googleBadge(true)}<h4 style="margin:18px 0 8px">${t("follow")}</h4>${socialRow()}</div>
   <div><h4>${t("foot_shop")}</h4>${GROUPS.map(g=>`<a href="#cat-${g}">${t("g_"+g)}</a>`).join("")}<a href="#finder">${t("nav_finder")}</a></div>
-  <div><h4>${t("foot_help")}</h4><a href="#support">${t("nav_support")}</a><a href="#terms">${t("terms_l")}</a><a href="#privacy">${t("privacy")}</a><a href="#cookies" data-act="cookies">${t("ck_settings")}</a></div>
+  <div><h4>${t("foot_help")}</h4><a href="#support">${t("nav_support")}</a><a href="#terms">${t("terms_l")}</a><a href="#privacy">${t("privacy")}</a><a href="#cookies" data-act="cookies">${t("ck_settings")}</a><a href="#country" data-act="loc-open">${t("loc_country")}: ${esc(cname(S.country))}</a></div>
   <div><h4>${t("contact")}</h4><p style="margin:0">${CO.name} · ${CO.legal}<br>${CO.street}, ${CO.zip} ${CO.city}, ${esc(cname("BE"))}<br>${t("vat")}: ${CO.vat}<br>${CO.email}<br>${CO.phone}</p></div>`;
   $("footFine").innerHTML=`<span>© EVChargeking · ${t("group").replace(/<\/?b>/g,"")} · <a href="https://belinus.com">belinus.com</a></span><span>${["card","applepay","paypal","bancontact","ideal","klarna"].map(k=>L(PAY_NAME[k])).join(" · ")}</span>`;
 }
@@ -534,7 +537,9 @@ function renderNotes(){
 /* ============ LOCALE CONFIRMATION + COOKIE CONSENT ============ */
 function renderLocale(){
   const m=$("locModal"); if(S.locOk){m.classList.remove("show");return;}
-  m.innerHTML=`<div class="box"><div class="eyebrow">${esc(t("region_h"))}</div><h2 id="locH" style="font-size:1.5rem">${t("loc_h")}</h2><dl class="kv"><dt>${t("loc_country")}</dt><dd>${esc(cname(S.country))}</dd><dt>${t("loc_lang")}</dt><dd>${LANGN[S.lang]}</dd><dt>${t("loc_prices")}</dt><dd>${vatLabel()}</dd></dl><p class="note" style="margin:0">${t("loc_p")}</p><div style="display:flex;gap:10px;flex-wrap:wrap"><button class="btn" data-act="loc-yes">${t("loc_yes")}</button><button class="btn ghost" data-act="loc-change">${t("loc_change")}</button></div></div>`;
+  const cs=Object.keys(SHIP).sort((x,y)=>cname(x).localeCompare(cname(y)));
+  m.innerHTML=`<div class="box"><h2 id="locH" style="font-size:1.5rem">${t("loc_h")}</h2><div class="fgrid" style="grid-template-columns:1fr 1fr"><label class="f" for="locC">${t("loc_country")}<select id="locC">${cs.map(c=>`<option value="${c}"${c===S.country?" selected":""}>${esc(cname(c))}</option>`).join("")}</select></label><label class="f" for="locL">${t("loc_lang")}<select id="locL">${SITE_LANGS.map(l=>`<option value="${l}"${l===S.lang?" selected":""}>${LANGN[l]}</option>`).join("")}</select></label></div><p class="note" style="margin:0">${t("loc_prices")}: ${vatLabel()}</p><div style="display:flex;gap:10px;flex-wrap:wrap"><button class="btn" data-act="loc-yes">${t("loc_yes")}</button></div></div>`;
+  $("locC").onchange=e=>{S.country=e.target.value;save();rerenderKeepingForm();}; $("locL").onchange=e=>{S.lang=e.target.value;save();const u=pathOf(route());if(u!==location.pathname)history.replaceState({},"",u+location.search);rerenderKeepingForm();};
   m.classList.add("show");
 }
 let ckOpen=false, ckDetail=false;
@@ -557,6 +562,7 @@ function act(a){
   if(a==="theme"){S.theme=curTheme()==="dark"?"light":"dark";applyTheme();save();renderChrome();return;}
   if(a==="cookies"){closeAll();ckOpen=true;ckDetail=true;renderCookie();return;}
   if(a==="loc-yes"){S.locOk=true;save();renderLocale();renderCookie();return;}
+  if(a==="loc-open"){closeAll();S.locOk=false;renderLocale();return;}
   if(a==="loc-change"){S.locOk=true;save();renderLocale();renderCookie();openPanel("r-open");return;}
   if(a==="ck-accept"){setConsent(true,true,true);return;}
   if(a==="ck-reject"){setConsent(false,false,false);return;}
@@ -603,6 +609,7 @@ document.addEventListener("click",e=>{
   if(d.like){const id=+d.like, i=S.likes.indexOf(id); if(i<0)S.likes.push(id); else S.likes.splice(i,1); save(); renderProduct(id); return;}
   if(d.share==="copy"){(navigator.clipboard?navigator.clipboard.writeText(pageUrl()):Promise.reject()).then(()=>toast(t("copied"))).catch(()=>prompt(t("share_copy"),pageUrl())); return;}
   if(d.share==="native"){navigator.share({title:document.title,url:pageUrl()}).catch(()=>{}); return;}
+  if(d.sl){S.lang=d.sl;save();closeAll();const u=pathOf(route());if(u!==location.pathname)history.replaceState({},"",u+location.search);rerenderKeepingForm();return;}
   if(d.rc){S.country=d.rc;S.lang=d.rl;save();closeAll();const u=pathOf(route());if(u!==location.pathname)history.replaceState({},"",u+location.search);rerenderKeepingForm();return;}
   if(d.b){S.buyer=d.b; if(S.buyer==="private")S.co.vatValid=false; save(); rerenderKeepingForm(); return;}
   if(d.hc){hero.conn=d.hc;renderBench();return;} if(d.hp){hero.p=d.hp;renderBench();return;}
