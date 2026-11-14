@@ -583,3 +583,36 @@ footer.site .social a:hover{color:#8f95ff;border-color:#6d74ff}
 .way .btn{margin-top:6px;text-transform:none;letter-spacing:.04em;font-size:13px}
 .way .btn:not(.ghost){text-transform:uppercase;letter-spacing:.14em;font-size:12px}
 @media (max-width:760px){.ways{grid-template-columns:1fr}}
+
+/* savings calculator (same as belinus.com) */
+.evs-em{font-style:normal;color:var(--blue)}
+.evs-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:28px;align-items:start;max-width:1040px}
+.evs-in{display:grid;gap:22px;border:1px solid var(--line);border-radius:12px;background:var(--surface);padding:24px}
+.evs-in fieldset{border:0;padding:0;margin:0;background:none;display:grid;gap:8px;border-radius:0}
+.evs-in legend,.evs-in .plabel{font:500 11px var(--caps);letter-spacing:.16em;text-transform:uppercase;color:var(--muted);padding:0;margin-bottom:8px;display:block}
+.evs-segs{display:flex;gap:8px;flex-wrap:wrap}
+.evs-seg{border:1px solid var(--line-2);background:none;color:inherit;border-radius:999px;padding:9px 16px;cursor:pointer;font:400 .92rem var(--body);transition:border-color .2s var(--ease),box-shadow .2s var(--ease)}
+.evs-seg[aria-pressed="true"]{border-color:var(--edge);background:var(--blue-soft);box-shadow:0 0 0 4px var(--glow)}
+.evs-in label{display:grid;gap:0}.evs-in input:not([type=checkbox]){background:var(--bg);border:1px solid var(--line-2);border-radius:8px;color:var(--ink);padding:11px 12px;font:inherit;max-width:220px}
+.evs-in input:focus{outline:none;border-color:var(--edge);box-shadow:0 0 0 4px var(--glow)}
+.evs-in small{color:var(--muted);font-size:.82rem;margin-top:6px}
+.evs-check{display:flex!important;gap:12px;align-items:flex-start;cursor:pointer}.evs-check input{width:18px;height:18px;margin-top:3px;accent-color:var(--edge);flex:none}
+.evs-out{display:grid;gap:16px}
+.evs-card{border:1px solid var(--line);border-radius:12px;background:var(--surface);padding:24px}
+.evs-card .plabel{color:var(--blue)}
+.evs-big{font:300 clamp(2.4rem,5vw,3.4rem)/1 var(--display);letter-spacing:-.02em;margin:10px 0 8px;display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.evs-big small{font:400 .9rem var(--body);letter-spacing:0;color:var(--muted)}
+.evs-card p{margin:0;color:var(--muted);font-size:.92rem}
+.evs-card dl{margin:10px 0 0;display:grid;gap:0}.evs-card dl div{display:flex;justify-content:space-between;gap:12px;padding:8px 0;border-top:1px solid var(--line)}
+.evs-card dt{color:var(--muted)}.evs-card dd{margin:0}
+@media (max-width:820px){.evs-grid{grid-template-columns:1fr}}
+
+/* header: logo only; burger hover = middle line slides and turns blue (no circle) */
+.brand small{display:none}
+.brand img{height:22px}
+@media (max-width:640px){.brand img{height:17px}}
+@media (max-width:480px){.brand img{height:auto;width:150px}}
+@media (max-width:350px){.brand img{width:120px}}
+#menuBtn,#menuBtn:hover,#menuBtn:focus-visible{border-color:transparent;box-shadow:none;color:inherit}
+.burger i{transition:transform .35s var(--ease),background-color .25s var(--ease),width .35s var(--ease)}
+#menuBtn:hover .burger i:nth-child(2),#menuBtn:focus-visible .burger i:nth-child(2){transform:translateX(7px);background:var(--edge)}
