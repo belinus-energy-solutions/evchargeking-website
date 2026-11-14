@@ -8,7 +8,7 @@ async def main():
     ctx=await b.new_context(viewport={"width":1320,"height":900},locale="nl-BE",timezone_id="Europe/Brussels")
     pg=await ctx.new_page(); errs=[]; pg.on("pageerror",lambda e:errs.append(str(e))); pg.on("requestfailed",lambda r:errs.append("RF "+r.url))
     await pg.goto(B+"/"); await pg.wait_for_timeout(600); print("root ->",pg.url)
-    await pg.click("[data-act=loc-yes]"); await pg.click("[data-act=ck-reject]")
+    await pg.click("[data-act=ck-reject]")
     await pg.click("text=Naar de shop"); await pg.wait_for_timeout(300); print(pg.url, await pg.title())
     await pg.click("#v-shop .card >> nth=1"); await pg.wait_for_timeout(300); print(pg.url, "|", await pg.title())
     await pg.click("#pAdd"); await pg.wait_for_timeout(300); print("cart", await pg.inner_text("#cartN"))

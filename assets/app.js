@@ -273,7 +273,7 @@ function renderChrome(){
   $("regionFoot").innerHTML=`<button class="textlink" data-act="cookies">${t("ck_settings")}</button>`;
   $("footCols").innerHTML=`<div><img class="flogo" src="/img/logo.png" alt="EVChargeking"><div class="groupline">${t("group").replace(/<\/?b>/g,"")}</div><p style="margin:12px 0 14px;max-width:42ch">${esc(L(D.pages.about).split("\n")[0])}</p>${googleBadge(true)}<h4 style="margin:18px 0 8px">${t("follow")}</h4>${socialRow()}</div>
   <div><h4>${t("foot_shop")}</h4>${GROUPS.map(g=>`<a href="#cat-${g}">${t("g_"+g)}</a>`).join("")}<a href="#finder">${t("nav_finder")}</a></div>
-  <div><h4>${t("foot_help")}</h4><a href="#support">${t("nav_support")}</a><a href="#terms">${t("terms_l")}</a><a href="#privacy">${t("privacy")}</a><a href="#cookies" data-act="cookies">${t("ck_settings")}</a><a href="#country" data-act="loc-open">${t("loc_country")}: ${esc(cname(S.country))}</a></div>
+  <div><h4>${t("foot_help")}</h4><a href="#support">${t("nav_support")}</a><a href="#terms">${t("terms_l")}</a><a href="#privacy">${t("privacy")}</a><a href="#cookies" data-act="cookies">${t("ck_settings")}</a></div>
   <div><h4>${t("contact")}</h4><p style="margin:0">${CO.name} · ${CO.legal}<br>${CO.street}, ${CO.zip} ${CO.city}, ${esc(cname("BE"))}<br>${t("vat")}: ${CO.vat}<br>${CO.email}<br>${CO.phone}</p></div>`;
   $("footFine").innerHTML=`<span>© EVChargeking · ${t("group").replace(/<\/?b>/g,"")} · <a href="https://belinus.com">belinus.com</a></span><span>${["card","applepay","paypal","bancontact","ideal","klarna"].map(k=>L(PAY_NAME[k])).join(" · ")}</span>`;
 }
@@ -536,6 +536,9 @@ function renderNotes(){
 
 /* ============ LOCALE CONFIRMATION + COOKIE CONSENT ============ */
 function renderLocale(){
+  // No first-visit pop-up any more: the country only matters at checkout, where the customer chooses it.
+  // Until then prices use the country detected from the browser, silently.
+  S.locOk=true;
   const m=$("locModal"); if(S.locOk){m.classList.remove("show");return;}
   const cs=Object.keys(SHIP).sort((x,y)=>cname(x).localeCompare(cname(y)));
   m.innerHTML=`<div class="box"><h2 id="locH" style="font-size:1.5rem">${t("loc_h")}</h2><div class="fgrid" style="grid-template-columns:1fr 1fr"><label class="f" for="locC">${t("loc_country")}<select id="locC">${cs.map(c=>`<option value="${c}"${c===S.country?" selected":""}>${esc(cname(c))}</option>`).join("")}</select></label><label class="f" for="locL">${t("loc_lang")}<select id="locL">${SITE_LANGS.map(l=>`<option value="${l}"${l===S.lang?" selected":""}>${LANGN[l]}</option>`).join("")}</select></label></div><p class="note" style="margin:0">${t("loc_prices")}: ${vatLabel()}</p><div style="display:flex;gap:10px;flex-wrap:wrap"><button class="btn" data-act="loc-yes">${t("loc_yes")}</button></div></div>`;
