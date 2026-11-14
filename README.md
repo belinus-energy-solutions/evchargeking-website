@@ -11,7 +11,7 @@ Preview address: https://evchargeking-website.b-cdn.net/ (the live evchargeking.
 - [x] Site built as real pages: one address per page and per language (nl, fr, en), 195 pages
 - [x] Deploy workflow, Bunny zones created by the first run
 - [x] Preview build: every page tells search engines **not** to index it, `robots.txt` blocks everything
-- [x] Preview is behind a password: pages, script and catalogue are encrypted at deploy with the repository secret `PREVIEW_PASSWORD` (`_src/app/protect.py`, `gate.js`). No secret = locked for everyone. Change the password by replacing the secret and re-running the workflow. Product photos, fonts and the stylesheet are not encrypted. This repository is public, so its source is readable on GitHub regardless of the password.
+- [ ] Password lock: built (`_src/app/protect.py`, `gate.js`) but switched **off** on 14 Nov 2026 at Steve's request. Switch on with `PROTECT: "on"` in `.github/workflows/deploy.yml` plus the repository secret `PREVIEW_PASSWORD`.
 - [ ] Checkout service (Supabase functions `evck-*` in project "Belinus Portal"): cart total from Odoo, VAT number check, order in Odoo, Mollie payment, automatic service-portal account
 - [ ] Odoo: dedicated API user; website pricelist rule for the ETAPpro 11 end-of-year promotion; product references; Mollie journal
 - [ ] Nightly catalogue sync from Odoo (products, prices, stock, photos) instead of the snapshot in `_src/app/data.js`

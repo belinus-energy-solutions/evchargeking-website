@@ -1,7 +1,8 @@
 name: Deploy to Bunny CDN
 
-# Every push to main uploads the password-protected preview of the built site to Bunny Storage and purges the CDN cache.
-# The password is the repository secret PREVIEW_PASSWORD; without it the preview is locked for everyone.
+# Every push to main uploads the built site to Bunny Storage and purges the CDN cache.
+# PROTECT below switches the password lock: with "on" the password is the repository secret PREVIEW_PASSWORD
+# (without the secret the preview is then locked for everyone).
 # The first run also creates the storage zone and pull zone if they do not exist yet.
 # Needs the organisation secret BUNNY_API_KEY. Commits containing [skip deploy] are not deployed.
 
@@ -12,6 +13,8 @@ on:
 
 env:
   ZONE_NAME: "evchargeking-website"
+  # "on" = preview behind the PREVIEW_PASSWORD secret, "off" = open preview (still not indexable by search engines)
+  PROTECT: "off"
 
 concurrency:
   group: deploy-evchargeking
@@ -46,13 +49,19 @@ jobs:
           echo "PULLZONE_ID=$PZ" >> "$GITHUB_ENV"
           echo "Storage zone $SZ, pull zone $PZ, preview address https://$ZONE_NAME.b-cdn.net/" | tee -a "$GITHUB_STEP_SUMMARY"
 
-      - name: Lock the preview behind the password
+      - name: Prepare the files to upload
         env:
           PREVIEW_PASSWORD: ${{ secrets.PREVIEW_PASSWORD }}
         run: |
           set -euo pipefail
-          pip install -q cryptography
-          python3 _src/app/protect.py | tee -a "$GITHUB_STEP_SUMMARY"
+          if [ "$PROTECT" = "on" ]; then
+            pip install -q cryptography
+            python3 _src/app/protect.py | tee -a "$GITHUB_STEP_SUMMARY"
+          else
+            mkdir _dist
+            rsync -a --exclude '.git' --exclude '.github' --exclude '_src' --exclude '_dist' --exclude 'README.md' --exclude 'CLAUDE.md' --exclude '.gitignore' ./ _dist/
+            echo "Open preview (no password), not indexable." | tee -a "$GITHUB_STEP_SUMMARY"
+          fi
 
       - name: Upload site files to Bunny Storage
         env:
@@ -65,8 +74,9 @@ jobs:
           cd _dist
           find . -type f -print0 \
             | xargs -0 -P 8 -I{} sh -c 'f="{}"; rel="${f#./}"; curl -fsS --retry 3 -X PUT -H "AccessKey: $SK" --data-binary "@$f" "https://storage.bunnycdn.com/$ZONE_NAME/$rel" > /dev/null && echo "PUT $rel"'
-          # remove the unprotected copies left by earlier deploys
-          for rel in assets/app.js assets/data.js sitemap.xml; do
+          # remove what the other mode left behind
+          if [ "$PROTECT" = "on" ]; then OLD="assets/app.js assets/data.js sitemap.xml"; else OLD="assets/app.js.enc assets/data.js.enc assets/gate.js"; fi
+          for rel in $OLD; do
             curl -sS -o /dev/null -w "DELETE $rel %{http_code}\n" -X DELETE -H "AccessKey: $SK" "https://storage.bunnycdn.com/$ZONE_NAME/$rel" || true
           done
 
