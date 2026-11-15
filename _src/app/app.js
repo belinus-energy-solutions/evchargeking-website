@@ -47,7 +47,7 @@ en:{nav_login:"Customer login",acc_eb:"Belinus service portal",acc_h:"One login 
  done_t:"Order {n} received.",done_p:"Thank you. This is a test order: nothing is shipped.",back:"Back to the shop",
  sup_h:"Customer service",sup_p:"Two ways to reach us.",sup_ticket:"Service ticket",sup_contact:"Contact us",sup_contact_p:"Contact us about anything related to our company or services. We'll do our best to get back to you as soon as possible.",name:"Your name",subject:"Subject",descr:"Description",question:"Question",serial:"Device serial number",serial_h:"It can be found below the barcode on the grey sticker.",attach:"Attachment",submit:"Submit",not_sent:"Prototype: the form was not sent",
  about_h:"About EVChargeking",about_group:"EVChargeking is a Belinus group company. Belinus builds home batteries engineered and assembled in Europe; EVChargeking adds the charging cables and the Belgian-made ETAPpro charger.",contact:"Contact",
- foot_shop:"Shop",foot_help:"Help",foot_co:"Company",terms_l:"Terms & conditions",privacy:"Privacy",notes:"Review & build notes",legal_nl:"The current website publishes this text in Dutch only. It is carried over unchanged.",
+ foot_shop:"Shop",foot_help:"Help",foot_co:"Company",terms_l:"Terms & conditions",privacy:"Privacy",notes:"Review & build notes",legal_nl:"This is a translation provided for your convenience. The Dutch version is the only legally binding version; if the two differ, the Dutch text prevails.",legal_dutch:"Read the Dutch version",close:"Close",
  etap_more:"More on etap.pro",etap_range:"ETAPpro chargers and accessories"},
 nl:{nav_login:"Klantenlogin",acc_eb:"Belinus serviceportaal",acc_h:"Eén login voor elk Belinus-bedrijf",acc_p:"EVChargeking is een bedrijf van de Belinus-groep. Je klantenaccount zit in het Belinus serviceportaal, de centrale plek voor klanten van alle Belinus-bedrijven. Je meldt je daar aan met het e-mailadres van je EVChargeking-bestelling.",acc_l1:"Je EVChargeking-bestellingen, facturen en track & trace",acc_l2:"Servicetickets en garantie voor je kabels en ETAPpro",acc_l3:"Dezelfde login als je ook een Belinus-thuisbatterij hebt",acc_btn:"Aanmelden op portal.belinus.com",acc_new:"Nieuw hier? Je account wordt automatisch aangemaakt bij je eerste bestelling.",acc_docs_h:"Je EVChargeking-documenten blijven EVChargeking-documenten",acc_docs_p:"In het portaal toont elke bestelling en factuur van welk bedrijf ze komt. EVChargeking-documenten dragen de naam en het logo van EVChargeking en worden uitgegeven door {legal}.",acc_ex:"Voorbeeld van het portaal",acc_all:"Alle bedrijven",acc_order:"Bestelling",acc_invoice:"Factuur",acc_issued:"Uitgegeven door EVChargeking · {legal} · {vat}",acc_other:"Documenten van andere Belinus-bedrijven staan in dezelfde lijst, onder hun eigen naam.",reg_portal:"Het portaal (portal.belinus.com) wordt gedeeld door alle bedrijven van de Belinus-groep.",done_portal:"Je account in het Belinus serviceportaal staat klaar. Stel je wachtwoord in via de link in je e-mail en volg daar je bestelling op. Je bestelling en factuur zijn gemarkeerd als EVChargeking-documenten.",
  menu:"Menu",region_h:"Regio & taal",b2c:"B2C",b2b:"B2B",theme_light:"Licht thema",theme_dark:"Donker thema",th_dark:"Donker",th_light:"Licht",from:"vanaf",sort:"Sorteren",sort_feat:"Aanbevolen",sort_lo:"Prijs, laag naar hoog",sort_hi:"Prijs, hoog naar laag",sort_az:"Naam A–Z",n_products:"{n} producten",
@@ -72,7 +72,7 @@ nl:{nav_login:"Klantenlogin",acc_eb:"Belinus serviceportaal",acc_h:"Eén login v
  done_t:"Bestelling {n} ontvangen.",done_p:"Bedankt. Dit is een testbestelling: er wordt niets verzonden.",back:"Terug naar de shop",
  sup_h:"Klantenservice",sup_p:"Twee manieren om ons te bereiken.",sup_ticket:"Serviceticket",sup_contact:"Contact",sup_contact_p:"Neem contact met ons op over alles wat met ons bedrijf of onze diensten te maken heeft. We doen ons best om zo snel mogelijk bij je terug te komen.",name:"Je naam",subject:"Onderwerp",descr:"Beschrijving",question:"Vraag",serial:"Serienummer toestel",serial_h:"Je vindt het onder de barcode op de grijze sticker.",attach:"Bijlage",submit:"Verzenden",not_sent:"Prototype: het formulier is niet verzonden",
  about_h:"Over EVChargeking",about_group:"EVChargeking is een bedrijf van de Belinus-groep. Belinus bouwt thuisbatterijen, ontwikkeld en geassembleerd in Europa; EVChargeking voegt de laadkabels en de Belgische ETAPpro-lader toe.",contact:"Contact",
- foot_shop:"Shop",foot_help:"Hulp",foot_co:"Bedrijf",terms_l:"Algemene voorwaarden",privacy:"Privacy",notes:"Review & bouwnotities",legal_nl:"",
+ foot_shop:"Shop",foot_help:"Hulp",foot_co:"Bedrijf",terms_l:"Algemene voorwaarden",privacy:"Privacy",notes:"Review & bouwnotities",legal_nl:"",legal_dutch:"",close:"Sluiten",
  etap_more:"Meer op etap.pro",etap_range:"ETAPpro-laders en accessoires"},
 fr:{nav_login:"Espace client",acc_eb:"Portail de service Belinus",acc_h:"Un seul identifiant pour toutes les sociétés Belinus",acc_p:"EVChargeking est une société du groupe Belinus. Votre compte client se trouve dans le portail de service Belinus, le point central pour les clients de toutes les sociétés Belinus. Vous vous y connectez avec l'adresse e-mail de votre commande EVChargeking.",acc_l1:"Vos commandes, factures et suivis de livraison EVChargeking",acc_l2:"Tickets de service et garantie pour vos câbles et votre ETAPpro",acc_l3:"Le même identifiant si vous avez aussi une batterie domestique Belinus",acc_btn:"Se connecter sur portal.belinus.com",acc_new:"Nouveau client ? Votre compte est créé automatiquement lors de votre première commande.",acc_docs_h:"Vos documents EVChargeking restent des documents EVChargeking",acc_docs_p:"Dans le portail, chaque commande et chaque facture indique la société dont elle provient. Les documents EVChargeking portent le nom et le logo EVChargeking et sont émis par {legal}.",acc_ex:"Exemple de vue du portail",acc_all:"Toutes les sociétés",acc_order:"Commande",acc_invoice:"Facture",acc_issued:"Émis par EVChargeking · {legal} · {vat}",acc_other:"Les documents des autres sociétés Belinus apparaissent dans la même liste, sous leur propre nom.",reg_portal:"Le portail (portal.belinus.com) est commun à toutes les sociétés du groupe Belinus.",done_portal:"Votre compte dans le portail de service Belinus est prêt. Définissez votre mot de passe via le lien reçu par e-mail, puis suivez-y votre commande. Votre commande et votre facture sont identifiées comme documents EVChargeking.",
  menu:"Menu",region_h:"Région & langue",b2c:"B2C",b2b:"B2B",theme_light:"Thème clair",theme_dark:"Thème sombre",th_dark:"Sombre",th_light:"Clair",from:"dès",sort:"Trier",sort_feat:"Sélection",sort_lo:"Prix croissant",sort_hi:"Prix décroissant",sort_az:"Nom A–Z",n_products:"{n} produits",
@@ -97,7 +97,7 @@ fr:{nav_login:"Espace client",acc_eb:"Portail de service Belinus",acc_h:"Un seul
  done_t:"Commande {n} reçue.",done_p:"Merci. Ceci est une commande de test : rien n’est expédié.",back:"Retour à la boutique",
  sup_h:"Service client",sup_p:"Deux façons de nous joindre.",sup_ticket:"Ticket de service",sup_contact:"Contactez-nous",sup_contact_p:"Contactez-nous pour tout ce qui concerne notre entreprise ou nos services. Nous ferons de notre mieux pour vous répondre dans les plus brefs délais.",name:"Votre nom",subject:"Sujet",descr:"Description",question:"Question",serial:"Numéro de série de l'appareil",serial_h:"Il se trouve sous le code-barres sur l'autocollant gris.",attach:"Pièce jointe",submit:"Envoyer",not_sent:"Prototype : le formulaire n'a pas été envoyé",
  about_h:"À propos d'EVChargeking",about_group:"EVChargeking est une société du groupe Belinus. Belinus construit des batteries domestiques conçues et assemblées en Europe ; EVChargeking y ajoute les câbles de recharge et le chargeur belge ETAPpro.",contact:"Contact",
- foot_shop:"Boutique",foot_help:"Aide",foot_co:"Société",terms_l:"Conditions générales",privacy:"Confidentialité",notes:"Revue & notes de build",legal_nl:"Le site actuel ne publie ce texte qu'en néerlandais. Il est repris tel quel.",
+ foot_shop:"Boutique",foot_help:"Aide",foot_co:"Société",terms_l:"Conditions générales",privacy:"Confidentialité",notes:"Revue & notes de build",legal_nl:"Ceci est une traduction fournie pour votre facilité. Seule la version néerlandaise a valeur juridique ; en cas de divergence, le texte néerlandais prévaut.",legal_dutch:"Lire la version néerlandaise",close:"Fermer",
  etap_more:"Plus d'infos sur etap.pro",etap_range:"Chargeurs et accessoires ETAPpro"}};
 
 /* ============ STATE ============ */
@@ -115,6 +115,7 @@ const TZ={"Europe/Brussels":"BE","Europe/Amsterdam":"NL","Europe/Paris":"FR","Eu
 // Languages offered on the site, in this order. The country is no longer part of the language choice:
 // it is detected, confirmed in the first-visit pop-up and can be changed there or at checkout.
 /* Full translations for the extra languages come from /assets/i18n.js (built from _src/app/i18n/<lang>.txt). */
+for(const p of D.products)for(const l in p.d)p.d[l]=String(p.d[l]||"").split("\n").filter(x=>!/^(Voeg een bijschrift toe|Add a caption to enhance|Ajoutez une légende)/.test(x.trim())).join("\n");
 (function(){const X=window.EVI18N||{}; for(const l in X){const x=X[l], tl=s=>String(s||"").split("\n").map(ln=>{const k=ln.trim(); return k?(x.lines[k]||x.about[k]||x.etappro[k]||ln):ln;}).join("\n");
   T[l]=Object.assign({},T.en,T[l]||{},x.ui); T[l].partial="";
   for(const k in x.pay)if(PAY_NAME[k]&&typeof PAY_NAME[k]==="object")PAY_NAME[k][l]=x.pay[k];
@@ -277,7 +278,7 @@ function renderChrome(){
   $("regionBtn").setAttribute("aria-label",(LANG_H[S.lang]||LANG_H.en)+": "+LANGN[S.lang]);
   const dark=curTheme()==="dark"; $("themeBtn").innerHTML=dark?SUN:MOON; $("themeBtn").setAttribute("aria-label",dark?t("theme_light"):t("theme_dark")); $("themeBtn").title=dark?t("theme_light"):t("theme_dark");
   const r=route(), cur=r.startsWith("p-")||r.startsWith("cat-")?"shop":r;
-  $("menuTitle").textContent=t("menu"); $("regionTitle").textContent=LANG_H[S.lang]||LANG_H.en;
+  $("menuTitle").textContent=t("menu"); $("menuBtn").setAttribute("aria-label",t("menu")); $("menuPanel").setAttribute("aria-label",t("menu")); $("regionPanel").setAttribute("aria-label",t("region_h")); $("drawer").setAttribute("aria-label",t("cart")); $("closeCart").setAttribute("aria-label",t("close")); document.querySelectorAll(".xbtn[data-close]").forEach(b=>b.setAttribute("aria-label",t("close"))); document.querySelector("a.brand")?.setAttribute("aria-label","EVChargeking · "+t("nav_home")); $("regionTitle").textContent=LANG_H[S.lang]||LANG_H.en;
   $("menuNav").innerHTML=[["home","nav_home"],["shop","nav_shop"],["finder","nav_finder"],["etappro","nav_etap"],["support","nav_support"],["about","nav_about"]].map(([h,k])=>`<a href="#${h}" data-close${cur===h?' aria-current="page"':""}>${t(k)}</a>${h==="shop"?`<div class="sub">${GROUPS.map(g=>`<a href="#cat-${g}" data-close>${t("g_"+g)}</a>`).join("")}</div>`:""}`).join("")+`<a class="login" href="${PORTAL}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.600 8 7"/></svg>${t("nav_login")}<small>portal.belinus.com</small></a>`;
   $("menuFoot").innerHTML=`<button class="textlink" data-act="region">${LANGN[S.lang]}</button><div class="themetog" role="group" aria-label="${t("theme_dark")} / ${t("theme_light")}"><button data-act="theme-dark" aria-pressed="${dark}">${MOON}<span>${t("th_dark")}</span></button><button data-act="theme-light" aria-pressed="${!dark}">${SUN}<span>${t("th_light")}</span></button></div>`;
   $("regionList").innerHTML=SITE_LANGS.map(l=>`<button class="langrow" data-sl="${l}" lang="${l}" aria-pressed="${l===S.lang}"><span>${LANGN[l]}</span><small>${l.toUpperCase()}</small></button>`).join("");
@@ -430,8 +431,17 @@ function renderAccount(){
   <p class="note">${t("acc_other")}</p></div></div></div>`;
 }
 function renderLegal(which){
-  const txt=which==="terms"?D.pages.terms:D.pages.privacy.split("\n").filter((x,i)=>i!==1).join("\n");
-  $("v-legal").innerHTML=`<div class="wrap"><div class="legal">${S.lang!=="nl"&&which==="terms"?`<div class="notice">${t("legal_nl")}</div>`:""}${rich(txt).replace("<h3>","<h1 style='margin-bottom:14px'>").replace("</h3>","</h1>")}</div></div>`;
+  const L=urlLang(), EL=window.EVLEGAL||{}, st=renderLegal.st=renderLegal.st||{};
+  if(L!=="nl"&&!EL[L]&&!st[L]){ st[L]="loading"; window.__legalPending=1;
+    const sc=document.createElement("script"); sc.src="/assets/legal/"+L+".js?v="+(window.__V||"");
+    sc.onload=()=>{st[L]="ok"; window.__legalPending=0; const r=parsePath().r; if(r==="terms"||r==="privacy")renderLegal(r);};
+    sc.onerror=()=>{st[L]="failed"; window.__legalPending=0; const r=parsePath().r; if(r==="terms"||r==="privacy")renderLegal(r);};
+    document.head.appendChild(sc); }
+  const tr=L!=="nl"&&EL[L]&&EL[L][which];
+  // Dutch original: the privacy page keeps the Dutch statement only (the old site appended short English and French notes)
+  const nl=which==="terms"?D.pages.terms:D.pages.privacy.split("\n").slice(0,117).filter((x,i)=>i!==1).join("\n");
+  const note=L!=="nl"?`<div class="notice">${t("legal_nl")} <a href="${pathOf(which,"nl")}" hreflang="nl">${t("legal_dutch")}</a></div>`:"";
+  $("v-legal").innerHTML=`<div class="wrap"><div class="legal"${tr||L==="nl"?"":' lang="nl"'}>${note}${rich(tr||nl).replace("<h3>","<h1 style='margin-bottom:14px'>").replace("</h3>","</h1>")}</div></div>`;
 }
 
 /* ============ CHECKOUT ============ */
@@ -472,18 +482,21 @@ function renderCoSummary(){
     document.querySelectorAll("#coForm .bad").forEach(x=>x.classList.remove("bad"));
     if(need.length){need.forEach(([,id])=>$(id)?.classList.add("bad")); $(need[0][1])?.focus(); msg(t("co_err_missing",{f:need.map(([k])=>t("f_"+k)).join(", ")})); return;}
     b.disabled=true; msg(t("co_wait"));
-    try{const r=await shopApi("/order",{country:S.country,buyer:S.buyer,vat:S.buyer==="company"?S.co.vat:"",deliv:S.co.deliv,pay:S.co.pay,lang:["nl","fr","en"].includes(urlLang())?urlLang():"en",terms:!!$("fTerms")?.checked,customer:cust,items:S.cart.map(l=>({pid:l.pid,sel:l.sel,qty:l.qty}))});
+    try{const r=await shopApi("/order",{country:S.country,buyer:S.buyer,vat:S.buyer==="company"?S.co.vat:"",deliv:S.co.deliv,pay:S.co.pay,lang:urlLang(),terms:!!$("fTerms")?.checked,customer:cust,items:S.cart.map(l=>({pid:l.pid,sel:l.sel,qty:l.qty}))});
       dl({event:"add_payment_info",ecommerce:{currency:"EUR",value:r.total}}); try{sessionStorage.setItem("evck-order",r.token);sessionStorage.setItem("evck-lang",urlLang())}catch(_){}
       location.href=r.checkoutUrl;
     }catch(err){b.disabled=false; msg(err.code==="missing"?t("co_err_missing",{f:String(err.detail||"").split(",").map(k=>t("f_"+k)).join(", ")}):err.code==="email"?t("co_err_email"):err.code==="vat_invalid"?t("co_err_vat"):err.code==="vat_unverified"?t("co_err_vies"):t("co_err")); if(err.code==="email")$("fEm")?.classList.add("bad");}
   };
 }
+// order lines come back from the checkout service in English; show them in the visitor's language
+function lineName(l){const p=PID[l.pid]||D.products.find(x=>x.n.en===l.name); return p?(p.n[urlLang()]||p.n.en):l.name;}
+function optName(en){const L=urlLang(); for(const p of D.products)for(const a of (p.a||[]))for(const v of a.v)if(v.l&&typeof v.l==="object"&&v.l.en===en)return v.l[L]||en; return en;}
 function orderToken(){return new URLSearchParams(location.search).get("o")||"";}
 let doneTimer=null;
 function renderDone(){const tok=orderToken(), w=$("v-done"); clearTimeout(doneTimer);
   if(!tok||window.__PRERENDER){w.innerHTML=`<div class="wrap done"><h1>${t("st_none")}</h1><p><a class="btn" href="#shop">${t("back")}</a></p></div>`;return;}
   w.innerHTML=`<div class="wrap done"><div class="eyebrow">${t("st_checking")}</div></div>`; let tries=0;
-  const load=()=>shopApi("/status?o="+encodeURIComponent(tok)).then(o=>{ if(route()!=="done"||orderToken()!==tok)return; const n=esc(o.number), list=`<ul class="list" style="margin:18px 0">${o.lines.map(l=>`<li>${l.qty}× ${esc(l.name)}${l.options.length?` <span class="muted">· ${esc(l.options.join(" · "))}</span>`:""}</li>`).join("")}</ul>`;
+  const load=()=>shopApi("/status?o="+encodeURIComponent(tok)).then(o=>{ if(route()!=="done"||orderToken()!==tok)return; const n=esc(o.number), list=`<ul class="list" style="margin:18px 0">${o.lines.map(l=>`<li>${l.qty}× ${esc(lineName(l))}${l.options.length?` <span class="muted">· ${esc(l.options.map(optName).join(" · "))}</span>`:""}</li>`).join("")}</ul>`;
     if(o.status==="paid"){ if(S.cart.length){S.cart=[];save();renderCart();} dl({event:"purchase",ecommerce:{transaction_id:o.number,currency:"EUR",value:o.total}});
       w.innerHTML=`<div class="wrap done"><div class="eyebrow">✓ ${n}</div><h1 style="margin-top:10px">${t("st_paid_t",{n})}</h1><p class="muted" style="font-size:1.08rem">${t("done_p")}</p>${list}<table class="totals" style="max-width:360px"><tr class="grand"><td>${t("st_total")}</td><td class="num">${money(o.total)}</td></tr></table><p class="note">${t("st_sent")} ${esc(o.email)}</p>${o.test?"":`<div class="notice">${t("done_portal")}</div>`}<a class="btn" href="#shop">${t("back")}</a></div>`;}
     else if(o.status==="open"||o.status==="pending"){ w.innerHTML=`<div class="wrap done"><div class="eyebrow">${n}</div><h1 style="margin-top:10px">${t("st_open_t",{n})}</h1><p class="muted">${t("st_open_p")}</p></div>`; if(++tries<40)doneTimer=setTimeout(load,3000); }

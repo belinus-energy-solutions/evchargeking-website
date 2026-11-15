@@ -257,7 +257,9 @@ U:foot_help§Ajuda
 U:foot_co§Empresa
 U:terms_l§Condições gerais
 U:privacy§Privacidade
-U:legal_nl§Este texto está, por agora, disponível apenas em neerlandês.
+U:legal_nl§Esta é uma tradução disponibilizada para sua conveniência. A única versão juridicamente vinculativa é a neerlandesa; em caso de divergência prevalece o texto neerlandês.
+U:legal_dutch§Ler a versão neerlandesa
+U:close§Fechar
 U:etap_more§Mais em etap.pro
 U:etap_range§Carregadores ETAPpro e acessórios
 C:eyebrow§Exemplo de cálculo · Bélgica

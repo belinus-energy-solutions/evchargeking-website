@@ -38,7 +38,18 @@ def write(path, text):
 # 1. assets
 (ROOT / "assets").mkdir(exist_ok=True)
 LANGS += [l for l in _i18n.build(ROOT) if l not in LANGS]
-ver = hashlib.sha1(b"".join((SRC / f).read_bytes() for f in ("app.js", "app.css", "data.js")) + (ROOT / "assets" / "i18n.js").read_bytes()).hexdigest()[:10]
+# legal texts: Dutch is the binding original (in data.js); the translations are served per language, on demand
+def legal_files():
+    L = SRC / "i18n" / "legal"; out = ROOT / "assets" / "legal"; out.mkdir(parents=True, exist_ok=True); blob = b""
+    import subprocess, sys
+    if subprocess.run([sys.executable, str(L / "check.py")]).returncode: raise SystemExit("legal translations do not line up with the Dutch text")
+    for lang in sorted({f.name.split(".")[1] for f in L.glob("*.??.txt")} - {"nl"}):
+        d = {w: (L / f"{w}.{lang}.txt").read_text(encoding="utf-8").rstrip("\n") for w in ("terms", "privacy")}
+        js = "window.EVLEGAL=window.EVLEGAL||{};window.EVLEGAL[" + json.dumps(lang) + "]=" + json.dumps(d, ensure_ascii=False, separators=(",", ":")) + ";\n"
+        (out / f"{lang}.js").write_text(js, encoding="utf-8"); blob += js.encode()
+    return blob
+_legal = legal_files()
+ver = hashlib.sha1(_legal + b"".join((SRC / f).read_bytes() for f in ("app.js", "app.css", "data.js")) + (ROOT / "assets" / "i18n.js").read_bytes()).hexdigest()[:10]
 for f in ("app.js", "app.css", "data.js"): shutil.copy(SRC / f, ROOT / "assets" / f)
 shell = (SRC / "shell.html").read_text(encoding="utf-8").replace("__V__", ver)
 
@@ -151,7 +162,7 @@ async def main():
         sitemap = []; n = 0
         for r in routes:
             for l in LANGS:
-                await pg.goto(base + paths[r][l]); await pg.wait_for_function("window.__meta&&window.__meta.route===" + json.dumps(r))
+                await pg.goto(base + paths[r][l]); await pg.wait_for_function("window.__meta&&window.__meta.route===" + json.dumps(r)); await pg.wait_for_function("!window.__legalPending")
                 meta = await pg.evaluate("window.__meta")
                 body = await pg.evaluate("""()=>{document.querySelectorAll('img').forEach(i=>i.removeAttribute('data-x'));
                     const c=document.body.cloneNode(true); c.querySelectorAll('script').forEach(s=>s.remove()); c.className=''; return c.innerHTML;}""")

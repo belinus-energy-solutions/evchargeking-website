@@ -30,7 +30,7 @@ async function cat(): Promise<Cat> {
 const vatFormat = (country: string, vat: string) => new RegExp("^" + (country === "GR" ? "EL" : country) + "[0-9A-Z+*]{2,13}$").test(vat);
 
 const ORIGINS = ["https://evchargeking-website.b-cdn.net", "https://evchargeking.com", "https://www.evchargeking.com", "http://127.0.0.1:8766", "http://localhost:8766"];
-const LANGS = ["nl", "fr", "en"];
+const LANGS = ["nl", "fr", "en", "es", "de", "it", "pt"];
 const MOLLIE = Deno.env.get("MOLLIE_API_KEY") || "";
 const ALLOW_LIVE = Deno.env.get("EVCK_ALLOW_LIVE") === "1";
 const FN_URL = `${Deno.env.get("SUPABASE_URL")}/functions/v1/evck-shop`;
@@ -94,7 +94,7 @@ async function quote(b: any, opts: { checkVat?: boolean } = {}) {
 const hex = (n: number) => [...crypto.getRandomValues(new Uint8Array(n))].map((b) => b.toString(16).padStart(2, "0")).join("");
 function orderNumber() { const d = new Date().toISOString().slice(2, 10).replace(/-/g, ""); return `EVT${d}-${String(Math.floor(1000 + Math.random() * 9000))}`; }
 const PAYMAP: Record<string, string> = { card: "creditcard", bancontact: "bancontact", ideal: "ideal", paypal: "paypal", applepay: "applepay", klarna: "klarna", transfer: "banktransfer", eps: "eps", twint: "twint", blik: "blik", p24: "przelewy24", trustly: "trustly", satispay: "satispay", mobilepay: "mobilepay" };
-const MLOCALE: Record<string, string> = { nl: "nl_BE", fr: "fr_BE", en: "en_GB" };
+const MLOCALE: Record<string, string> = { nl: "nl_BE", fr: "fr_BE", en: "en_GB", es: "es_ES", de: "de_DE", it: "it_IT", pt: "pt_PT" };
 
 async function mollie(path: string, init: RequestInit = {}) {
   const r = await fetch("https://api.mollie.com/v2" + path, { ...init, headers: { authorization: `Bearer ${MOLLIE}`, "content-type": "application/json", ...(init.headers || {}) }, signal: AbortSignal.timeout(15000) });
@@ -157,7 +157,7 @@ async function statusOf(token: string) {
   const { data: o } = await db.from("evck_orders").select("*").eq("token", token).maybeSingle();
   if (!o) throw new Bad("not_found");
   let status = o.status; if (o.provider === "mollie" && ["open", "pending"].includes(o.status)) status = await syncMollie(o);
-  return { number: o.number, status, provider: o.provider, test: o.test, total: Number(o.amount), currency: o.currency, lang: o.lang, country: o.country, lines: (o.items || []).map((l: any) => ({ name: l.name, options: l.options, qty: l.qty })), email: String(o.email).replace(/^(.).*(@.*)$/, "$1***$2") };
+  return { number: o.number, status, provider: o.provider, test: o.test, total: Number(o.amount), currency: o.currency, lang: o.lang, country: o.country, lines: (o.items || []).map((l: any) => ({ pid: l.pid, name: l.name, options: l.options, qty: l.qty })), email: String(o.email).replace(/^(.).*(@.*)$/, "$1***$2") };
 }
 
 Deno.serve(async (req) => {

@@ -257,7 +257,9 @@ U:foot_help§Hilfe
 U:foot_co§Unternehmen
 U:terms_l§Allgemeine Geschäftsbedingungen
 U:privacy§Datenschutz
-U:legal_nl§Dieser Text ist derzeit nur auf Niederländisch verfügbar.
+U:legal_nl§Dies ist eine Übersetzung, die wir Ihnen zur Erleichterung bereitstellen. Rechtsverbindlich ist ausschließlich die niederländische Fassung; bei Abweichungen gilt der niederländische Text.
+U:legal_dutch§Niederländische Fassung lesen
+U:close§Schließen
 U:etap_more§Mehr auf etap.pro
 U:etap_range§ETAPpro-Ladegeräte und Zubehör
 C:eyebrow§Beispielrechnung · Belgien

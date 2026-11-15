@@ -297,7 +297,9 @@ U:foot_co§Company
 U:terms_l§Terms & conditions
 U:privacy§Privacy
 U:notes§Review & build notes
-U:legal_nl§The current website publishes this text in Dutch only. It is carried over unchanged.
+U:legal_nl§This is a translation provided for your convenience. The Dutch version is the only legally binding version; if the two differ, the Dutch text prevails.
+U:legal_dutch§Read the Dutch version
+U:close§Close
 U:etap_more§More on etap.pro
 U:etap_range§ETAPpro chargers and accessories
 C:eyebrow§Example calculation · Belgium
